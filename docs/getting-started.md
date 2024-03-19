@@ -15,7 +15,7 @@ In Eando X, the product component plays a fundamental role in the supply chain. 
 
 - **Artnr**: The Artnr (article number) is a unique identifier assigned to the product. It serves as a reference number used by your customers to request information or inquire about the product.
 
-- **Functional unit**: This field specifies the unit in which the product is sold. It provides information about the measurement or quantity associated with the product. More information about the functional unit can be found [here](link-to-functional-unit-docs).
+- **Functional unit**: This field specifies the unit in which the product is sold. It provides information about the measurement or quantity associated with the product. More information about the functional unit can be found [here](functional-units).
 
 These meta value fields associated with each product allow you to manage and track your inventory effectively, ensuring clear identification, easy referencing, and appropriate representation of products to your customers.
 
@@ -27,7 +27,7 @@ Befor start ading products make sure to have crated componets and manufakturing 
 
 ## Create your first product
 
-![An image](./Createproduct.png)
+![An image](./images/Createproduct.png)
 
 1. Navigate to the product tab.
 2. Press the "Create Product" button. This action will open a popup window where you can enter the metadata mentioned above.
@@ -39,7 +39,7 @@ Befor start ading products make sure to have crated componets and manufakturing 
 ## Add components
 
 
-![An image](./Addcomponent.png)
+![An image](./images/Addcomponent.png)
 
 ::: warning
 To continue from here on a component need to be created first.
@@ -49,7 +49,7 @@ To continue from here on a component need to be created first.
 
 <div style="height: 20px;"></div>
 
-![An image](./addcomponent2.png)
+![An image](./images/addcomponent2.png)
 
 1. If you want to add an "External component," select the corresponding tab. More information about external components can be found here.
 
