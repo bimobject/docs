@@ -4,11 +4,6 @@ This page will giude you in how to make products.
 
 ## <span id="Geting-started">Geting started</span>
 
-
-
-
-
-
 In Eando X, the product component plays a fundamental role in the supply chain. Each product corresponds to a single SKU (Stock Keeping Unit) and consists of three meta value fields:
 
 - **Name**: This field represents the name of the product that will be displayed to your customers. It helps identify and differentiate the product from others in your inventory.
