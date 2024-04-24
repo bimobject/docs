@@ -22,4 +22,4 @@ More information on the topic of messurment can be found [Here](../../../functio
 
 
 ## Step:6
-Confirm the creation of your new product and enjoy.  
+Confirm the creation of your new product and enjoy .  

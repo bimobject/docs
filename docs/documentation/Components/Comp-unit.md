@@ -21,4 +21,4 @@ Data Analysis and Decision Making: By associating sales data with specific artic
 
 Overall, article numbers play a crucial role in optimizing inventory management, streamlining operations, and enhancing customer service in businesses across various industries.
 
-[Go back](index.md)
+[Go back](Index.md)

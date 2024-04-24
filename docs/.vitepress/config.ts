@@ -40,7 +40,8 @@ export default defineConfig({
             //collapsible: true,
             collapsed: true,
             items: [
-              { text: "Create componants", link: "/documentation/getStarted/" },
+              { text: "Create componants", link: "/documentation/Components/" },
+              { text: "Remove componants", link: "/documentation/Components/Remove_componant/" },
             ]
           }
     ],
