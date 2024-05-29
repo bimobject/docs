@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "EandoX"
-  text: "Docs for Eando X"
-  tagline: My great project tagline
+  name: 'Eando X'
+  text: 'Documentation'
+  tagline: Simple LCAs for manufacturers and suppliers
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Start as a user
+      link: /documentation/getting-started/introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Supplier quickstart
+      link: /documentation/getting-started/supplier-quickstart
 
 features:
   - title: Feature A
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

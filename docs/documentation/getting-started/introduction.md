@@ -1,0 +1,17 @@
+# What is Eando X?
+
+Eando X is a platform designed to simplify sustainability and efficiency in the supply chain. It leverages your and your suppliers data to create up-to-date LCAs (Life Cycle Assessment)s.
+
+By analyzing the life cycle of the products and processes, we can identify areas for improvement and implement sustainable practices.
+
+## Customer
+
+:::danger TODO:
+Is _**"declaring the environmental impact of your products"**_ the right wording?
+:::
+
+If you are a customer looking to start declaring your the environmental impact if your products, [you can start here](/documentation/getting-started/workflow-overview).
+
+## Supplier
+
+If you are a supplier that has been invited by one of your customers, or is looking to start declaring the environmental impact of your products, [you can start here](/documentation/getting-started/supplier-quickstart).

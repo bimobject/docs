@@ -1,12 +1,41 @@
+:root {
+  --vp-c-brand-1: #2c7f97;
+  --vp-c-brand-2: #509cb1;
+
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+
+  --shadow-color: rgba(35, 48, 52, 0.1);
+}
+
 .dark-frame {
-    border: 4px solid #000;
-    border-radius: 8px;
-    padding: 4px;
-    background-color: #000;
-    display: inline-block;
-  }
-  
-  .dark-frame img {
-    display: block;
-    border-radius: 4px;
-  }
+  border: 4px solid #000;
+  border-radius: 8px;
+  padding: 4px;
+  background-color: #000;
+  display: inline-block;
+}
+
+.dark-frame img {
+  display: block;
+  border-radius: 4px;
+}
+
+/* p:has(img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: #ddd;
+} */
+
+p img {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  box-shadow:
+    0 0 4px 0 var(--shadow-color),
+    0 2px 8px 0 var(--shadow-color),
+    0 0 16px 0 var(--shadow-color),
+    0 0 32px 0 var(--shadow-color);
+}
