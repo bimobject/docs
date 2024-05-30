@@ -59,6 +59,10 @@ export default defineConfig({
           //   link: '/documentation/product/sharing-a-product',
           // },
           {
+            text: 'Requesting a product from a supplier',
+            link: '/documentation/product/requesting-a-product',
+          },
+          {
             text: 'Import from Excel',
             link: '/documentation/product/product-excel-import',
           },
@@ -80,6 +84,10 @@ export default defineConfig({
           {
             text: 'Creating a component',
             link: '/documentation/component/creating-a-component',
+          },
+          {
+            text: 'Requesting a component from a supplier',
+            link: '/documentation/component/requesting-a-component',
           },
         ],
       },
@@ -120,7 +128,7 @@ export default defineConfig({
             link: '/documentation/supplier/supplier-products',
           },
           {
-            text: 'Creating a product request',
+            text: 'Requesting a product from a supplier',
             link: '/documentation/supplier/creating-a-product-request',
           },
         ],

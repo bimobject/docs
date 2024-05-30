@@ -1,9 +1,17 @@
 # Supplier overview
 
-:::info
-This page is about managaing suppliers as a user of Eando X.
-
-If you are a supplier looking for information, please refer to the [supplier quickstart](/documentation/getting-started/supplier-quickstart).
+:::warning Are you a supplier?
+This page is about managaing suppliers as an Eando X user. If you are a supplier looking for information, please refer to the [supplier quickstart](/documentation/getting-started/supplier-quickstart).
 :::
 
-## What is a supplier?
+Suppliers are an integral part of the Eando X workflow. They are the companies that manufacture the components you use in your products. If your suppliers are part of Eando X, you can use their components in your products, and request the components that are not in the library yet.
+
+This allows you to get accurate LCU's without having to ask the suppliers for data on their manufacturing process. If a supplier updates their components, these changes will be automatically reflected in your products as well.
+
+## Adding a supplier to your library
+
+If you are new to Eando X, you might not have any suppliers in yor library yet. Read more about how to add a supplier [here](/documentation/supplier/adding-a-supplier).
+
+## Inviting a supplier
+
+If any of your suppliers are not part of Eando X, you can send them an invite to the platform, along with a request for the components you need. Read more about it [here](/documentation/supplier/inviting-a-supplier).

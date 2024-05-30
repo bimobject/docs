@@ -15,6 +15,10 @@ The biggest benefit of using components is that they can be reused in other prod
 
 :::
 
+## Requesting a component
+
+<!--@include: ../__partials/product-request.md -->
+
 ## Component versioning
 
 Component entities in Eando X can be versioned to allow for changes in your manufacturing process or supply chain.
