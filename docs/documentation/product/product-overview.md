@@ -25,7 +25,7 @@ This has multiple benefits:
 - You can be sure that the data on the components manufacturing process is correct and up to date.
 - Down the line, you won't have to contact the suppliers to see if their manufacturing process has changed. When they update their components, these changes will be automatically reflected in your products.
 
-Read more about how to request a component [here](/documentation/supplier/creatinf-a-product-request).
+Read more about how to request a component [here](/documentation/supplier/creating-a-product-request).
 
 ## Product versioning
 

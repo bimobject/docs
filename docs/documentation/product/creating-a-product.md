@@ -136,11 +136,6 @@ The table has the following columns:
 | **Transport**        | The transport of the material. Clicking the transport will allow you to edit the transport data for the material.                                          |
 | **X**                | Not a column, but a button used to remove the material from the product.                                                                                   |
 
-:::info Further reading
-
-Read more about materials, what they are and how they are created [here](/documentation/material/material-overview).
-:::
-
 ## Managing packaging
 
 :::danger TODO:
