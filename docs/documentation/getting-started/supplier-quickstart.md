@@ -18,6 +18,8 @@ The platform allows you to enter your products, and attach all the relevant data
 
 An added benefit is reusability and composability: whenever you change the manufacturing data of one of your products, the LCAs will be updated automatically. These changes will take place wherever the product has been used, both in your library and in the products of your customers.
 
+All your product data is stored in a single-tenant database, just for your company, ensuring that your internal data is secure, and not shared with other companies.
+
 By analyzing the data of the products and processes, we can identify areas for improvement and implement sustainable practices.
 
 ## Creating an account

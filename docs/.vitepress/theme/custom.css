@@ -6,6 +6,8 @@
   --vp-button-brand-hover-bg: var(--vp-c-brand-2);
 
   --shadow-color: rgba(35, 48, 52, 0.1);
+
+  --doc-section-spacing: 80px;
 }
 
 .dark-frame {
@@ -38,4 +40,13 @@ p img {
     0 2px 8px 0 var(--shadow-color),
     0 0 16px 0 var(--shadow-color),
     0 0 32px 0 var(--shadow-color);
+}
+
+.vp-doc h2 {
+  padding-top: var(--doc-section-spacing);
+  margin-top: var(--doc-section-spacing);
+}
+
+.vp-doc h2 .header-anchor {
+  top: var(--doc-section-spacing);
 }
