@@ -10,15 +10,23 @@ Welcome to Eando X!
 
 You are probably here because you have been invited by one of your customers to help them optimize their supply chain operations. We are thrilled to have you on board and look forward to working with you to make a positive impact on the environment.
 
+:::tip We are thankful for your participation
+Being an Eando X supplier is free, as your participation as a great benefit to our users.
+
+We are happy for your contribution and look forward to working with you. Please contact us at [supplier@eando.se](mailto:supplier@eando.se) if you have any questions not covered in this quickstart.
+:::
+
 ## What is Eando X?
 
 Eando X is a platform designed to simplify the LCA (Life Cycle Assessment) process for manufacturers and suppliers.
 
 The platform allows you to enter your products, and attach all the relevant data about their materials, packaging, transport and factories. This data is used to generate LCAs that can be shared with your customers. Your LCAs allows them to make precise LCAs for their own products without you having to share any of your internal manufacturing data.
 
-An added benefit is reusability and composability: whenever you change the manufacturing data of one of your products, the LCAs will be updated automatically. These changes will take place wherever the product has been used, both in your library and in the products of your customers.
+:::info Data security
+All your product data is stored in a single-tenant database, for your company's eyes only. This ensures that your internal data is secure, and not shared with others, from the core up - by design.
+:::
 
-All your product data is stored in a single-tenant database, just for your company, ensuring that your internal data is secure, and not shared with other companies.
+An added benefit is reusability and composability: whenever you change the manufacturing data of one of your products, the LCAs will be updated automatically. These changes will take place wherever the product has been used, both in your library and in the products of your customers.
 
 By analyzing the data of the products and processes, we can identify areas for improvement and implement sustainable practices.
 

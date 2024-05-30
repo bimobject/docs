@@ -1,5 +1,11 @@
 # Product overview
 
+:::danger TODO:
+
+    - Add docs for batch actions on this page?
+
+:::
+
 In Eando X, everything revolves around the products you create. Every other entity you create will be connected to one or more products at some point.
 
 :::tip
