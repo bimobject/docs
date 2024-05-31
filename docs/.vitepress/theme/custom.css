@@ -50,3 +50,13 @@ p img {
 .vp-doc h2 .header-anchor {
   top: var(--doc-section-spacing);
 }
+
+.vp-doc h3 {
+  margin-top: var(--doc-section-spacing);
+}
+
+.vp-doc h3:before {
+  content: "—";
+  color: #aaa;
+  margin-right: 10px;
+}

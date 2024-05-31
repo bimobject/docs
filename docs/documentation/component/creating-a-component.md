@@ -2,9 +2,9 @@
 
 Creating a component is nearly identical to creating a product. The only difference is that they are created on the `Components` page.
 
-## Creating a component
+## Creating a new component
 
-Navigate to the `Components` page in the left navigation menu, and click the `Create component` button.
+Navigate to the `Components` page in the left navigation menu, and click the `Create component` button in the top right corner.
 
 ![Image of the components page with the create component button](/images/placeholder.png)
 

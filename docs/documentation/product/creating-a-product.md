@@ -8,9 +8,9 @@ If you have a product that is used exclusively as a sub-assembly in other produc
 Read more about components [here](/documentation/component/component-overview).
 :::
 
-## Creating a product
+## Creating a new product
 
-Navigate to the `Products` page in the left navigation menu, and click the `Create product` button.
+Navigate to the `Products` page in the left navigation menu, and click the `Create product` button in the top right corner.
 
 ![Image of the products page with the create product button](/images/placeholder.png)
 
@@ -31,7 +31,7 @@ Click `Confirm` to create the product. This will take you to the product page wh
 
 ## Editing a product
 
-If you want to edit an existing product, you can navigate to the product overview page and click the product you want to edit. From there you can follow all the steps below.
+If you want to edit an existing product, you can navigate to the `Products` page in the left navigation menu and click the product you want to edit. From there you can follow all the steps below.
 
 ![Image of the product overview page](/images/placeholder.png)
 
@@ -55,7 +55,7 @@ On the product page, you will see multiple sections:
     - Delete the product
   - `Save`: Will save the product, without publishing it.
   - `Publish`: Will publish [TODO: add link] the product.
-  - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart).
+  - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
 - **Product details**: Shows the product information, along with the current product version and the quality of the entered data.
 - **Impact**: Shows the environmental impact of the product. Requires data to be entered.
 - **Product categorisation with AI**: Will automatically categorise the product once enough data is enetered.

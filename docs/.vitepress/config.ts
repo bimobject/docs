@@ -165,10 +165,6 @@ export default defineConfig({
             text: 'Creating a packaging',
             link: '/documentation/packaging/creating-a-packaging',
           },
-          {
-            text: 'Comparing packagings',
-            link: '/documentation/packaging/comparing-packagings',
-          },
           // {
           //   text: 'Improving packaging data quality',
           //   link: '/documentation/packaging/improving-packaging-data-quality',
