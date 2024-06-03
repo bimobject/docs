@@ -10,7 +10,7 @@ If you don't have any data from your factories, Eando X will use generic factory
 
 You can create a factory, but enter its data later. This is useful if you don't have the data yet, but want to start creating products.
 
-When you update the factory data it will be updated in all the products that use it.
+When you update the factory entity, it's data will be updated in all the products that use it.
 :::
 
 :::danger TODO:

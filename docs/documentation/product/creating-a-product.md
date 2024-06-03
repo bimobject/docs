@@ -68,7 +68,7 @@ In the `Components` section, click the `Add component` button. This will open a 
 ![Image of the components modal](/images/placeholder.png)
 
 :::warning Nothing in the list?
-If this list is empty, you need to [create a component](/documentation/component/creating-a-component), or [request a component from a supplier](/documentation/supplier/creating-a-product-request) first.
+If this list is empty, you need to [create a component](/documentation/component/creating-a-component), [add supplier products to your library](/documentation/supplier/accessing-supplier-products), or [request a component from a supplier](/documentation/supplier/creating-a-product-request) first.
 :::
 
 :::tip
@@ -134,7 +134,7 @@ The table has the following columns:
 | **Recycled content** | The percentage of the material that is recycled content.                                                                                                   |
 | **End of life**      | The end of life of the material. Clicking this will open a modal window where you can enter how the material will be disposed of at the end of its life.   |
 | **Transport**        | The transport of the material. Clicking the transport will allow you to edit the transport data for the material.                                          |
-| **X**                | Not a column, but a button used to remove the material from the product.                                                                                   |
+| **X**                | A button used to remove the material from the product.                                                                                                     |
 
 ## Managing packaging
 

@@ -15,3 +15,9 @@ Read more about inviting suppliers to Eando X [here](/documentation/supplier/inv
 :::
 
 Select the suppliers you want to add and click the `Add selected supplier` button in the top right corner. This will close the modal window and you will be taken back to the suppliers overview page.
+
+:::danger TODO:
+
+- Remove supplier??
+
+:::

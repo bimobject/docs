@@ -19,7 +19,7 @@ The fields in the modal window are as follows:
 | **Name**             | The name of the factory.                                                             |
 | **Factory location** | The location of the factory. You can use the search input to search for the address. |
 
-Click `Confirm` to create the factory. This will take you to the factory page where you can see and edit the details and data of your factory.
+Click `Confirm` to create the factory. This will take you to the factory page where you can view and edit the details and data of your factory.
 
 ## Editing a factory
 

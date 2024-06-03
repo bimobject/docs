@@ -124,8 +124,8 @@ export default defineConfig({
             link: '/documentation/supplier/inviting-a-supplier',
           },
           {
-            text: 'Supplier products',
-            link: '/documentation/supplier/supplier-products',
+            text: 'Accessing supplier products',
+            link: '/documentation/supplier/accessing-supplier-products',
           },
           {
             text: 'Requesting a product from a supplier',
