@@ -6,7 +6,7 @@
 
 :::
 
-In Eando X, everything revolves around the products you create. Every other entity you create will be connected to one or more products at some point.
+In Eando X, everything revolves around the products you create. Every other entity you create will be connected to one or more products at some point. Each product corresponds to a single SKU (Stock Keeping Unit).
 
 :::tip
 Entities are referring to the different types of data that you can create in Eando X. The entities are `Product`, `Component`, `Material`, `Packaging`, `Factory`, `Transport` and `Supplier`.

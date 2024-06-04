@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'Eando X'
   text: 'Documentation'
-  tagline: Simple LCAs for manufacturers and suppliers
+  tagline: The premier tool for measuring, visualizing and decarbifying your supply chain.
   actions:
     - theme: brand
       text: Start as a user

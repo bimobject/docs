@@ -14,11 +14,11 @@ This will open a modal window where you can fill out the necessary information f
 
 The fields in the modal window are as follows:
 
-| Field name                          | Field description                                     |
-| ----------------------------------- | ----------------------------------------------------- |
-| **Packaging name**                  | The name of the packaging.                            |
-| **Functional unit**                 | The unit this packaging is most commonly measured in. |
-| **Typical product weight per unit** | TODO: Unclear!                                        |
+| Field name                          | Field description                      |
+| ----------------------------------- | -------------------------------------- |
+| **Packaging name**                  | The name of the packaging.             |
+| **Functional unit**                 | The unit in which the product is sold. |
+| **Typical product weight per unit** | TODO: Unclear!                         |
 
 Click `Confirm` to create the packaging. This will take you to the packaging page where you can view and edit the the details and data of your packaging.
 
@@ -37,7 +37,7 @@ On the packaging page, you will see multiple sections:
     - Edit the packaging information
     - Copy the packaging
     - Delete the packaging
-  - `Save`: Will save the packaging
+  - `Save`: Will [save](#saving-a-packaging) the packaging
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
 - **Product details**: Shows the product information, along with the quality of the entered data.
 - **Materials**: Shows the materials used in the packaging.
@@ -64,3 +64,7 @@ The table has the following columns:
 | **Weight**  | How much of the material is used in the packaging, in the specified unit. |
 | **Unit**    | The unit of the weight.                                                   |
 | **X**       | A button used to remove the material from the packaging.                  |
+
+## Saving a packaging
+
+<!--@include: ../__partials/saving.md -->

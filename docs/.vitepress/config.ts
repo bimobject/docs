@@ -2,18 +2,21 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'EandoX',
+  title: 'Eando X',
   base: '/',
   description: 'Docs for Eando X',
   appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Visit Eando X', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Visit Eando X', link: 'https://www.eandox.com' },
+      {
+        text: 'Docs feedback',
+        link: 'mailto:info@eandox.com?subject=I%20have%20some%20feedback%20on%20the%20docs',
+      },
     ],
     siteTitle: false,
-    //logo: '/logo_green.svg',
+    logo: '/images/EANDOX_logo.svg',
     sidebar: [
       {
         text: 'Getting started',
@@ -205,10 +208,6 @@ export default defineConfig({
           },
         ],
       },
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
   },
 });

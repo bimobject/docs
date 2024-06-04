@@ -24,7 +24,7 @@ The fields in the modal window are as follows:
 | ------------------- | ------------------------------------------------------------- |
 | **Name**            | The name of the product.                                      |
 | **Article number**  | This is used to identify the product, so it should be unique. |
-| **Functional unit** | The unit this product is most commonly measured in.           |
+| **Functional unit** | The unit in which the product is sold.                        |
 | **Description**     | A description of the product.                                 |
 
 Click `Confirm` to create the product. This will take you to the product page where you can see and edit the details of your product, and start attaching other entities to it.
@@ -37,13 +37,6 @@ If you want to edit an existing product, you can navigate to the `Products` page
 
 ## The product page
 
-:::danger TODO:
-
-    - Add guide on publishing
-    - Move to product-overview or to its own page??
-
-:::
-
 On the product page, you will see multiple sections:
 
 - **Header**: Includes the following buttons:
@@ -53,8 +46,8 @@ On the product page, you will see multiple sections:
     - Share the product
     - Copy the product
     - Delete the product
-  - `Save`: Will save the product, without publishing it.
-  - `Publish`: Will publish [TODO: add link] the product.
+  - `Save`: Will [save](#saving-and-publishing-products) the product, without publishing it.
+  - `Publish`: Will [publish](#saving-and-publishing-products) the product.
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
 - **Product details**: Shows the product information, along with the current product version and the quality of the entered data.
 - **Impact**: Shows the environmental impact of the product. Requires data to be entered.
@@ -97,7 +90,7 @@ The table has the following columns:
 | **Unit**      | The unit of the component.                                                                                          |
 | **Weight**    | The weight of one unit of the component.                                                                            |
 | **Transport** | The transport of the component. Clicking the transport will allow you to edit the transport data for the component. |
-| **X**         | Not a column, but a button used to remove the component from the product.                                           |
+| **X**         | A button used to remove the component from the product.                                                             |
 
 :::info Further reading
 Read more about components, what they are and how they are created [here](/documentation/component/component-overview).
@@ -230,4 +223,14 @@ If you don't see any custom fields in the modal, you can add them on the `Settin
 
 :::info Further reading
 Read more about custom fields, what they are and how they are created [here](/documentation/settings/custom-fields).
+:::
+
+## Saving and publishing products
+
+<!--@include: ../__partials/saving-and-publishing.md -->
+
+:::info Component deviation
+Products and components are very similar in their creation process. Therefore this guide is used for both entities.
+
+Components are however only internal, and can therefore not be published.
 :::

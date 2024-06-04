@@ -27,6 +27,12 @@ The form will ask you to fill out the following information:
 | **Article number** | The article number of the product you want to request.                                                                                                                 |
 | **Message**        | An optional message to send to the supplier along with the request.                                                                                                    |
 
+:::danger Use the right article number!
+The article number field refers to the article number of the supplier.
+
+Do **not** use your own internal article number for this field, as this will make it harder for the supplier fulfill your request.
+:::
+
 Click `Send Request` to send the request to the supplier.
 
 The request will now be added to the list of pending requests for the supplier.

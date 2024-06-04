@@ -35,8 +35,8 @@ On the factory page, you will see multiple sections:
   - `Edit`: A dropdown menu with options to:
     - Edit the factory information
     - Delete the factory
-  - `Save`: Will save the factory, without publishing it.
-  - `Publish`: Will publish [TODO: add link] the factory.
+  - `Save`: Will [save](#saving-and-publishing-factories) the factory, without publishing it.
+  - `Publish`: Will [publish](#saving-and-publishing-factories) the factory.
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
 - **Report**: Shows how much emissions the factory has produced in the time range delected in the **Data** section further down the page.
 - **Data quality**: Shows the data quality of the data you have entered.
@@ -114,3 +114,7 @@ The fields in the `Waste to Recycling` section are a little different. Here you 
 After you have clicked the `Add recycling item`-button, the item will be added to the list.
 
 You can change its data at any time, and remove the item by clicking the `X`-button to the right of the item.
+
+## Saving and publishing factories
+
+<!--@include: ../__partials/saving-and-publishing.md -->

@@ -18,7 +18,7 @@ The fields in the modal window are as follows:
 | ------------------- | --------------------------------------------------------------- |
 | **Name**            | The name of the component.                                      |
 | **Article number**  | This is used to identify the component, so it should be unique. |
-| **Functional unit** | The unit this component is most commonly measured in.           |
+| **Functional unit** | The unit in which the product is sold.                          |
 
 Click `Confirm` to create the component. This will take you to the component page where you can see and edit the details of your component, and start attaching other entities to it.
 
