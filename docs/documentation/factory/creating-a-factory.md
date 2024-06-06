@@ -6,11 +6,11 @@ This guide will walk you through the process of creating a factory in Eando X.
 
 Navigate to the `Factories` page in the left navigation menu, and click the `Create factory` button in the top right corner.
 
-![Image of the factories page with the create factory button](/images/placeholder.png)
+![Image of the factories page with the create factory button](/images/factory/create-button.jpg)
 
 This will open a modal window where you can fill out the necessary information for your factory. This information can be changed later on, but it is recommended to fill it out correctly the first time.
 
-![Image of the factory creation modal window](/images/placeholder.png)
+![Image of the factory creation modal window](/images/factory/creation-modal.jpg)
 
 The fields in the modal window are as follows:
 
@@ -25,7 +25,7 @@ Click `Confirm` to create the factory. This will take you to the factory page wh
 
 To edit a factory, navigate to the `Factories` page in the left navigation menu, and click the factory you want to edit. From there you can follow all the steps below.
 
-![Image of the factories page](/images/placeholder.png)
+![Image of the factories page](/images/factory/edit-factory.jpg)
 
 ## The factory page
 
@@ -70,9 +70,9 @@ This field is used to enter the net sel production during the time range selecte
 
 This sub-section defines how much material is used as inputs for the production of your product.
 
-Clicking the `+`-on the right side of the box will add a new input.
+Clicking the `+`-on the right side of the box will open a dropdown where you can select an input category, and then add a new input.
 
-![Image of the outputs section](/images/placeholder.png)
+![Image of the inputs section](/images/factory/inputs.jpg)
 
 The fields in the `Mandatory inputs` section are as follows:
 
@@ -90,9 +90,9 @@ This sub-section defines how much waste material is produced during production. 
 - **Waste**: This category defines the non-recycled waste created during production.
 - **Waste to Recycling**: This category defines the waste that is sent to a recycling facility.
 
-Clicking the `+`-on the right side of the box will add a new output.
+Clicking the `+`-on the right side of the box will open a dropdown where you can select an output category, and then add a new output.
 
-![Image of the outputs section](/images/placeholder.png)
+![Image of the outputs section](/images/factory/outputs.jpg)
 
 The fields in the `Waste` section are as follows:
 

@@ -59,11 +59,11 @@ By analyzing the data of the products and processes, we can identify areas for i
 
 In the top right corner of your dashboard you will see a button labeled "Fulfill product requests", followed by a number.
 
-![The "Fulfill product requests" button](/images/placeholder.png)
+![The "Fulfill product requests" button](/images/supplier-quickstart/fulfill-requests-button.jpg)
 
 Clicking on this button will open a modal window where you can see a table of all the requests you have received.
 
-![The modal window with the requests](/images/placeholder.png)
+![The modal window with the requests](/images/supplier-quickstart/requests-modal.jpg)
 
 The table has the following columns:
 

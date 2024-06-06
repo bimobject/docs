@@ -6,11 +6,11 @@ Creating a component is nearly identical to creating a product. The only differe
 
 Navigate to the `Components` page in the left navigation menu, and click the `Create component` button in the top right corner.
 
-![Image of the components page with the create component button](/images/placeholder.png)
+![Image of the components page with the create component button](/images/component/create-component-button.jpg)
 
 This will open a modal window where you can fill out the necessary information for your component. This information can be changed later on, but it is recommended to fill it out correctly the first time.
 
-![Image of the component creation modal window](/images/placeholder.png)
+![Image of the component creation modal window](/images/component/create-component-modal.jpg)
 
 The fields in the modal window are as follows:
 

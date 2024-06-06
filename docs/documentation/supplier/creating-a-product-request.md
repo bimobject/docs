@@ -12,11 +12,13 @@ Sending a product request requires that your supplier is part of the Eando X pla
 
 Navigate to the `Supplier` page in the left navigation menu. Then click the name of the supplier you want to request a product from. You will be taken to the supplier page.
 
-![Supplier page](/images/placeholder.png)
+In the **Supplier products** section (under the **Pending requests** tab), click the `Create request` button.
 
-In the **Supplier products** section, click the `Create request` button. This will open a modal window with a form to fill out.
+![Create request button](/images/supplier/create-request-button.jpg)
 
-![Create request modal](/images/placeholder.png)
+This will open a modal window with a form to fill out.
+
+![Create request modal](/images/supplier/request-form.jpg)
 
 The form will ask you to fill out the following information:
 
@@ -37,17 +39,19 @@ Click `Send Request` to send the request to the supplier.
 
 The request will now be added to the list of pending requests for the supplier.
 
-![Pending request list](/images/placeholder.png)
+![Pending request list](/images/supplier/sent-request.jpg)
 
 ## Request multiple products
 
 Navigate to the `Supplier` page in the left navigation menu. Then click the name of the supplier you want to request a product from. You will be taken to the supplier page.
 
-![Supplier page](/images/placeholder.png)
+In the **Supplier products** section, click the `Multi Request (XLSX)` button.
 
-In the **Supplier products** section, click the `Multi Request (XLSX)` button. This will open a modal window with a form to fill out.
+![Multi request button](/images/supplier/multi-request-button.jpg)
 
-![Multi request modal](/images/placeholder.png)
+This will open a modal window with a form to fill out.
+
+![Multi request modal](/images/supplier/multi-request-form.jpg)
 
 The form will ask you to fill out the following information:
 

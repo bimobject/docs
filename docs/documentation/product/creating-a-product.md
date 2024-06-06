@@ -12,11 +12,11 @@ Read more about components [here](/documentation/component/component-overview).
 
 Navigate to the `Products` page in the left navigation menu, and click the `Create product` button in the top right corner.
 
-![Image of the products page with the create product button](/images/placeholder.png)
+![Image of the products page with the create product button](/images/product/create-product-button.jpg)
 
 This will open a modal window where you can fill out the necessary information for your product. This information can be changed later on, but it is recommended to fill it out correctly the first time.
 
-![Image of the product creation modal window](/images/placeholder.png)
+![Image of the product creation modal window](/images/product/create-new-product-modal.jpg)
 
 The fields in the modal window are as follows:
 
@@ -33,7 +33,7 @@ Click `Confirm` to create the product. This will take you to the product page wh
 
 If you want to edit an existing product, you can navigate to the `Products` page in the left navigation menu and click the product you want to edit. From there you can follow all the steps below.
 
-![Image of the product overview page](/images/placeholder.png)
+![Image of the product overview page](/images/product/overview.jpg)
 
 ## The product page
 
@@ -56,9 +56,13 @@ On the product page, you will see multiple sections:
 
 ## Managing components
 
-In the `Components` section, click the `Add component` button. This will open a modal window where you can search for all components and products that are available in your library. Here you will see the ones you have created yourself, and the ones that have been created by your suppliers.
+In the `Components` section, click the `Add component` button.
 
-![Image of the components modal](/images/placeholder.png)
+![Image of the component section](/images/product/component-section.jpg)
+
+This will open a modal window where you can search for all components and products that are available in your library. Here you will see the ones you have created yourself, and the ones that have been created by your suppliers.
+
+![Image of the components modal](/images/product/select-components.jpg)
 
 :::warning Nothing in the list?
 If this list is empty, you need to [create a component](/documentation/component/creating-a-component), [add supplier products to your library](/documentation/supplier/accessing-supplier-products), or [request a component from a supplier](/documentation/supplier/creating-a-product-request) first.
@@ -72,7 +76,7 @@ When the supplier has responded to your request, you can remove the placeholder 
 
 Select the components you want to add. Then click the `Add component` button in the top right corner of the modal window. This will close the modal and the components you selected will show up in the table of added components.
 
-![Image of the components table](/images/placeholder.png)
+![Image of the components table](/images/product/added-component.jpg)
 
 The table has the following columns:
 
@@ -98,9 +102,13 @@ Read more about components, what they are and how they are created [here](/docum
 
 ## Managing materials
 
-In the `Materials` section, click the `Add material` button. This will open a modal window where you can search for all materials available in Eando X.
+In the `Materials` section, click the `Add material` button.
 
-![Image of the materials modal](/images/placeholder.png)
+![Image of the material section](/images/product/material-section.jpg)
+
+This will open a modal window where you can search for all materials available in Eando X.
+
+![Image of the materials modal](/images/product/select-material.jpg)
 
 :::warning Missing a material?
 If you can't find the material you need, you can click the `Request missing material` button in the top right corner of the modal window. This will allow you to send us a request so that we can add it to the platform.
@@ -108,7 +116,7 @@ If you can't find the material you need, you can click the `Request missing mate
 
 Select the materials you want to add. Then click the `Add material` button in the top right corner of the modal window. This will close the modal and the materials you selected will show up in the table of added materials.
 
-![Image of the materials table](/images/placeholder.png)
+![Image of the materials table](/images/product/added-materials.jpg)
 
 The table has the following columns:
 
@@ -141,9 +149,13 @@ The table has the following columns:
 If you don't add any packaging entities to a product, Eando X will use default packaging data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
-In the `Packaging` section, click the `Add packaging` button. This will open a modal window where you can search for all packaging that is available in your library.
+In the `Packaging` section, click the `Add packaging` button.
 
-![Image of the packaging modal window](/images/placeholder.png)
+![Image of the packaging section](/images/product/packaging-section.jpg)
+
+This will open a modal window where you can search for all packaging that is available in your library.
+
+![Image of the packaging modal window](/images/product/add-packaging-modal.jpg)
 
 :::warning Nothing in the list?
 If this list is empty, you need to [create a packaging](/documentation/packaging/creating-a-packaging) first.
@@ -151,7 +163,7 @@ If this list is empty, you need to [create a packaging](/documentation/packaging
 
 Select the packaging you want to add. Then click the `Add packaging` button in the top right corner of the modal window. This will close the modal and the packaging you selected will show up in the table of added packaging.
 
-![Image of the packaging table](/images/placeholder.png)
+![Image of the packaging table](/images/product/packaging-added.jpg)
 
 The table has the following columns:
 
@@ -179,9 +191,13 @@ Read more about packaging, what it is and how it is created [here](/documentatio
 If you don't add any factory entities to a product, Eando X will use default factory data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
-In the `Factories` section, click the `Add factory` button. This will open a modal window where you can search for all factories that are available in your library.
+In the `Factories` section, click the `Add factory` button.
 
-![Image of the factories modal window](/images/placeholder.png)
+![Image of the factories section](/images/product/factories-section.jpg)
+
+This will open a modal window where you can search for all factories that are available in your library.
+
+![Image of the factories modal window](/images/product/add-factory-modal.jpg)
 
 :::warning Nothing in the list?
 If this list is empty, you need to [create a factory](/documentation/factory/creating-a-factory) first.
@@ -189,7 +205,7 @@ If this list is empty, you need to [create a factory](/documentation/factory/cre
 
 Select the factories you want to add. Then click the `Add factory` button in the top right corner of the modal window. This will close the modal and the factories you selected will show up in the table of added factories.
 
-![Image of the factories table](/images/placeholder.png)
+![Image of the factories table](/images/product/added-factories.jpg)
 
 The table has the following columns:
 

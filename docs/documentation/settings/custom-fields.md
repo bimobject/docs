@@ -12,11 +12,11 @@ Custom fields are used to store additional information about your products. Thes
 
 Navigate to the `Settings` page in the left navigation menu. And click the `Add field` button in the top right corner.
 
-![Add field button](/images/placeholder.png)
+![Add field button](/images/settings/add-field-button.jpg)
 
 This will open a modal window where you can create a new custom field.
 
-![Add field modal](/images/placeholder.png)
+![Add field modal](/images/settings/create-custom-field-modal.jpg)
 
 The fields in the modal window are as follows:
 
@@ -36,7 +36,7 @@ Read more about adding data to the custom fields in products [here](/documentati
 
 To edit a custom field, select it in the list and click the `Edit field` button. This will open up a modal window where you can edit the field.
 
-![Edit field button](/images/placeholder.png)
+![Edit field button](/images/settings/edit-field.jpg)
 
 Please note that you can only edit some of the properties of the custom field.
 

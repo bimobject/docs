@@ -4,19 +4,19 @@ If you can't find the supplier you're looking for when [adding a suppplier to yo
 
 Navigate to the `Suppliers` page and click the `Add supplier` button.
 
-![Image of the supplier overview page](/images/placeholder.png)
+![Image of the supplier overview page](/images/supplier/add-supplier-button.jpg)
 
 This will open a modal window where you can search for a supplier by name or organization number.
+
+![Image of the supplier search modal](/images/supplier/add-supplier-modal.jpg)
 
 :::tip
 Misspelling happens more often than you think. Make sure to check your spelling, and try searching on both the name and organization number of the supplier before sending them an invitation.
 :::
 
-![Image of the supplier search modal](/images/placeholder.png)
-
 If you can't find the supplier you're looking for, click the `Invite new supplier` button in the top right corner. This will open a modal window where you can enter the details of the supplier you want to invite, along with a message to send them.
 
-![Image of the supplier invite modal](/images/placeholder.png)
+![Image of the supplier invite modal](/images/supplier/invite-supplier-modal.jpg)
 
 The fields in the modal window are as follows:
 

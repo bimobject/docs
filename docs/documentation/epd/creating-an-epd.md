@@ -6,11 +6,11 @@ This guide will walk you through the process of creating an EPD in Eando X.
 
 Navigate to the `EPD` page in the left navigation menu, and click the `Create new EPD` button in the top right corner.
 
-![Image of the EPD page with the create EPD button](/images/placeholder.png)
+![Image of the EPD page with the create EPD button](/images/epd/create-button.jpg)
 
 This will open a modal window where you can fill out the necessary information for your EPD. This information can be changed later on, but it is recommended to fill it out correctly the first time.
 
-![Image of the EPD creation modal window](/images/placeholder.png)
+![Image of the EPD creation modal window](/images/epd/create-modal.jpg)
 
 The fields in the modal window are as follows:
 
@@ -25,7 +25,7 @@ Click `Create` to create the EPD. This will take you to the EPD page where you c
 
 If you want to edit an existing EPD, you can navigate to the `EPD` page in the left navigation menu and click the EPD you want to edit. From there you can follow all the steps below.
 
-![Image of the EPD overview page](/images/placeholder.png)
+![Image of the EPD overview page](/images/epd/edit-epd.jpg)
 
 ## The EPD page
 
@@ -47,7 +47,7 @@ On the EPD page, you will see multiple sections:
 
 The **Product Selection** section is where you can add products to the EPD.
 
-![Image of the product selection section](/images/placeholder.png)
+![Image of the product selection section](/images/epd/product-selection.jpg)
 
 It is split into three areas:
 
@@ -103,7 +103,7 @@ The list includes the following fields:
 
 This section includes settings and data regarding how the environmental impact is handled. All of these sections directly correspond to numbered sections in the EPD report.
 
-![Image of the impact handling section](/images/placeholder.png)
+![Image of the impact handling section](/images/epd/impact-handling.jpg)
 
 It is split into five areas:
 

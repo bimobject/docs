@@ -4,11 +4,11 @@ To make a suppliers products available to you, you first need to add a supplier 
 
 Navigate to the `Suppliers` page and click the `Add supplier` button.
 
-![Image of the supplier overview page](/images/placeholder.png)
+![Image of the supplier overview page](/images/supplier/add-supplier-button.jpg)
 
 This will open a modal window where you can search for a supplier by name or organization number.
 
-![Image of the supplier search modal](/images/placeholder.png)
+![Image of the supplier search modal](/images/supplier/add-supplier-modal.jpg)
 
 :::warning Can't find the supplier you're looking for?
 Read more about inviting suppliers to Eando X [here](/documentation/supplier/inviting-a-supplier).
