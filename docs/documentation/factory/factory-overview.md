@@ -13,8 +13,4 @@ You can create a factory, but enter its data later. This is useful if you don't 
 When you update the factory entity, it's data will be updated in all the products that use it.
 :::
 
-:::danger TODO:
-
-    - How is this default data generated?
-
-:::
+<!-- FIXME: How is this default data generated? -->

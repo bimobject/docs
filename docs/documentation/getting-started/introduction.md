@@ -6,10 +6,6 @@ By analyzing the life cycle of the products and processes, we can identify areas
 
 ## Customer
 
-:::danger TODO:
-Is _**"declaring the environmental impact of your products"**_ the right wording?
-:::
-
 If you are a customer looking to start declaring your the environmental impact if your products, [you can start here](/documentation/getting-started/workflow-overview).
 
 ## Supplier

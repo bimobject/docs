@@ -12,11 +12,11 @@ Read more about exporting data [here](/documentation/product/product-excel-expor
 
 Navigate to the `Products` page in the left navigation menu and click the `Import` button in the top right corner.
 
-![Image of the import products button](/images/placeholder.png)
+![Image of the import products button](/images/product/import-button.jpg)
 
 This will open a modal window where you can select the Excel file you want to import.
 
-![Import products modal window](/images/placeholder.png)
+![Import products modal window](/images/product/import-modal.jpg)
 
 It has the following options:
 
@@ -32,46 +32,22 @@ Products that have the _autoshare_ setting enabled will not be visible when othe
 Published products will be visible to all companies in Eando X when they search for products.
 :::
 
-When the file is uploaded, click the `Validate` button to check if the data is valid. This will bring up the validation view.
+When the file is uploaded, click the `Validate` button in the top right corner of the modal to check if the data is valid. This will bring up the validation view.
 
-![Validation view](/images/placeholder.png)
+The first thing you will see is the **Rows to import** tab. It will show you the data that will be imported.
 
-When the validation is completed it will show you what data will be imported in the **Rows to import** tab.
-
-![Validation view](/images/placeholder.png)
+![Validation view](/images/product/rows-to-import-tab.jpg)
 
 If there are any errors, they will show up in the **Errors** tab. Here you can see what the error is and where it occurred so that you have a chance to fix it.
 
-![Validation view](/images/placeholder.png)
+![Validation view](/images/product/error-tab.jpg)
 
 When you are ready to import the data, click the `Import` button in the top right corner. Any rows with errors will not be imported.
 
 This will import the data, and start the impact calculation process for the products.
 
-![Validation view](/images/placeholder.png)
+![Validation view](/images/product/importing.jpg)
 
-<!--
+When the import is complete, you will see a success message. Click the `Done` button to close the modal window.
 
-- importing products
-- exporting products to get data
-- importing edited data again
-
-- products page, imprting/exporting both products and components
-
-- export exports subcomponents as well
-  -extra components extra metarials gives more empty columns
-
-- Instructions, components, products is what is shown in excel
-
-- guide on the excel file??
-- transport, km truck - boat - train, the UI has more options
-- ART nr is the key!
-
-- most common errors??
-- import will ignore all errors
-
-- after import the environmental impact will be calculated
-
-- only 66 products where changed
-
--->
+![Validation view](/images/product/import-finished.jpg)

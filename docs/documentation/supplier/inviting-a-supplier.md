@@ -29,8 +29,4 @@ The fields in the modal window are as follows:
 
 Click `Send invite` to send the invitation to the supplier.
 
-:::danger TODO:
-
-    - Add a note about how to check the status of the invitation
-
-:::
+<!-- FIXME: Add a link to the email that is sent to the supplier -->

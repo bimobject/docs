@@ -12,11 +12,11 @@ Read more about importing data [here](/documentation/product/product-excel-impor
 
 Navigate to the `Products` page in the left navigation menu and click the `Export` button in the top right corner.
 
-![Image of the export products button](/images/placeholder.png)
+![Image of the export products button](/images/product/export-button.jpg)
 
-This will open a modal window where you can select the entites you want to export.
+This will open a modal window where you can select the entities you want to export.
 
-![Export products modal window](/images/placeholder.png)
+![Export products modal window](/images/product/export-modal.jpg)
 
 It has the following options:
 
@@ -27,6 +27,8 @@ It has the following options:
 | **Include transport**        | Wether or not to include the transport information in the export.                                                                                                                        |
 | **Include recycled content** | Wether or not to include the recycled content information in the export.                                                                                                                 |
 | **Include custom fields**    | Wether or not to include the custom fields in the export.                                                                                                                                |
+
+Select the entities you want to export and click the `Export` button. This will start generating an export file. When the file is ready, the button label will change to `Download xlsx`. Click it to download the file.
 
 When the file is downloaded, you can open it in Excel and start editing the data.
 

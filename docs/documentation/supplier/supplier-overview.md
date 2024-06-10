@@ -6,7 +6,7 @@ This page is about managaing suppliers as an Eando X user. If you are a supplier
 
 Suppliers are an integral part of the Eando X workflow. They are the companies that manufacture the components you use in your products. If your suppliers are part of Eando X, you can use their components in your products, and request the components that are not in the library yet.
 
-This allows you to get accurate LCU's without having to ask the suppliers for data on their manufacturing process. If a supplier updates their components, these changes will be automatically reflected in your products as well.
+This allows you to get accurate LCA's without having to ask the suppliers for data on their manufacturing process. If a supplier updates their components, these changes will be automatically reflected in your products as well.
 
 ## Adding a supplier to your library
 

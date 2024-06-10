@@ -55,17 +55,15 @@ This will open a modal window with a form to fill out.
 
 The form will ask you to fill out the following information:
 
-| Field name        | Field description                                                                                       |
-| ----------------- | ------------------------------------------------------------------------------------------------------- |
-| **Select XLS**    | The XLS file containing the article numbers and product names you want to request. TODO: example file?? |
-| **Contact email** | The email address of the person you want to contact with the product request.                           |
-| **Message**       | An optional message to send to the supplier along with the request.                                     |
+| Field name        | Field description                                                                                             |
+| ----------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Select XLS**    | The XLS file containing the article numbers and product names you want to request. <!--FIXME: example file--> |
+| **Contact email** | The email address of the person you want to contact with the product request.                                 |
+| **Message**       | An optional message to send to the supplier along with the request.                                           |
 
 Click `Send Request` to send the request to the supplier.
 
 The requests will now be added to the list of pending requests for the supplier.
-
-![Pending request list](/images/placeholder.png)
 
 ## Cancel a product request
 

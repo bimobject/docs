@@ -4,16 +4,22 @@ A component is a reusable sub-assembly of a product. It is nearly identical to a
 
 ## Benefits of using components
 
-The biggest benefit of using components is that they can be reused in other products. In the **chair** example above, one change to a **seat** would update the LCA for all the **chairs** that use it.
+The biggest benefit of using components is that they provide a clear distinction between the `products` you sell (that have an SKU), and the `components` that are only produced to be used internally.
+
+They still provide the same reusability: In the **chair** example above, one change to a **seat** would update the LCA for all the **chairs** that use it.
+
+<!--
 
 ## What is the difference between a component and a product?
 
-:::danger TODO:
+:::danger FIXME:
 
     - Do we need this section?
     - What is the difference between a component and a product, in a more practical sense?
 
 :::
+
+-->
 
 ## Requesting a component
 
@@ -21,10 +27,10 @@ The biggest benefit of using components is that they can be reused in other prod
 
 ## Component versioning
 
-Component entities in Eando X can be versioned to allow for changes in your manufacturing process or supply chain.
+Component entities in Eando X are versioned to allow for changes in your manufacturing process or supply chain.
 
-:::danger TODO:
+A component can have two states: Draft and Published.
 
-    - Expand on this section
+Saving a component only saves it as a draft. Publishing a component creates a new version of it, and saves the current data as a "snapshot".
 
-:::
+Changing the data and only saving it (without a publish) will only affect the draft version of the component. The published version will be unchanged.

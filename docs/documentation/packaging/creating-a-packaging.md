@@ -14,11 +14,11 @@ This will open a modal window where you can fill out the necessary information f
 
 The fields in the modal window are as follows:
 
-| Field name                          | Field description                      |
-| ----------------------------------- | -------------------------------------- |
-| **Packaging name**                  | The name of the packaging.             |
-| **Functional unit**                 | The unit in which the product is sold. |
-| **Typical product weight per unit** | TODO: Unclear!                         |
+| Field name                          | Field description                        |
+| ----------------------------------- | ---------------------------------------- |
+| **Packaging name**                  | The name of the packaging.               |
+| **Functional unit**                 | The unit in which the product is sold.   |
+| **Typical product weight per unit** | The weight of one unit of the packaging. |
 
 Click `Confirm` to create the packaging. This will take you to the packaging page where you can view and edit the the details and data of your packaging.
 

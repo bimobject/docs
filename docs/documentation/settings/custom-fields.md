@@ -1,12 +1,8 @@
 # Custom fields
 
-:::danger TODO:
+<!-- FIXME: What can custom fields be used for? -->
 
-    - What can custom fields be used for?
-
-:::
-
-Custom fields are used to store additional information about your products. These can be used for X, Y and Z.
+Custom fields are used to store additional information about your products.
 
 ## Creating a new custom field
 

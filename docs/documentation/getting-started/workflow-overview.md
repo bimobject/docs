@@ -35,12 +35,9 @@ An example of a component is a **cushion**. This cushion could be used once in d
 
 A material is the raw material that is used to create a product.
 
+All data on materials is created by us using historical data from the industry. Missing materials can be requested from Eando X.
+
 An example of a material is **cotton**.
-
-:::danger TODO:
-
-    - Can you create materials yourself?
-    - Who do you request materials from?
 
 :::
 
@@ -49,12 +46,6 @@ An example of a material is **cotton**.
 A packaging is all materials that are used to package a product.
 
 An example of a packaging for an **armchair** could be **cardboard**, **plastic wrapping** and **pallet**.
-
-:::danger TODO:
-
-    - Reusable packaging?
-    - Who do you request packaging from?
-    - Can you create packaging yourself?
 
 :::
 
@@ -79,9 +70,9 @@ You can invite suppliers to create declarations of the products you order from t
 
 ## Process
 
-:::danger TODO:
-Make this cleaner
-:::
+<!--
+FIXME: Make this cleaner
+-->
 
 The most common workflow is as follows:
 

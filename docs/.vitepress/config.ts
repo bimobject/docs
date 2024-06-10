@@ -15,6 +15,9 @@ export default defineConfig({
         link: 'mailto:info@eandox.com?subject=I%20have%20some%20feedback%20on%20the%20docs',
       },
     ],
+    footer: {
+      copyright: 'Copyright © 2023-present Eando X',
+    },
     siteTitle: false,
     logo: '/images/EANDOX_logo.svg',
     sidebar: [

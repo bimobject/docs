@@ -20,6 +20,10 @@ In the **Supplier products** section, click the `Products added to my library` t
 
 In the **Supplier products** section, click the `Products added to my library` tab to see all the products that you have added to your library.
 
-Select the products you want to remove from your library, and click the `Remove Selected From My Library` button to remove them. TODO: Check that this is correct
+Select the products you want to remove from your library, and click the `Remove Selected From My Library` button to remove them.
+
+<!--TODO: Check that this is correct
 
 ![Removed products from your library](/images/placeholder.png)
+
+-->

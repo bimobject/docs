@@ -1,10 +1,6 @@
 # Product overview
 
-:::danger TODO:
-
-    - Add docs for batch actions on this page?
-
-:::
+<!-- Add docs for batch actions on this page? -->
 
 In Eando X, everything revolves around the products you create. Every other entity you create will be connected to one or more products at some point. Each product corresponds to a single SKU (Stock Keeping Unit).
 
@@ -27,10 +23,10 @@ You can also use the products to generate EPD reports. Read more about EPD's Ean
 
 ## Product versioning
 
-Product entities in Eando X can be versioned to allow for changes in your manufacturing process or supply chain.
+Product entities in Eando X are versioned to allow for changes in your manufacturing process or supply chain.
 
-:::danger TODO:
+A product can have two states: Draft and Published.
 
-    - Expand on this section
+Saving a product only saves it as a draft. Publishing a product creates a new version of it, and saves the current data as a "snapshot".
 
-:::
+Changing the data and only saving it (without a publish) will only affect the draft version of the product. The published version will be unchanged.

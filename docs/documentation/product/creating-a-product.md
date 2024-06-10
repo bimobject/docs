@@ -80,11 +80,7 @@ Select the components you want to add. Then click the `Add component` button in 
 
 The table has the following columns:
 
-:::danger TODO:
-
-    - Need more info on the transport column
-
-:::
+<!-- FIXME: Need more info on the transport column-->
 
 | Column name   | Column description                                                                                                  |
 | ------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -120,32 +116,29 @@ Select the materials you want to add. Then click the `Add material` button in th
 
 The table has the following columns:
 
-:::danger TODO:
+<!-- FIXME:
 
     - Need more info on the end of life column, and modal
     - Need more info on the transport column
+    - Is Weight for one unit or the total?
 
-:::
+-->
 
-| Column name          | Column description                                                                                                                                         |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Name**             | The name of the material.                                                                                                                                  |
-| **Weight**           | How much of this material that is used in the product. The unit this amount refers to can be seen in the `Unit` column. TODO: is it one unit or the total? |
-| **Unit**             | The unit of the material.                                                                                                                                  |
-| **Recycled content** | The percentage of the material that is recycled content.                                                                                                   |
-| **End of life**      | The end of life of the material. Clicking this will open a modal window where you can enter how the material will be disposed of at the end of its life.   |
-| **Transport**        | The transport of the material. Clicking the transport will allow you to edit the transport data for the material.                                          |
-| **X**                | A button used to remove the material from the product.                                                                                                     |
+| Column name          | Column description                                                                                                                                       |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**             | The name of the material.                                                                                                                                |
+| **Weight**           | How much of this material that is used in the product. The unit this amount refers to can be seen in the `Unit` column.                                  |
+| **Unit**             | The unit of the material.                                                                                                                                |
+| **Recycled content** | The percentage of the material that is recycled content.                                                                                                 |
+| **End of life**      | The end of life of the material. Clicking this will open a modal window where you can enter how the material will be disposed of at the end of its life. |
+| **Transport**        | The transport of the material. Clicking the transport will allow you to edit the transport data for the material.                                        |
+| **X**                | A button used to remove the material from the product.                                                                                                   |
 
 ## Managing packaging
 
-:::danger TODO:
-
-    - Does adding packaging (instead of using default) improve data quality?
-
-:::
-
 :::warning Default packaging
+You can create products without adding any packaging to them.
+
 If you don't add any packaging entities to a product, Eando X will use default packaging data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
@@ -172,7 +165,7 @@ The table has the following columns:
 | **Name**    | The name of the packaging. Clicking the name will open the editing page for the packaging.         |
 | **Amount**  | The amount of units of packaging. The unit this amount refers to can be seen in the `Unit` column. |
 | **Unit**    | The unit of the packaging.                                                                         |
-| **Weight**  | The weight of the packaging. TODO: is it one unit or the total?                                    |
+| **Weight**  | The weight of the packaging.                                                                       |
 | **X**       | Not a column, but a button used to remove the packaging from the product.                          |
 
 :::info Further reading
@@ -181,13 +174,9 @@ Read more about packaging, what it is and how it is created [here](/documentatio
 
 ## Managing factories
 
-:::danger TODO:
-
-    - Does adding packaging (instead of using default) improve data quality?
-
-:::
-
 :::warning Default factories
+You can create products without adding any factories to them.
+
 If you don't add any factory entities to a product, Eando X will use default factory data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
@@ -209,12 +198,12 @@ Select the factories you want to add. Then click the `Add factory` button in the
 
 The table has the following columns:
 
-| Column name      | Column description                                                                                  |
-| ---------------- | --------------------------------------------------------------------------------------------------- |
-| **Name**         | The name of the factory. Clicking the name will open the editing page for the factory.              |
-| **Data quality** | The data quality of the factory. Read more about data quality here. TODO: LINK TO DATA QUALITY DOCS |
-| **Divisiion**    | How much of the product is produced in this factory, in percentage.                                 |
-| **X**            | Not a column, but a button used to remove the factory from the product.                             |
+| Column name      | Column description                                                                     |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| **Name**         | The name of the factory. Clicking the name will open the editing page for the factory. |
+| **Data quality** | The data quality of the factory. <!--FIXME: link to data quality docs-->               |
+| **Divisiion**    | How much of the product is produced in this factory, in percentage.                    |
+| **X**            | Not a column, but a button used to remove the factory from the product.                |
 
 :::info Further reading
 Read more about factories, what they are and how they are created [here](/documentation/factory/factory-overview).
@@ -222,19 +211,14 @@ Read more about factories, what they are and how they are created [here](/docume
 
 ## Custom fields
 
-Custom fields are fields that are not part of the LCA itself, but are used to store additional information about the product. These can be used for X, Y and Z.
+<!-- FIXME: What can custom fields be used for? -->
+
+Custom fields are fields that are not part of the LCA itself, but are used to store additional information about the product.
 
 To see the custom fields for a product, click the `Edit` dropdown in the header of the product page, and select `Edit custom fields`. This will open a modal window where you can add and edit data in the custom fields.
 
 :::warning No custom fields?
 If you don't see any custom fields in the modal, you can add them on the `Settings` page.
-:::
-
-:::danger TODO:
-
-    - Improve this section
-    - What can custom fields be used for?
-
 :::
 
 :::info Further reading
