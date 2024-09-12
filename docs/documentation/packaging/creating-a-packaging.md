@@ -8,16 +8,16 @@ Navigate to the `Packaging` page in the left navigation menu, and click the `Cre
 
 ![Image of the packaging page with the create packaging button](/images/packaging/create-button.jpg)
 
-This will open a modal window where you can fill out the necessary information for your packaging. This information can be changed later on, but it is recommended to fill it out correctly the first time.
+This will open a sidepanel where you can fill out the necessary information about your packaging. This information can be changed later on, but it is recommended to fill it out correctly the first time.
 
-![Image of the packaging creation modal window](/images/packaging/create-modal.jpg)
+![Image of the packaging creation sidepanel](/images/packaging/create-modal.jpg)
 
-The fields in the modal window are as follows:
+The fields in the sidepanel are as follows:
 
 | Field name                          | Field description                        |
 | ----------------------------------- | ---------------------------------------- |
 | **Packaging name**                  | The name of the packaging.               |
-| **Functional unit**                 | The unit in which the product is sold.   |
+| **Functional unit**                 | The unit in which the packaging is used.   |
 | **Typical product weight per unit** | The weight of one unit of the packaging. |
 
 Click `Confirm` to create the packaging. This will take you to the packaging page where you can view and edit the the details and data of your packaging.
@@ -48,26 +48,29 @@ In the `Materials` section, click the `Add material` button.
 
 ![Image of the material section](/images/product/material-section.jpg)
 
-This will open a modal window where you can search for all materials available in Eando X.
+This will open a sidepanel where you can search for all materials available in Eando X.
 
-![Image of the materials modal](/images/product/select-material.jpg)
+![Image of the materials sidepanel](/images/product/select-material.jpg)
 
 :::warning Missing a material?
-If you can't find the material you need, you can click the `Request missing material` button in the top right corner of the modal window. This will allow you to send us a request so that we can add it to the platform.
+If you can't find the material you need, you can click the `Request missing material` button in the top right corner of the sidepanel. This will allow you to send us a request so that we can add it to the platform.
 :::
 
-Select the materials you want to add. Then click the `Add material` button in the top right corner of the modal window. This will close the modal and the materials you selected will show up in the table of added materials.
+Select the materials you want to add. Then click the `Add material` button in the top right corner of the sidepanel. This will close the sidepanel, and the materials you selected will show up in the table.
 
 ![Image of the materials table](/images/packaging/added-materials.jpg)
 
 The table has the following columns:
 
-| Column name | Colun description                                                         |
+| Column name | Column description                                                         |
 | ----------- | ------------------------------------------------------------------------- |
 | **Name**    | The name of the material.                                                 |
 | **Weight**  | How much of the material is used in the packaging, in the specified unit. |
 | **Unit**    | The unit of the weight.                                                   |
-| **X**       | A button used to remove the material from the packaging.                  |
+
+#### Removing materials
+
+You can remove a material from the packaging by hovering over the name, and ticking the checkbox that appears in front of the name. Select all materials you want to remove and click the `Delete` button in the material section header.
 
 ## Saving a packaging
 

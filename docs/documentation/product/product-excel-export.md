@@ -1,6 +1,6 @@
 # Export products to Excel
 
-Exporting products to Excel is good when you have a lot of data to import or update. It does not allow for the more advanced data entry that can be achieved in the Eando X app, but can in many cases be more efficient if you only need the basics and are proficient in manipulating spreadsheets.
+Exporting products to Excel is good when you have a lot of data to import or update. It does not allow for the more advanced data entry that can be achieved in the Eando X app, but can in many cases be more efficient if you only need the basics, and are proficient in manipulating spreadsheets.
 
 :::info Workflow tip
 A common workflow is to first create an Excel export file, populate it with your data and then import it back into Eando X.
@@ -14,9 +14,9 @@ Navigate to the `Products` page in the left navigation menu and click the `Expor
 
 ![Image of the export products button](/images/product/export-button.jpg)
 
-This will open a modal window where you can select the entities you want to export.
+This will open a sidepanel where you can select the entities you want to export.
 
-![Export products modal window](/images/product/export-modal.jpg)
+![Export products sidepanel](/images/product/export-modal.jpg)
 
 It has the following options:
 
@@ -26,6 +26,7 @@ It has the following options:
 | **Add extra materials**      | By default the export will only include fields for the attached materials. Adding extra materials will include empty fields where you can attach other material entities.                |
 | **Include transport**        | Wether or not to include the transport information in the export.                                                                                                                        |
 | **Include recycled content** | Wether or not to include the recycled content information in the export.                                                                                                                 |
+| **Include CAS/EC**           | Wether or not to include the CAS/EC information in the export.|
 | **Include custom fields**    | Wether or not to include the custom fields in the export.                                                                                                                                |
 
 Select the entities you want to export and click the `Export` button. This will start generating an export file. When the file is ready, the button label will change to `Download xlsx`. Click it to download the file.
@@ -35,13 +36,13 @@ When the file is downloaded, you can open it in Excel and start editing the data
 :::info Dependencies
 Selecting an entity that has another entity linked to it will export the linked entity as well.
 
-An example of this is exporting a **Pillowcase** that includes the material **Cotton**. This will export both the entities, and prevent the **Cotton** material entity from being deselected in the list.
+An example of this is exporting a **Pillowcase** that includes the material **Cotton**. This will export the **Pillowcase** product entity, and prevent the **Cotton** material entity from being deselected in the list.
 :::
 
 ## Excel file format
 
-:::danger iOS Numbers app
-Due to limitations in the iOS Numbers app, it is recommended to edit the file with either Excel or Google Sheets.
+:::danger macOS Numbers app
+Due to limitations in the macOS Numbers app, it is recommended to edit the file with either Excel or Google Sheets.
 :::
 
 The exported Excel file will contain three sheets:

@@ -1,8 +1,12 @@
 # Custom fields
 
-<!-- FIXME: What can custom fields be used for? -->
+Custom fields are used to store additional information about your products, that is not part of the Eando X standard data, or LCA.
 
-Custom fields are used to store additional information about your products.
+:::warning Adding data to custom fields
+This page is about creating and managing the custom fields that will be available in your products.
+
+If you want to add data to the custom fields of your products, you can read about it [here](/documentation/product/creating-a-product#custom-fields).
+:::
 
 ## Creating a new custom field
 
@@ -10,11 +14,11 @@ Navigate to the `Settings` page in the left navigation menu. And click the `Add 
 
 ![Add field button](/images/settings/add-field-button.jpg)
 
-This will open a modal window where you can create a new custom field.
+This will open a sidepanel where you can create a new custom field.
 
-![Add field modal](/images/settings/create-custom-field-modal.jpg)
+![Add field sidepanel](/images/settings/create-custom-field-modal.jpg)
 
-The fields in the modal window are as follows:
+The fields in the sidepanel are as follows:
 
 | Field name     | Field description                                                                                 |
 | -------------- | ------------------------------------------------------------------------------------------------- |
@@ -30,7 +34,7 @@ Read more about adding data to the custom fields in products [here](/documentati
 
 ## Editing a custom field
 
-To edit a custom field, select it in the list and click the `Edit field` button. This will open up a modal window where you can edit the field.
+To edit a custom field, select it in the list and click the `Edit field` button. This will open up a sidepanel where you can edit the field.
 
 ![Edit field button](/images/settings/edit-field.jpg)
 
@@ -38,4 +42,4 @@ Please note that you can only edit some of the properties of the custom field.
 
 ## Deleting custom fields
 
-If you want to remove a custom field, you can do so by selecting it in the list and clicking the `Delete` button. This will remove the custom field from the list and all the products. All associated data will be deleted.
+If you want to remove a custom field, you can do so by selecting it in the list and clicking the `Delete field` button. This will remove the custom field from the list and all the products. All associated data will be deleted.

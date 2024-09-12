@@ -38,13 +38,13 @@ Whenever there is a new request from a customer, you will receive an email notif
 
 You can then log in to your account and respond to the request.
 
-In the top right corner of your dashboard you will see a button labeled "Fulfill product requests", followed by a number.
+In the top right corner of your dashboard you will see a button labeled `Fulfill product requests`, followed by a number.
 
 ![The "Fulfill product requests" button](/images/supplier-quickstart/fulfill-requests-button.jpg)
 
-Clicking on this button will open a modal window where you can see a table of all the requests you have received.
+Clicking on this button will open a sidepanel where you can see a table of all the requests you have received.
 
-![The modal window with the requests](/images/supplier-quickstart/requests-modal.jpg)
+![The sidepanel with the requests](/images/supplier-quickstart/requests-modal.jpg)
 
 The table has the following columns:
 
@@ -64,16 +64,17 @@ Selecting items in the list will activate one or more of the following buttons:
 
 | Button label                          | Action description                                                                                                                                                                            |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Download XLSX Import File**         | Creates and downloads an XLSX file populated with all data provided by your customers. This will allow you to fill out all missing data in a spreadsheet, and then import it with the [product importer](/documentation/product/product-excel-import).|
 | **Reject request**                    | Dismiss and remove the request from the list. The user will be notified that the request has been rejected.                                                                                   |
 | **Fulfill with matching art no.**     | If the product requested by the customer already exists in your library, and the article number they provided is correct, the request will be fulfilled with the already existing product.    |
-| **Fulfill with non-matching art no.** | If the product requested by the customer exists in your library, but the article number they provided is wrong, this will open a modal window allowing you to search for the correct product. |
-| **Create product**                    | If the product requested by the customer does not exist in your library, this will open a modal window allowing you to create a new product.                                                  |
+| **Fulfill with non-matching art no.** | If the product requested by the customer exists in your library, but the article number they provided is wrong, this will open a sidepanel allowing you to search for the correct product. |
+| **Create product**                    | If the product requested by the customer does not exist in your library, this will open a sidepanel allowing you to create a new product.                                                  |
 
 :::tip Creating a product
 
 Choosing the "Create product" option will take you to the product creation view.
 
-If you are new to Eando X, we recommend that you first start with the [Workflow overview](/documentation/getting-started/workflow-overview) to get a better understanding of the product creation process, the different entities and they all work together.
+If you are new to Eando X, we recommend that you first start with the [Workflow overview](/documentation/getting-started/workflow-overview) to get a better understanding of the product creation process, the different entities, and how they all work together.
 
 If you're feeling adventurous, you can skip right to the [Product docs](/documentation/product/product-overview).
 :::
@@ -86,11 +87,11 @@ Click the `Fulfill product requests` button in the top right corner of the dashb
 
 ![The "Fulfill product requests" button](/images/supplier-quickstart/fulfill-requests-button.jpg)
 
-This will open a modal window with a table of all the requests you have received. Click the `Download XLSX Import File` button to download the file.
+This will open a sidepanel with a table of all the requests you have received. Click the `Download XLSX Import File` button to download the file.
 
-![The modal window with the requests](/images/supplier-quickstart/xlsx-import-button.jpg)
+![The sidepanel with the requests](/images/supplier-quickstart/xlsx-import-button.jpg)
 
-This file can be filled out in Excel and then imported into Eando X.
+This file can be filled out in Excel and then imported into Eando X, using the [product importer](/documentation/product/product-excel-import).
 
 :::tip Learn more
 Read more about importing products and components from Excel [here](/documentation/product/product-excel-import).

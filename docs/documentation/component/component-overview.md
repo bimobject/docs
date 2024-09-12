@@ -1,25 +1,14 @@
 # Component overview
 
-A component is a reusable sub-assembly of a product. It is nearly identical to a product, but is designed specifically to be reused in other products. If you manufacture a product that only exists as a part of a larger product, it should probably be a component. An example of this is a **seat** that is part of multiple different **chairs**, but never sold separately.
+A component is a reusable sub-assembly of a product. It is nearly identical to a product, but is designed specifically to be reused in other products. If you manufacture a product that only exists as a part of a larger product, it should probably be a component.
+
+An example of this is a **seat** that is part of multiple different **chairs**, but never sold separately.
 
 ## Benefits of using components
 
-The biggest benefit of using components is that they provide a clear distinction between the `products` you sell (that have an SKU), and the `components` that are only produced to be used internally.
+The biggest benefit of using components is that they provide a clear distinction between the `products` you sell (that have an SKU), and the `components` that are only produced to be used in other products.
 
 They still provide the same reusability: In the **chair** example above, one change to a **seat** would update the LCA for all the **chairs** that use it.
-
-<!--
-
-## What is the difference between a component and a product?
-
-:::danger FIXME:
-
-    - Do we need this section?
-    - What is the difference between a component and a product, in a more practical sense?
-
-:::
-
--->
 
 ## Requesting a component
 
@@ -29,7 +18,7 @@ They still provide the same reusability: In the **chair** example above, one cha
 
 Component entities in Eando X are versioned to allow for changes in your manufacturing process or supply chain.
 
-A component can have two states: Draft and Published.
+A component can have two states: `Draft` and `Published`.
 
 Saving a component only saves it as a draft. Publishing a component creates a new version of it, and saves the current data as a "snapshot".
 

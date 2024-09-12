@@ -8,15 +8,15 @@ Navigate to the `Components` page in the left navigation menu, and click the `Cr
 
 ![Image of the components page with the create component button](/images/component/create-component-button.jpg)
 
-This will open a modal window where you can fill out the necessary information for your component. This information can be changed later on, but it is recommended to fill it out correctly the first time.
+This will open a sidepanel where you can fill out the necessary information about your component. This information can be changed later on, but it is recommended to fill it out correctly the first time.
 
-![Image of the component creation modal window](/images/component/create-component-modal.jpg)
+![Image of the component creation sidepanel](/images/component/create-component-modal.jpg)
 
-The fields in the modal window are as follows:
+The fields in the sidepanel are as follows:
 
 | Field name          | Field description                                               |
 | ------------------- | --------------------------------------------------------------- |
-| **Name**            | The name of the component.                                      |
+| **Component name**            | The name of the component.                                      |
 | **Article number**  | This is used to identify the component, so it should be unique. |
 | **Functional unit** | The unit in which the product is sold.                          |
 
