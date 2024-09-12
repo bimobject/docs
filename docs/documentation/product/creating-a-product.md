@@ -255,7 +255,7 @@ This will open the packaging sidepanel:
 ![Image of the packaging sidepanel](/images/product/packaging-sidepanel.jpg)
 
 :::warning Editing the right data
-The side panel only lets you edit the packaging data for the product you're working on. To edit the packaging itself, click its name in the "Packaging" table or go to the [`Packaging` page](/documentation/product/creating-a-packaging).
+The side panel only lets you edit the packaging data for the product you're working on. To edit the packaging itself, click its name in the "Packaging" table or go to the [`Packaging` page](/documentation/packaging/creating-a-packaging).
 :::
 
 On the left edge of the sidepanel you can find two tabs:
