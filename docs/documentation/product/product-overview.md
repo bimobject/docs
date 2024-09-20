@@ -37,6 +37,6 @@ Changing the data and only saving it (without a publish) will only affect the dr
 
 
 ## Product creation quickstart
-If you are new to Eando X, and want to get started quickly you can read the [product creation quickstart](/documentation/getting-started/workflow-overview) guide. It will not go into much detail on all the different features of the platform, but it will get you up and running quickly.
+If you are new to Eando X, and want to get started quickly you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide. It will not go into much detail on all the different features of the platform, but it will get you up and running quickly.
 
 It is however recommended to read the documentation on [creating a product](/documentation/product/creating-a-product) at some point, as it goes into much more detail of how to get the most out of the platform.
