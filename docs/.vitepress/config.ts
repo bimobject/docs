@@ -211,6 +211,17 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: 'Guides',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Creating your first product',
+            link: '/documentation/guides/creating-your-first-product',
+          },
+        ],
+      }
     ],
   },
 });

@@ -4,6 +4,12 @@ Eando X is a platform designed to simplify sustainability and efficiency in the 
 
 By analyzing the life cycle of the products and processes, we can identify areas for improvement and implement sustainable practices.
 
+:::tip Product creation quickstart
+If you are new to Eando X, and want to get started quickly you can read the [product creation quickstart](/documentation/getting-started/workflow-overview) guide.
+
+It will not go into much detail on all the different features of the platform, but it will get you up and running quickly.
+:::
+
 ## Customer
 
 If you are a customer looking to start declaring your the environmental impact if your products, [you can start here](/documentation/getting-started/workflow-overview).
