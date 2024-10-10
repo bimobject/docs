@@ -1,6 +1,6 @@
 # Inviting a supplier
 
-If you can't find the supplier you're looking for when [adding a suppplier to your library](/documentation/supplier/adding-a-supplier), they are probably not part of Eando X yet. You can send them an invitation to join the platform.
+If you can't find the supplier you're looking for when [adding a supplier to your library](/documentation/supplier/adding-a-supplier), they are probably not part of Eando X yet. You can send them an invitation to join the platform.
 
 Navigate to the `Supplier` page and click the `Add supplier` button.
 

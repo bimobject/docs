@@ -50,7 +50,7 @@ On the product page, you will see multiple sections:
     - Delete the product
   - `Save`: Will [save](#saving-and-publishing-products) the product, without publishing it.
   - `Publish`: Will [publish](#saving-and-publishing-products) the product.
-  - `Updagte`: Will [update](#saving-and-publishing-products) the product.
+  - `Update`: Will [update](#saving-and-publishing-products) the product.
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
   - The `Total Weight` of the product.
 - **Product details**: Shows the product information, along with the current product version and the quality of the entered data.

@@ -1,6 +1,6 @@
 # Creating your first product
 
-In this guide you will learn how to create your first product in Eando X.
+This guide will walk you through the steps of creating your first product in Eando X. By the end of the tutorial, you'll have a product with an LCA (Life Cycle Assessment) ready for generating an EPD (Environmental Product Declaration).
 
 :::tip This is a quickstart
 This guide will only be covering the basics of creating a product. To get the most out of Eando X, it is recommended to start with the [workflow overview](/documentation/getting-started/workflow-overview).

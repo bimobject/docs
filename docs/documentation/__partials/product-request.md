@@ -2,7 +2,7 @@ If your manufacturing process involves ordering components from one or more supp
 
 This has multiple benefits:
 
-- You can get accurate LCU's without needing to ask the suppliers for data on their manufacturing process.
+- You can get accurate LCA's without needing to ask the suppliers for data on their manufacturing process.
 - You can ensure that the components manufacturing data is correct and up to date.
 - Over time, any changes to the suppliers' manufacturing data will be automatically reflected in your products. This eliminates the need for manual updates or frequent follow-ups.
 
