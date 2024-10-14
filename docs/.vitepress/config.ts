@@ -61,12 +61,12 @@ export default defineConfig({
           //   link: '/documentation/product/improving-product-data-quality',
           // },
           {
-            text: 'Sharing a product',
-            link: '/documentation/product/sharing-a-product',
-          },
-          {
             text: 'Requesting a product from a supplier',
             link: '/documentation/product/requesting-a-product',
+          },
+          {
+            text: 'Sharing a product',
+            link: '/documentation/product/sharing-a-product',
           },
           {
             text: 'Import from Excel',

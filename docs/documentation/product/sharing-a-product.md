@@ -92,4 +92,6 @@ Select the product you want to share, and click the `Fulfill` button in the top 
 
 ![Image of the fulfill sidepanel](/images/product/fulfill-searchpanel.jpg)
 
+This will share the product with the company, and close the sidepanel.
+
 
