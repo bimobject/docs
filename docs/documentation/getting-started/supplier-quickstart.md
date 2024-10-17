@@ -29,8 +29,8 @@ By analyzing the data of the products and processes, we can identify areas for i
 Here are some helpful links if you already have an account, and want to get started quickly:
 
 - [Creating your first product](/documentation/guides/creating-your-first-product)
-- [Sharing a product](/documentation/guides/sharing-a-product)
-- [Creating a product request](/documentation/guides/creating-a-product-request)
+- [Sharing a product](/documentation/product/sharing-a-product)
+- [Creating a product request](/documentation/supplier/creating-a-product-request)
 
 :::warning This is just the beginning
 These articles might not cover all of the features in Eando X, but they should provide a good starting point for you as a new supplier.
