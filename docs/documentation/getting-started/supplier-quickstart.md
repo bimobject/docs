@@ -24,6 +24,20 @@ An added benefit is reusability and composability: whenever you change the manuf
 
 By analyzing the data of the products and processes, we can identify areas for improvement and implement sustainable practices.
 
+## Quick links
+
+Here are some helpful links if you already have an account, and want to get started quickly:
+
+- [Creating your first product](/documentation/guides/creating-your-first-product)
+- [Sharing a product](/documentation/guides/sharing-a-product)
+- [Creating a product request](/documentation/guides/creating-a-product-request)
+
+:::warning This is just the beginning
+These articles might not cover all of the features in Eando X, but they should provide a good starting point for you as a new supplier.
+
+Suppliers have access to the same features as all other users. This means that all of the other docs are relevant to you as well. Feel free to browse them at your own leisure.
+:::
+
 ## Creating an account
 
 The only way to create a supplier account is to be invited by one of your customers. You will receive an email from your customer containing a link to create your account. Clicking on the link will redirect you to the account creation page. It will take you to a signup form where you can fill out the necessary information and complete the account creation process.
