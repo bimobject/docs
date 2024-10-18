@@ -8,12 +8,17 @@ In Eando X, everything revolves around your products. Every other entity you cre
 Entities are referring to the different data types that you can create or manage in Eando X. The entities are `Product`, `Component`, `Material`, `Packaging`, `Factory`, `Transport` and `Supplier`.
 
 To get an overview of all the entities and how they relate to each other, you can read the [Workflow overview](/documentation/getting-started/workflow-overview).
-
 :::
 
 ## What is a product?
 
 A product is the end result of your manufacturing process. It acts as a container that holds all the supply chain data for one of your products. This data is used by Eando X to generate LCAs, EPDs and other reports.
+
+:::warning Products and components
+The entities `Product` and `Component` are almost identical, and both can be used as parts of other products or components.
+
+The key difference is that a `Component` is intended for internal use only within your company, meaning it cannot have individual reporting, such as an EPD, on its own.
+:::
 
 :::tip Do more with what you have
 The unique way Eando X handles your supply chain data allows you to reuse it for different purposes. Focus on your products, and the EPD generator makes sure their data is declared in the correct way.

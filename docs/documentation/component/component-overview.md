@@ -11,6 +11,12 @@ The biggest benefit of using components is that they provide a clear distinction
 
 They still provide the same reusability: In the **chair** example above, one change to a **seat** would update the LCA for all the **chairs** that use it.
 
+:::warning Products and components
+The entities `Product` and `Component` are almost identical.
+
+The key difference is that a `Component` is intended for internal use only within your company, meaning it cannot have individual reporting, such as an EPD, on its own.
+:::
+
 ## Requesting a component
 
 <!--@include: ../__partials/product-request.md -->
