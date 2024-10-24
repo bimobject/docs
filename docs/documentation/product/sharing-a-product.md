@@ -13,12 +13,6 @@ There are two types of shared products:
 - **Limited sharing**: These products are only visible to the Eando X users you manually specify.
 - **Full sharing**: These products are visible to all Eando X users, and can be browsed and searched for as soon as a user has added your company to their library of suppliers.
 
-::: warning Don't forget to publish
-To be able to share a product, it first needs to be published.
-
-You can find the `Publish` button in the top right corner of the product page.
-:::
-
 ## Setting the sharing type
 
 Navigate to the `Products` page in the left navigation menu, and click the product you want to share.
@@ -27,14 +21,20 @@ On the product page, click the `Edit` dropdown in the top right corner, and then
 
 ![Image of the edit dropdown](/images/product/share-dropdown.jpg)
 
-This will open a modal where you can choose the sharing type.
+This will open a sidepanel where you can choose the sharing type.
 
 ![Image of the sharing modal](/images/product/share-modal.jpg)
 
 | Label | Description |
 | ----- | ----------- |
-| **Only companys invited can access this product** | Sets the product to have _Limited sharing_. |
-| **Auto shared with all companys on Eando platform** | Sets the product to have _Full sharing_. |
+| **Only available to companies that request access** | Sets the product to have _Limited sharing_. |
+| **Available to all companies on EandoX** | Sets the product to have _Full sharing_. |
+
+::: warning Don't forget to publish
+To be able to share a product, it first needs to be published.
+
+You can find the `Publish` button in the top right corner of the product page.
+:::
 
 ## Limited sharing
 

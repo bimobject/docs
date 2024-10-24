@@ -18,7 +18,7 @@ The fields in the sidepanel are as follows:
 | ----------------------------------- | ---------------------------------------- |
 | **Packaging name**                  | The name of the packaging.               |
 | **Functional unit**                 | The unit in which the packaging is used.   |
-| **Typical product weight per unit** | How much weight one unit of this packaging can hold (in KG). |
+| **Typical product weight per unit** | How much weight the packaging can hold (in KG). |
 
 Click `Confirm` to create the packaging. This will take you to the packaging page where you can view and edit the the details and data of your packaging.
 
