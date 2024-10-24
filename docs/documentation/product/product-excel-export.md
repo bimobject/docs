@@ -3,7 +3,7 @@
 Exporting products to Excel is good when you have a lot of data to import or update. It does not allow for the more advanced data entry that can be achieved in the Eando X app, but can in many cases be more efficient if you only need the basics, and are proficient in manipulating spreadsheets.
 
 :::info Workflow tip
-A common workflow is to first generate an export spreadsheet in Eando X, populate it with your data (in your spreadsheet editor of choice), and then import it back into Eando X.
+A common workflow is to first generate an empty export spreadsheet in Eando X, populate it with your data (in your spreadsheet editor of choice), and then import it back into Eando X.
 
 Read more about importing data [here](/documentation/product/product-excel-import).
 :::
