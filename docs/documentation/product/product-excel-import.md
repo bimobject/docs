@@ -4,7 +4,7 @@ Importing products from Excel is good when you have a lot of data to import, and
 
 This is especially useful for companies skilled in manipulating spreadsheets.
 
-:::info Workflow tip
+:::tip Workflow tip
 A common workflow is to first generate an empty export spreadsheet in Eando X, populate it with your data (in your spreadsheet editor of choice), and then import it back into Eando X.
 
 Read more about exporting data [here](/documentation/product/product-excel-export).
