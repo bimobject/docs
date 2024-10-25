@@ -1,6 +1,6 @@
 # Creating a factory
 
-This guide will walk you through the process of creating a factory in Eando X.
+This article will go through all the steps of creating a factory entity in Eando X.
 
 ## Creating a new factory
 

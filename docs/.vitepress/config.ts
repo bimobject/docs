@@ -97,21 +97,21 @@ export default defineConfig({
           },
         ],
       },
-      // {
-      //   text: 'Transport',
-      //   collapsible: true,
-      //   collapsed: true,
-      //   items: [
-      //     {
-      //       text: 'Transport overview',
-      //       link: '/documentation/transport/transport-overview',
-      //     },
-      //     {
-      //       text: 'Creating a product',
-      //       link: '/documentation/transport/creating-a-transport',
-      //     },
-      //   ],
-      // },
+      {
+        text: 'Transport',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Transport overview',
+            link: '/documentation/transport/transport-overview',
+          },
+          {
+            text: 'Creating a transport',
+            link: '/documentation/transport/creating-a-transport',
+          },
+        ],
+      },
       {
         text: 'Supplier',
         collapsible: true,

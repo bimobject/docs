@@ -1,6 +1,6 @@
 # Creating an EPD
 
-This guide will walk you through the process of creating an EPD in Eando X.
+This article will go through all the steps of creating an EPD in Eando X.
 
 ## Creating a new EPD
 
