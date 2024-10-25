@@ -22,7 +22,7 @@ The fields in the sidepanel are as follows:
 
 | Field name          | Field description                                             |
 | ------------------- | ------------------------------------------------------------- |
-| **Product name**            | The name of the product.                                      |
+| **Product name**    | The name of the product.                                      |
 | **Article number**  | This is used to identify the product, so it should be unique. |
 | **Functional Unit** | The unit in which the product is sold.                        |
 | **Description**     | A description of the product.                                 |
