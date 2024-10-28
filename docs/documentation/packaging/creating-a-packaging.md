@@ -40,6 +40,7 @@ On the packaging page, you will see multiple sections:
   - `Save`: Will [save](#saving-a-packaging) the packaging
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
 - **Product details**: Shows the product information, along with the quality of the entered data.
+- **Impact**: Shows the environmental impact of the packaging. Requires data to be entered. Read more about [Impact graphs here](/documentation/data/impact-graphs).
 - **Materials**: Shows the materials used in the packaging.
 
 ## Managing materials

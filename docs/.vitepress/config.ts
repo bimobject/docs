@@ -212,6 +212,21 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Data',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Impact graphs',
+            link: '/documentation/data/impact-graphs',
+          },
+          // {
+          //   text: 'Data quality',
+          //   link: '/documentation/data/data-quality',
+          // },
+        ],
+      },
+      {
         text: 'Guides',
         collapsible: true,
         collapsed: true,

@@ -54,7 +54,7 @@ On the product page, you will see multiple sections:
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
   - The `Total Weight` of the product.
 - **Product details**: Shows the product information, along with the current product version and the quality of the entered data.
-- **Impact**: Shows the environmental impact of the product. Requires data to be entered.
+- **Impact**: Shows the environmental impact of the product. Requires data to be entered. Read more about [Impact graphs here](/documentation/data/impact-graphs).
 <!--- **Product categorisation with AI**: Will automatically categorise the product once enough data is enetered.-->
 - **Components**, **Materials**, **Packaging** and **Factories**: Shows the entities attached to the product, and allows you to add, edit and delete them.
 
