@@ -12,7 +12,7 @@ To get an overview of all the entities and how they relate to each other, you ca
 
 ## What is a product?
 
-A product is the end result of your manufacturing process. It acts as a container that holds all the supply chain data for one of your products. This data is used by Eando X to generate LCAs, EPDs and other reports.
+A product is the end result of your manufacturing process. The product _entity_ acts as a container that holds all the supply chain data for one of your products. This data is used by Eando X to generate LCAs, EPDs and other reports.
 
 :::warning Products and components
 The entities `Product` and `Component` are almost identical, and both can be used as parts of other products or components.
@@ -21,7 +21,7 @@ The key difference is that a `Component` is intended for internal use only withi
 :::
 
 :::tip Do more with what you have
-The unique way Eando X handles your supply chain data allows you to reuse it for different purposes. Focus on your products, and the EPD generator makes sure their data is declared in the correct way.
+The unique way Eando X handles your supply chain data allows you to reuse it for different purposes. Focus on your products, and the and the EPD generator makes sure their data is declared in the correct way.
 
 Read more about EPD's in Eando X [here](/documentation/epd/epd-overview).
 :::

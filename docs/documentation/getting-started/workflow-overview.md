@@ -6,7 +6,9 @@ next:
 
 # Workflow overview
 
-You can either create all products and components yourself, or invite your suppliers to create declarations of the products you order from them. Asking a supplier to create components for you ensures that all the data is correct, and if they would happen to update their manufacturing chain, these changes will be automatically reflected in your products as well.
+Eando X is designed to make it easy to maintain, inspect and update your products supply chain data.
+
+In most manufacturing processes, you typically have at least one supplier from whom you order components. If you use supplier-sourced components in your products, you can either create all products and components yourself or invite your suppliers to join the Eando X. This will allow them to create and share the components you order from them. By requesting suppliers to create these components, you ensure that the data is accurate, and any updates they make to their manufacturing processes will automatically update in your products over time.
 
 ## Quick terminology
 
@@ -81,10 +83,9 @@ The most common workflow is as follows:
 - If you're creating your first product you will need to create some of these entities, like **transport**, **packaging** and **factory**.
 - Any reusable sub-assemblies should be created as **components**.
 - Any components that you order from a supplier should be attached as **components**.
-  - If your supplier is not yet connected to Eando X, you can invite them and request that they create the products you need. While waiting for them, you can create their components yourself and replace them with the ones created by your supplier later on.
-  - If your supplier is already connected to Eando X, you can add them to the list of your suppliers. You can then find their products and add them as components to your **product**. If the product does not exist yet, you can request it from your supplier.
+  - If your supplier is not yet connected to Eando X, you can invite them and ask them to create the products you need. In the meantime, you can create their components yourself and replace them with the supplier's components later on.
+  - If your supplier is already connected to Eando X, you can add them to your supplier list. You can then find their products and add them as components to your **product**. If the product doesn’t exist yet, you can request it from your supplier.
 
 ## Next steps
 
-If you
-Read more and start creating your first product [here](/documentation/product/product-overview).
+You can read about the product creation process in detail [here](/documentation/product/product-overview), or check out the [product creation quickstart](/documentation/guides/creating-your-first-product) guide for a quicker overview of all the essential first steps.
