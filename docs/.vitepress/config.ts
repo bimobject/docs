@@ -8,6 +8,12 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true,
+      }
+    },
     nav: [
       { text: 'Visit Eando X', link: 'https://www.eandox.com' },
       {
