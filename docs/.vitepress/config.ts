@@ -25,7 +25,7 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present Eando X',
     },
     siteTitle: false,
-    logo: '/images/EANDOX_logo.svg',
+    logo: '../images/logo.svg',
     sidebar: [
       {
         text: 'Getting started',
