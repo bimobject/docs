@@ -1,6 +1,6 @@
 # Impact graphs
 
-One of the ways of inspecting the environmental impact of your products, components and packaging is by exploring their impact graphs. These graphs can be found at the top of an entity's page:
+One of the ways of inspecting the environmental impact of your products, components and packaging is by exploring their impact graphs. These graphs can be found at the top of an entity's page, or at the bottom of the entity property sidepanel:
 
 ![Image of the impact graph on the page](/images/data/impact-graph-page.jpg)
 
