@@ -226,6 +226,10 @@ export default defineConfig({
             text: 'Impact graphs',
             link: '/documentation/data/impact-graphs',
           },
+          {
+            text: 'Comparing entities',
+            link: '/documentation/data/comparing-entities',
+          }
           // {
           //   text: 'Data quality',
           //   link: '/documentation/data/data-quality',
