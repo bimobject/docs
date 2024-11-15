@@ -229,6 +229,10 @@ export default defineConfig({
           {
             text: 'Comparing entities',
             link: '/documentation/data/comparing-entities',
+          },
+          {
+            text: 'Comments',
+            link: '/documentation/data/comments',
           }
           // {
           //   text: 'Data quality',
