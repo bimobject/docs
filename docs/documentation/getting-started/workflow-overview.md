@@ -72,19 +72,54 @@ You can invite suppliers to create declarations of the products you order from t
 
 ## Process
 
-<!--
-FIXME: Make this cleaner
--->
+A common workflow is as follows:
 
-The most common workflow is as follows:
+### 1. Add supplier components
+If your product uses components sourced from suppliers, add those components to your library.
 
-- Create a **product**.
-- Attach all relevant entities to your **product**.
-- If you're creating your first product you will need to create some of these entities, like **transport**, **packaging** and **factory**.
-- Any reusable sub-assemblies should be created as **components**.
-- Any components that you order from a supplier should be attached as **components**.
-  - If your supplier is not yet connected to Eando X, you can invite them and ask them to create the products you need. In the meantime, you can create their components yourself and replace them with the supplier's components later on.
-  - If your supplier is already connected to Eando X, you can add them to your supplier list. You can then find their products and add them as components to your **product**. If the product doesn’t exist yet, you can request it from your supplier.
+#### If your supplier is not connected to Eando X yet:
+1. [Invite](/documentation/supplier/inviting-a-supplier) your supplier to join Eando X.
+2. [Request](/documentation/supplier/creating-a-product-request) that they create the components you need.
+3. In the meantime, you can create placeholder components yourself and later replace them with the supplier’s official components.
+
+#### If your supplier is already connected to Eando X:
+1. [Add the supplier](/documentation/supplier/adding-a-supplier) to your supplier list.
+2. [Add the components](/documentation/supplier/accessing-supplier-products) to your library.
+3. If the required component doesn’t exist yet, [send a request](/documentation/supplier/creating-a-product-request) to the supplier to create it.
+
+### 2. **Handle reusable sub-assemblies**
+If your product includes sub-assemblies that are reused across multiple products, create them as [components](/documentation/component/component-overview).
+
+### 3. **Create a product**
+Start by [creating the product](/documentation/product/creating-a-product) you want to declare.
+
+### 4. **Attach relevant entities to your product**
+Link all the necessary entities to your product, such as other products, supplier components and materials.
+
+- If it's your first product, you can use generic data for **transport**, **packaging**, and **factory**.
+- If you're an advanced user, you can create your own [transport](/documentation/transport/transport-overview), [packaging](/documentation/packaging/packaging-overview), and [factory](/documentation/factory/factory-overview) data.
+
+
+## The product improvement cycle
+Eando X is a great platform for not only tracking your products current performance, but also for improving it over time. This work can be split up into a cycle of four steps:
+
+![Image of the product improvement cycle](/images/getting-started/cycle.jpg)
+
+### Collect
+Collect your product data in a structured and efficient manner. Combine manual data collection with automation and integration to build a scalable data management process that grows alongside your sustainability efforts and goals.
+
+A streamlined and systemized approach ensures dynamic improvements in data quality while maintaining full traceability.
+
+### Measure
+Using Eando X you can structure, control and manage the collected data in an efficient way. The platform's robust data structure is key to making sure that the model is scaling with your businesses maturity.
+
+### Report
+The built-in tools in Eando X are designed to meet all your reporting needs, ensuring you stay compliant with legal regulations while also addressing market demands. Whether you're reporting for regulatory purposes, such as EU regulations, or for customer-facing sustainability initiatives.
+
+### Reduce
+Tracking your product’s life cycle trends allows you to find environmental sinkholes.
+
+Emission reduction doesn’t need to be in the initial strategy, but all the previous steps are key to making an efficient reduction journey.
 
 ## Next steps
 
