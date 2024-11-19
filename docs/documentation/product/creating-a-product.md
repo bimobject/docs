@@ -1,6 +1,10 @@
 # Creating a product
 
-This guide will walk you through the process of creating a product entity in Eando X.
+This page is an in-depth documentation of how to create and manage a product in Eando X.
+
+:::tip New to Eando X?
+If you’re new to Eando X and just want to get started quickly you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide. However, please note that the quickstart guide doesn't cover all the product creation features.
+:::
 
 :::warning Components
 If you have a product that is used exclusively as a sub-assembly in other products (e.g. a **seat** used in multiple **chairs**, but not sold separately), you can create it as a component. The component creation process is nearly identical to the product creation process.
@@ -211,7 +215,7 @@ Shows all comments for the material. These comments are only tied to the materia
 :::warning Default packaging
 You can create products without adding any packaging to them.
 
-If you don't add any packaging entities to a product, Eando X will use default packaging data. This will lower the products data quality, and might make your environmental impact score worse.
+If you don't add any packaging entities to a product, Eando X will use generic packaging data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
 In the `Packaging` section, click the `Add packaging` button.
