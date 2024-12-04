@@ -1,10 +1,12 @@
 <style>
-    .page {
-        padding: 24px;
+    :root {
+        --minidocs-padding: 16px;
+        --minidocs-negative-padding: -16px;
     }
 
+
     body {
-        padding: 16px;
+        padding: var(--minidocs-padding);
     }
 
     h1 {
@@ -30,6 +32,14 @@
         padding-bottom: 8px;
         font-size: 14px;
         line-height: 1.3;
+    }
+
+    p:first-child img {
+        margin-top: var(--minidocs-negative-padding);
+        margin-left: var(--minidocs-negative-padding);
+        margin-right: var(--minidocs-negative-padding);
+        width: calc(var(--minidocs-padding) * 2 + 100%);
+        max-width: none;
     }
 </style>
 
