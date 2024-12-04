@@ -3,6 +3,10 @@
         padding: 24px;
     }
 
+    body {
+        padding: 16px;
+    }
+
     h1 {
         font-family: "Inter", sans-serif;
         font-weight: bold;
