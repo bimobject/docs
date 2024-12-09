@@ -1,4 +1,5 @@
 <style>
+
     :root {
         --minidocs-padding: 16px;
         --minidocs-negative-padding: -16px;
@@ -46,6 +47,7 @@
         width: calc(var(--minidocs-padding) * 2 + 100%);
         max-width: none;
         border-radius: 0;
+        box-shadow: none;
     }
 
     p:first-child + h2 {
@@ -56,6 +58,14 @@
     .custom-block {
         margin-top: 16px;
         margin-bottom: 16px;
+    }
+
+    code {
+        border-radius: 4px;
+        padding: 3px 6px;
+        font-size: var(--vp-code-font-size);
+        color: var(--vp-code-color);
+        background-color: var(--vp-code-bg);
     }
 </style>
 
