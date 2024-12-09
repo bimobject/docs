@@ -10,4 +10,6 @@ const { site, frontmatter } = useData()
 
 <MinidocStyles />
 
-# Linked Components
+This section shows you other products and components where this product is used.
+
+This section is purely informational, and is there for you to see how your product relate to the rest of your product library.

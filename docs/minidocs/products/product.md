@@ -12,7 +12,7 @@ const { site, frontmatter } = useData()
 
 ![Image of the product dependency tree](/images/placeholder.png)
 
-## This is a product entity.
+## This is a product entity
 
 In Eando X, everything centers on your products. All other entities (materials, packaging, factories, etc.) connect to products.
 

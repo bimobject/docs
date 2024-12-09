@@ -29,6 +29,17 @@
         font-weight: bold;
     }
 
+    h3 {
+        font-weight: bold;
+        padding-top: 8px;
+        font-size: 14px;
+        opacity: 0.9;
+    }
+
+    h3:before {
+        content: "— ";
+    }
+
     p {
         padding-bottom: 8px;
         font-size: 14px;
