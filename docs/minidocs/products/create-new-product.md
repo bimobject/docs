@@ -6,7 +6,6 @@ layout: false
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
-document.body.classList.add('vp-doc')
 </script>
 
 <MinidocStyles />
