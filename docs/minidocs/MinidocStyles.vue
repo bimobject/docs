@@ -3,11 +3,13 @@
     :root {
         --minidocs-padding: 16px;
         --minidocs-negative-padding: -16px;
+        --doc-section-spacing: 32px;
     }
 
 
     body {
         padding: var(--minidocs-padding);
+        padding-top: 0;
     }
 
     h1 {
@@ -25,7 +27,7 @@
     }
 
     h2:not(.title) {
-        padding: 40px 0px 16px;
+        /* padding: 40px 0px 16px; */
         font-weight: bold;
     }
 
@@ -64,6 +66,7 @@
     p:first-child + h2 {
         margin-top: 0;
         padding-top: 0;
+        border-top: 0;
     }
 
     .custom-block {
@@ -78,6 +81,11 @@
         color: var(--vp-code-color);
         background-color: var(--vp-code-bg);
     }
+
+    .header-anchor {
+        display: none !important;
+    }
+
 </style>
 
 <template>
