@@ -351,7 +351,9 @@ In the `Relations` section, you can see all components and products where this p
 
 ![Image of the relations section](/images/product/relations.jpg)
 
-This section is only presentational, and can not be interacted with.
+This section is only presentational, and can not be interacted with. It's there for you to see how your product relate to the rest of your product library.
+
+Visualizing these relationships helps you understand how changes to one product impact others. It can also guide you toward products that might need further review or updates after your changes are applied.
 
 ## Custom fields
 
