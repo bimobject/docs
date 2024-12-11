@@ -27,7 +27,7 @@
     }
 
     h2:not(.title) {
-        /* padding: 40px 0px 16px; */
+        padding-bottom: 0;
         font-weight: bold;
     }
 
