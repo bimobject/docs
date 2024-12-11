@@ -20,20 +20,25 @@ Each product represents a single SKU, and its data is used to generate LCAs, EPD
 
 ## Adding product data
 
-The product page is organized into several sections, some specifically designed for finding and linking entities to your product:
+The product page is divided into sections. The sections **Components**, **Materials**, **Packaging**, and **Factories** are used to add and manage product data.
 
 ![Image of the product page](/images/minidocs/products/sections.jpg)
 
-Each section features an `Add` button in the top-right corner. Clicking it opens a side panel where you can search for and add an entity to your product.
+Each section has an `Add` button in the top-right corner. Use it to search for and link entities to your product. Their data is automatically included in LCA and reports, and updates to the entity will reflect in your product, keeping your data accurate and current.
 
-The entity's data will be included in all product LCA and reporting calculations. If the entity is updated, the changes will automatically reflect in your product calculations, ensuring your data remains accurate, reusable, and up to date.
+:::Get started
+Let's start by adding some materials to your product.
 
+Find the **Materials** section, and click the `Add materials` button.
+:::
+
+<!--
 :::tip Learn more
 Click the question mark icon next to each sections title to learn more about it.
 
 For a full in-depth explanation of the product page, the different sections, and product creation in general,  click the `Read full docs` button at the top right of this window.
 :::
-
+-->
 
 
 
