@@ -27,9 +27,11 @@ The product page is divided into sections. The sections **Components**, **Materi
 Each section has an `Add` button in the top-right corner. Use it to search for and link entities to your product. Their data is automatically included in LCA and reports, and updates to the entity will reflect in your product, keeping your data accurate and current.
 
 :::Get started
-Let's start by adding some materials to your product.
+Browse around on the product page and get familiar with it.
 
-Find the **Materials** section, and click the `Add materials` button.
+Hovering a section will show a small description of what it represents.
+
+Clicking an `Add` button opens a side panel to add data and a help window (like this one) with detailed guidance on the entity and adding process.
 :::
 
 <!--
