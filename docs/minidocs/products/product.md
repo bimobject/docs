@@ -26,7 +26,7 @@ The product page is divided into sections. The sections **Components**, **Materi
 
 Each section has an `Add` button in the top-right corner. Use it to search for and link entities to your product. Their data is automatically included in LCA and reports, and updates to the entity will reflect in your product, keeping your data accurate and current.
 
-:::Get started
+:::tip Get started
 Browse around on the product page and get familiar with it.
 
 Hovering a section will show a small description of what it represents.
