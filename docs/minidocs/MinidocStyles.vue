@@ -63,10 +63,15 @@
         box-shadow: none;
     }
 
-    p:first-child + h2 {
+    p:first-child + h2,
+    h2:first-child {
         margin-top: 0;
         padding-top: 0;
         border-top: 0;
+    }
+
+    h2:first-child {
+        padding-top: var(--minidocs-padding);
     }
 
     .custom-block {
