@@ -27,7 +27,7 @@
     }
 
     h2:not(.title) {
-        padding: 40px 0px 16px;
+        /* padding: 40px 0px 16px; */
         font-weight: bold;
     }
 
@@ -87,6 +87,18 @@
     }
 
 </style>
+
+<script>
+export default {
+  name: "MinidocStyles",
+  mounted() {
+    document.body.classList.add('vp-doc');
+  },
+  beforeDestroy() {
+    document.body.classList.remove('vp-doc');
+  }
+};
+</script>
 
 <template>
     <slot></slot>
