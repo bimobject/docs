@@ -22,7 +22,7 @@ Select the materials you want to add by ticking the box next to its name. Then c
 
 ![Image of the materials table](/images/product/added-materials.jpg)
 
-If you've added components in the **Components** section, their materials are already included in the component data, so there's no need to add them separately. If you
+If you have added components in the **Components** section, their materials are already included in the component data, so there's no need to add them again in this section.
 
 The same goes for any material that is used for packaging. This should be created as a _Packaging_ entity, and attached to the product in the **Packaging** section.
 
