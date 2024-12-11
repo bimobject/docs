@@ -14,6 +14,9 @@ Click the `?` button in the section to learn more.
 
 ## Components section
 
+These are the components (or other products) that are included in this product.
+
+They can come from your own product library, or from external suppliers.
 
 </div>
 
@@ -33,6 +36,9 @@ This section should not include materials that are already part of an attached C
 
 ## Packaging section
 
+This is how the product is packaged.
+
+You can use packaging entities you've created, generic data, or omit packaging altogether.
 
 </div>
 
@@ -40,7 +46,11 @@ This section should not include materials that are already part of an attached C
 
 ## Factories section
 
+This is where the product is manufactured or assembled.
 
+You can use factory entities you've created, or generic data.
+
+If you have multiple factories, use the `Division` field to specify the percentage of manufacturing each factory contributed.
 </div>
 
 
