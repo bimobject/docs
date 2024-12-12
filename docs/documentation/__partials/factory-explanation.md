@@ -1,0 +1,1 @@
+A _factory_ entity represents the location where your product is manufactured and/or assembled, and what environmental impact the manufacturing process has.
