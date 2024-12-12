@@ -16,7 +16,7 @@ const { site, frontmatter } = useData()
 
 ## Adding a component to your product
 
-Select the components you want to add by ticking the box next to their name. Then click the `Add component` button in the top right corner of the sidepanel. This will close the sidepanel, and the components you selected will show up in the materials table.
+Select the components you want to add by ticking the box next to their name. Then click the `Add component` button in the top right corner of the sidepanel. This will close the sidepanel, and the components you selected will show up in the **Components section** table.
 
 ![Image of the components table](/images/product/added-component.jpg)
 
@@ -26,12 +26,12 @@ You can use the search inputs at the top of the sidepanel to search for componen
 
 ## What's in the sidepanel?
 
-The list in the **Add component** sidepanel shows all the components and products that are available in your library.
+The list in the **Add component sidepanel** shows all the components and products that are available in your library.
 
-You can add both _component_ entities and _product_ entities in the **Components** section. _Components_ and _products_ can be created by you, or imported from your suppliers.
+You can add both _component entities_ and _product entities_ in the **Components section**. Components and products can be created by you, or imported from your suppliers.
 
 :::warning Nothing in the list?
-If this list is empty, you need to create a component or product, add supplier products to your library or request a component from a supplier first.
+If this list is empty, you need to create a component or product, add supplier products to your library, or request a component from a supplier first.
 
 Learn more about this in the full documentation. You can find it by clicking the `Read full docs` button at the top right of this window.
 :::

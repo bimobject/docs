@@ -230,7 +230,7 @@ This will open a sidepanel where you can search for all packaging that is availa
 If this list is empty, you need to [create a packaging](/documentation/packaging/creating-a-packaging) first.
 :::
 
-Select the packaging you want to add. Then click the `Add packaging` button in the top right corner of the sidepanel. This will close the sidepaneland the packaging you selected will show up in the table of added packaging.
+Select the packaging you want to add. Then click the `Add packaging` button in the top right corner of the sidepanel. This will close the sidepanel and the packaging you selected will show up in the table of added packaging.
 
 ![Image of the packaging table](/images/product/packaging-added.jpg)
 
