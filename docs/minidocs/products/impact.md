@@ -1,5 +1,6 @@
 ---
 layout: false
+search: false
 ---
 
 <script setup>

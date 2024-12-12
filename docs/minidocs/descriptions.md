@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 <div id="see-impact-section">
 
 ## Impact section
