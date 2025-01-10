@@ -1,11 +1,9 @@
 # Import products from Excel
 
-Importing products from Excel is good when you have a lot of data to import, and already have it in other spreadsheets.
-
-This is especially useful for companies skilled in manipulating spreadsheets.
+If you have a lot of data that already exists in spreadsheets, you can import it into Eando X with the import feature.
 
 :::tip Workflow tip
-A common workflow is to first generate an empty export spreadsheet in Eando X, populate it with your data (in your spreadsheet editor of choice), and then import it back into Eando X.
+The easiest way to get a template sheet for your data is by generating an empty export spreadsheet in Eando X. You can then edit the file in your spreadsheet editor of choice, and import it back into Eando X when it's filled out.
 
 Read more about exporting data [here](/documentation/product/product-excel-export).
 :::
@@ -24,8 +22,8 @@ It has the following options:
 
 | Field name                            | Field description                                                                              |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Force autoshare setting**           | Decides wether the imported products should be shareable with other companies in Eando X.      |
-| **Auto publish updates after import** | Decides wether the imported products should be published to the Eando X platform after import. |
+| **Force autoshare setting**           | Decides wether the imported products should be shared with other companies in Eando X.      |
+| **Auto publish updates after import** | Decides wether the imported products should be published to the Eando X after import. |
 | **Pick file**                         | Selects the Excel file you want to import.                                                     |
 
 :::info Autoshare vs Publish
@@ -45,10 +43,10 @@ If there are any errors, they will show up in the **Errors** tab. Here you can s
 ![Validation view](/images/product/error-tab.jpg)
 
 :::danger Check the data
-Any rows with errors will not be imported. Make sure to check the errors tab, fix any potential errors in your spreadsheet, and try importing the data again.
+Rows with errors won’t be imported. Check the errors tab, fix any issues in your spreadsheet, and try importing again.
 :::
 
-When you are ready to import the data, click the `Import` button in the top right corner. This will import the data, and start the impact calculation process for the products.
+When you are ready to import the data, click the `Import` button in the top right corner. The data will start to import, and the LCA results will be calculated.
 
 ![Validation view](/images/product/importing.jpg)
 

@@ -1,9 +1,9 @@
 # Export products to Excel
 
-Exporting products to Excel is good when you have a lot of data to import or update. It does not allow for the more advanced data entry that can be achieved in the Eando X app, but can in many cases be more efficient if you only need the basics, and are proficient in manipulating spreadsheets.
+Exporting products to Excel is useful for managing large amounts of data quickly. While spreadsheets lack the advanced relations and data entry features of the Eando X app, they can sometimes more efficient for basic edits and updates.
 
 :::tip Workflow tip
-A common workflow is to first generate an empty export spreadsheet in Eando X, populate it with your data (in your spreadsheet editor of choice), and then import it back into Eando X.
+Another common use of the export feature is to generate an empty export spreadsheet template. This template can then be used to quickly fill in large amounts of data that can be imported back into Eando X.
 
 Read more about importing data [here](/documentation/product/product-excel-import).
 :::
@@ -22,24 +22,26 @@ It has the following options:
 
 | Field name                   | Field description                                                                                                                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Add extra components**     | By default the export will only include fields for the attached components. Adding extra components will include empty fields where you can attach other component and product entities. |
-| **Add extra materials**      | By default the export will only include fields for the attached materials. Adding extra materials will include empty fields where you can attach other material entities.                |
+| **Add extra components**     | By default, the export includes fields for the selected entities. Adding extra components creates empty fields, allowing you to populate them with additional component and product data. |
+| **Add extra materials**      | By default, the export includes fields for the materials already attached to your products. Adding extra materials creates empty fields, allowing you to populate them with additional material data.                |
 | **Include transport**        | Wether or not to include the transport information in the export.                                                                                                                        |
 | **Include recycled content** | Wether or not to include the recycled content information in the export.                                                                                                                 |
 | **Include CAS/EC**           | Wether or not to include the CAS/EC information in the export.|
 | **Include custom fields**    | Wether or not to include the custom fields in the export.                                                                                                                                |
 
-Select the entities you want to export and click the `Export` button. This will start generating an export file. When the file is ready, the button label will change to `Download xlsx`. Click it to download the file.
+Select the entities you want to export and click the `Export` button. This will start generating an export file.
 
-When the file is downloaded, you can open it in Excel and start editing the data.
+:::tip Dependencies
+Selecting an entity that is linked to another entity will automatically include both of the entities in the exported file.
 
-:::info Dependencies
-Selecting an entity that has another entity linked to it will export the linked entity as well.
-
-An example of this is exporting a **Pillowcase** that includes the material **Cotton**. This will export the **Pillowcase** product entity, and prevent the **Cotton** material entity from being deselected in the list.
+For example, if you select a **Pillowcase** that has the **Cotton** material linked to it, the item **Cotton** will automatically be selected (and cannot be deselected). The export will include data for both the **Pillowcase** product and the **Cotton** material.
 :::
 
-## Excel file format
+When the file is ready, the button label will change to `Download xlsx`. Click it to download the file.
+
+After the file has been downloaded, you can open it in Excel and start editing the data.
+
+## Spreadsheet structure
 
 :::danger macOS Numbers app
 Due to limitations in the macOS Numbers app, it is recommended to edit the file with either Excel or Google Sheets.
@@ -70,7 +72,7 @@ They have the following columns:
 | **Amount**          | How many units of the packaging [A-Z] are used for the product.                                                                                                                                                                                                                            |
 | **Component [A-Z]** | The component that is used in the product.                                                                                                                                                                                                                                                 |
 | **Amount**          | How many units of the component [A-Z] are used in the product.                                                                                                                                                                                                                             |
-| **Transport**       | The transport that is used for the component [A-Z]. The transport is defined as a comma separated string of three numbers, representing truck, boat and train in kilometers. The value `100,200,300` means that the transport has been defined as 100km truck, 200km boat and 300km train. |
+| **Transport**       | The transport that is used for the component [A-Z]. The transport is defined as a comma separated string of three numbers, representing truck, boat and train in kilometers.<br/><br/>The value `100,200,300` means that the transport has been defined as 100km truck, 200km boat and 300km train. |
 | **Material [A-Z]**  | The material that is used in the product. Populated with all materials that are available in Eando X                                                                                                                                                                                       |
 | **Weight**          | The weight of the material [A-Z] in KG.                                                                                                                                                                                                                                                    |
-| **Transport**       | The transport that is used for the material [A-Z]. The transport is defined as a comma separated string of three numbers, representing truck, boat and train in kilometers. The value `100,200,300` means that the transport has been defined as 100km truck, 200km boat and 300km train.  |
+| **Transport**       | The transport that is used for the material [A-Z]. The transport is defined as a comma separated string of three numbers, representing truck, boat and train in kilometers.<br/><br/>The value `100,200,300` means that the transport has been defined as 100km truck, 200km boat and 300km train.  |

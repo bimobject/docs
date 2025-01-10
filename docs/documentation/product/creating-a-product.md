@@ -1,15 +1,23 @@
 # Creating a product
 
-This page is an in-depth documentation of how to create and manage a product in Eando X.
+This page is an in-depth documentation of how to create and manage a product in Eando X. It will cover all the features of the product creation process, from the basics to the advanced features.
 
 :::tip New to Eando X?
-If you’re new to Eando X and just want to get started quickly you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide. However, please note that the quickstart guide doesn't cover all the product creation features.
+If you’re new to Eando X and just want to get started quickly (without diving into the advanced features), you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide.
 :::
 
-:::warning Components
-If you have a product that is used exclusively as a sub-assembly in other products (e.g. a **seat** used in multiple **chairs**, but not sold separately), you can create it as a component. The component creation process is nearly identical to the product creation process.
+## Products vs components
 
-Read more about components [here](/documentation/component/component-overview).
+In Eando X you have two different types of products: products and components.
+
+The main difference between the two is that a component is intended for internal use only within your company, meaning it cannot have individual reporting, such as an EPD, on its own.
+
+If you have a product that is used exclusively as a sub-assembly in other products (e.g. a **seat** used in multiple **chairs**, but never not sold separately), you can create it as a component.
+
+:::tip Read more
+The component creation process is nearly identical to the product creation process, but some details differ.
+
+Read more about the specifics of components [here](/documentation/component/component-overview).
 :::
 
 ## Creating a new product

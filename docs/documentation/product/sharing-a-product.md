@@ -11,7 +11,7 @@ Sharing is helpful if you're a supplier to a company that uses your products in 
 There are two types of shared products:
 
 - **Limited sharing**: These products are only visible to the Eando X users you manually specify.
-- **Full sharing**: These products are visible to all Eando X users, and can be browsed and searched for as soon as a user has added your company to their library of suppliers.
+- **Full sharing**: These products are visible to all Eando X users that have added your company to their list of suppliers.
 
 ## Setting the sharing type
 
@@ -27,8 +27,8 @@ This will open a sidepanel where you can choose the sharing type.
 
 | Label | Description |
 | ----- | ----------- |
-| **Only available to companies that request access** | Sets the product to have _Limited sharing_. |
-| **Available to all companies on EandoX** | Sets the product to have _Full sharing_. |
+| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the Eando X users you manually specify. |
+| **Available to all companies on EandoX** | Sets the product to **Full sharing**. The product will be visible to all Eando X users that have added your company to their list of suppliers. |
 
 ::: warning Don't forget to publish
 To be able to share a product, it first needs to be published.
@@ -65,7 +65,7 @@ This table contains the following columns:
 ::: danger Check the article number
 The article number provided by the requesting company may not always match the one in your product catalog. This could happen due to reasons like miscommunication, missing information, or typing errors.
 
-Make sure to check the article number for potential user error.
+Make sure to check the article number for any potential user errors.
 :::
 
 ### Matching article number
