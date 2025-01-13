@@ -15,7 +15,7 @@ const { site, frontmatter } = useData()
 
 ## This is a product entity
 
-In Eando X, everything centers on your products. All other entities (materials, packaging, factories, etc.) connect to products.
+In Eando X, everything centers on your products. All other entities (components, materials, packaging, factories) are linked to products.
 
 Each product represents a single SKU, and its data is used to generate LCAs, EPDs, and other reports.
 
@@ -25,7 +25,7 @@ The product page is divided into sections. The sections **Components**, **Materi
 
 ![Image of the product page](/images/minidocs/products/sections.jpg)
 
-Each section has an `Add` button in the top-right corner. Use it to search for and link entities to your product. Their data is automatically included in LCA and reports, and updates to the entity will reflect in your product, keeping your data accurate and current.
+The data for the added entities is automatically included in LCA and reports. Any updates to the entity will reflect in your product, keeping your data accurate and current.
 
 :::tip Get started
 Browse around on the product page and get familiar with it.
