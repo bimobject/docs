@@ -21,9 +21,11 @@ The key difference is that a `Component` is intended for internal use only withi
 :::
 
 :::tip Do more with what you have
-The unique way Eando X handles your supply chain data allows you to reuse it for different purposes. Focus on your products, and the and the EPD generator makes sure their data is declared in the correct way.
+Eando X handles your supply chain data in a unique way, allowing you to reuse it for different purposes. The most common one is to use it for LCAs, but it can also be used with the built-in EPD generator.
 
-Read more about EPD's in Eando X [here](/documentation/epd/epd-overview).
+Focus on your data, and let Eando X make sure it gets declared in the correct way.
+
+Read more about the EPD generator [here](/documentation/epd/epd-overview).
 :::
 
 ## Requesting a product

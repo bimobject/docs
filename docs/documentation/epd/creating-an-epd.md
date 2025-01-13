@@ -136,21 +136,26 @@ The list includes the following fields:
 
 ## Impact handling section
 
-This section includes settings and data on how the environmental impact is handled. All of these sections directly correspond to numbered sections in the EPD report.
+This section includes settings on how the environmental data should be reported. All the data here directly corresponds to a numbered section in the EPD report.
 
 ![Image of the impact handling section](/images/epd/impact-handling.jpg)
 
-It is split into five areas:
+It is split into four areas:
+
+- A4 - Transportation
+- A5 - Installation
+- B1-B7 - Use stage
+- Set included stages, set country
 
 ### A4 - Transportation
 
 This area contains all data regarding the transportation of the products in the EPD.
 
-You can add the products that should be included in the report by clicking the `Add transport` button in the top right corner of the area.
+You can edit the transports included in the EPD by clicking the edit button in the top right corner of the area. This will open a sidepanel listing all the transports included in the EPD.
 
-To edit a transport, click the pen icon in the top right corner of the transport.
+To edit a transport in, click the pen icon in the top right corner of the transport (in the sidepanel).
 
-To remove a transport, click the trash can icon in the top right corner of the transport.
+To remove a transport, click the trash can icon in the top right corner of the transport (in the sidepanel).
 
 ### A5 - Installation
 
@@ -160,19 +165,15 @@ This area contains settings on how to handle and present the environmental impac
 
 This area contains settings on how to handle and present the environmental impact of the products when they are in use.
 
-### Set included stages
+### Set included stages, set country
 
-This area allows you to modify what data to include in the EPD. It is based on the PCR set in the **Program operator** area.
+This area allows you to modify the data included in EPD, and set what country that data applies to. It is based on the PCR set in the **Program operator** area.
 
-Based on what PCR you have selected, this section will look a little different. Some of the fields will be required, some will be excluded, and some will be optional. They may also contain different information, or be grouped differently.
+This section will look a little different depending on the data that is needed for the selected PCR. Some of the fields will be required, some will be excluded, and some will be optional.
 
 :::info We have your back
-The fields that can't be changed are designed to follow the requirements of the selected PCR standard. This ensures that the reports generated always have all necessary data, no matter what optional information you chose to include.
+The fields that can't be changed are designed to follow the requirements of the selected PCR standard. This ensures that the generated reports include all necessary data, no matter what optional information you chose to include.
 :::
-
-### Set country
-
-This area allows you to set the country or region that apply to the fields in the **Set included stages** area.
 
 ## Saving and publishing EPDs
 

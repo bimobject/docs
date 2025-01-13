@@ -1,6 +1,6 @@
 # Creating a transport
 
-This article will go through all the steps of creating a product entity in Eando X.
+This article will go through all the steps of creating a transport entity in Eando X.
 
 ## Creating a new transport
 

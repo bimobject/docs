@@ -12,8 +12,8 @@ This allows you to get accurate LCA's without having to ask the suppliers for da
 
 ## Adding a supplier to your library
 
-If you are new to Eando X, you might not have any suppliers in yor library yet. Read more about how to add a supplier [here](/documentation/supplier/adding-a-supplier).
+If you are new to Eando X, you might not have any suppliers in yor library yet. Read more about how to add a supplier that is already connected to Eando X [here](/documentation/supplier/adding-a-supplier).
 
 ## Inviting a supplier
 
-If any of your suppliers are not part of Eando X, you can send them an invite to the platform, along with a request for the components you need. Read more about it [here](/documentation/supplier/inviting-a-supplier).
+If your supplier is not part of Eando X, you can send them an invite to the platform, along with a request for the components you need. Read more about it [here](/documentation/supplier/inviting-a-supplier).
