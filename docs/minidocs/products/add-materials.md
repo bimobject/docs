@@ -7,6 +7,9 @@ search: false
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
+
+const urlParams = new URLSearchParams(window.location.search)
+const entityName = urlParams.get('entity')
 </script>
 
 <MinidocStyles />
@@ -15,7 +18,7 @@ const { site, frontmatter } = useData()
 
 <!--@include: ../../documentation/__partials/material-explanation.md -->
 
-## Adding a material to your product
+## Adding a material to your {{entityName}}
 
 Select the materials you want to add by ticking the box next to their name. Then click the `Add material` button in the top right corner of the sidepanel. This will close the sidepanel, and the materials you selected will show up in the **Materials section** table.
 

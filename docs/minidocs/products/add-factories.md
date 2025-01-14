@@ -7,6 +7,9 @@ search: false
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
+
+const urlParams = new URLSearchParams(window.location.search)
+const entityName = urlParams.get('entity')
 </script>
 
 <MinidocStyles />
@@ -15,7 +18,7 @@ const { site, frontmatter } = useData()
 
 <!--@include: ../../documentation/__partials/factory-explanation.md -->
 
-## Adding a factory to your product
+## Adding a factory to your {{entityName}}
 
 Select the factories you want to add by ticking the box next to their name. Then click the `Add fatory` button in the top right corner of the sidepanel. This will close the sidepanel and the factories you selected will show up in the **Factories section** table.
 
@@ -27,9 +30,9 @@ You can use the search inputs at the top of the sidepanel to search for factorie
 
 ### Factory division
 
-It is not uncommon for a product to be manufactured and assembled in multiple factories. Therefore, you can add multiple factories to your product.
+It is not uncommon for a {{entityName}} to be manufactured and assembled in multiple factories. Therefore, you can add multiple factories to your {{entityName}}.
 
-If the product has multiple factories, use the `Division` field in the **Factory section**to specify the percentage of manufacturing each factory contributed.
+If the {{entityName}} has multiple factories, use the `Division` field in the **Factory section**to specify the percentage of manufacturing each factory contributed.
 
 ## What's in the sidepanel?
 
@@ -43,6 +46,6 @@ Learn more about this in the full documentation. You can find it by clicking the
 
 ## Default factory data
 
-You can create products without adding any factories to them.
+You can create {{entityName + 's'}} without adding any factories to them.
 
-If you don't add any factory entities to a product, Eando X will use generic factory data. This will lower the products data quality, and might make your environmental impact score worse.
+If you don't add any factory entities to a {{entityName}}, Eando X will use generic factory data. This will lower the {{entityName + 's'}} data quality, and might make your environmental impact score worse.

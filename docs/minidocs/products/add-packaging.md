@@ -7,6 +7,9 @@ search: false
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
+
+const urlParams = new URLSearchParams(window.location.search)
+const entityName = urlParams.get('entity')
 </script>
 
 <MinidocStyles />
@@ -15,7 +18,7 @@ const { site, frontmatter } = useData()
 
 <!--@include: ../../documentation/__partials/packaging-explanation.md -->
 
-## Adding a packaging to your product
+## Adding a packaging to your {{entityName}}
 
 Select the packaging you want to add by ticking the box next to its name. Then click the `Add packaging` button in the top right corner of the sidepanel. This will close the sidepanel and the packaging you selected will show up in the **Packaging section** table.
 
@@ -37,6 +40,6 @@ Learn more about this in the full documentation. You can find it by clicking the
 
 ## Default packaging data
 
-You can create products without adding any packaging to them.
+You can create {{entityName + 's'}} without adding any packaging to them.
 
-If you don't add any packaging entities to a product, Eando X will use generic packaging data. This will lower the products data quality, and might make your environmental impact score worse.
+If you don't add any packaging entities to a {{entityName}}, Eando X will use generic packaging data. This will lower the {{entityName + 's'}} data quality, and might make your environmental impact score worse.
