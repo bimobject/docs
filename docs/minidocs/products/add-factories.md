@@ -4,12 +4,17 @@ search: false
 ---
 
 <script setup>
+import { ref, onMounted } from 'vue'
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
 
-const urlParams = new URLSearchParams(window.location.search)
-const entityName = urlParams.get('entity')
+const entityName = ref('')
+
+onMounted(() => {
+  const params = new URLSearchParams(window.location.search);
+  entityName.value = params.get('entity') || 'product';
+});
 </script>
 
 <MinidocStyles />

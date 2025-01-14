@@ -1,4 +1,4 @@
-A _component_ entity represents a reusable sub-assembly of a product. When you change the properties of a component, these changes will be reflected in all products that use this component.
+A _component_ entity represents a reusable sub-assembly of a product (or another component). When you change the properties of a component, these changes will be reflected in all products that use this component.
 
 Components can be created by you, or requested from your suppliers.
 
