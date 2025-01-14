@@ -4,12 +4,17 @@ search: false
 ---
 
 <script setup>
+import { ref, onMounted } from 'vue'
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
 
-const urlParams = new URLSearchParams(window.location.search)
-const entityName = urlParams.get('entity')
+const entityName = ref('')
+
+onMounted(() => {
+  const params = new URLSearchParams(window.location.search);
+  entityName.value = params.get('entity') || 'product';
+});
 </script>
 
 <MinidocStyles />
@@ -18,7 +23,7 @@ const entityName = urlParams.get('entity')
 
 <!--@include: ../../documentation/__partials/component-explanation.md -->
 
-## Adding a component to your {{entityName}}
+## Adding a component to your {{ entityName }}
 
 Select the components you want to add by ticking the box next to their name. Then click the `Add component` button in the top right corner of the sidepanel. This will close the sidepanel, and the components you selected will show up in the **Components section** table.
 
@@ -39,3 +44,8 @@ If this list is empty, you need to create a component or product, add supplier p
 
 Learn more about this in the full documentation. You can find it by clicking the `Read full docs` button at the top right of this window.
 :::
+
+<script>
+    // loop over all text on the page and return
+
+</script>
