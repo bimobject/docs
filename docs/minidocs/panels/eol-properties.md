@@ -15,10 +15,6 @@ const { site, frontmatter } = useData()
 
 This panel shows how the the selected material is used at the end of its life cycle.
 
-:::warning The data is scoped
-The editable fields are **not** global, and will only saved for this product. This allows you to use the same material in multiple entities, but have their usage be tracked based on the relevant manufacturing process.
-:::
-
 ## Generic vs specific data
 
 By default, the material EOL properties will be set to use generic data. This works well when starting out, but to get the most accurate data, it is recommended to fill out data specific to you manufacturing process.
@@ -29,10 +25,10 @@ To do this, uncheck the `Use generic value` checkbox in the panel, and fill out 
 
 | Name | Description |
 | --- | --- |
-| **Landfill** | How much of the material is sent to landfills. |
-| **Recycling** | How much of the material is sent to recycling centers. |
-| **Incineration** | How much of the material is sent to incinerators. |
-| **Recycling** | How much of the material is being recycled. |
+| Landfill | How much of the material is sent to landfills. |
+| Recycling | How much of the material is sent to recycling centers. |
+| Incineration | How much of the material is sent to incinerators. |
+| Recycling | How much of the material is being recycled. |
 | Total | The sum of all EOL fields. This must add up to 100%. |
 
 All fields feature a button where you can edit the type of landfill, incineration and recycling. This data is used to calculate a more accurate environmental impact. In most cases, you will not need to change this.

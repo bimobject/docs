@@ -16,7 +16,7 @@ const { site, frontmatter } = useData()
 This panel shows how the the selected material has been transported.
 
 :::warning The data is scoped
-The editable fields are **not** global, and will only saved for this product. This allows you to use the same material in multiple entities, but have their usage be tracked based on the relevant manufacturing process.
+The editable fields are **not** global, and will only saved for this product. This allows you to use the same transport in multiple entities, but have its impact be tracked based on the relevant manufacturing process.
 :::
 
 ## Generic vs specific data

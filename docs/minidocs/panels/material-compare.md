@@ -24,7 +24,7 @@ The editable fields are **not** global, and will only saved for this product. Th
 | Name | Description |
 | --- | --- |
 | Material name | The name of the material. |
-| Unit | The unit that one amount of the material is measured in. |
+| Unit | The unit used to measure a single quantity of the packaging. |
 | Category | What category the material belongs to. |
 | Origin | Where the material is sourced from. |
 | Amount | How much of this material is used in the product, in the unit specified in the `Unit` field above. This should include all material, both that is used in the final product, and that is wasted during the manufacturing process. |
