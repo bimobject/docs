@@ -25,7 +25,7 @@ onMounted(() => {
 
 ## Adding a component to your {{ entityName }}
 
-Select the components you want to add by ticking the box next to their name. Then click the `Add component` button in the top right corner of the sidepanel. This will close the sidepanel, and the components you selected will show up in the **Components section** table.
+Tick the boxes next to the components you want to add, then click `Add component`. The sidepanel will close, and the selected components will appear in the **Components section** table.
 
 ![Image of the components table](/images/product/added-component.jpg)
 
@@ -44,8 +44,3 @@ If this list is empty, you need to create a component or product, add supplier p
 
 Learn more about this in the full documentation. You can find it by clicking the `Read full docs` button at the top right of this window.
 :::
-
-<script>
-    // loop over all text on the page and return
-
-</script>

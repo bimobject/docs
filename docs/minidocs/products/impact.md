@@ -11,7 +11,7 @@ const { site, frontmatter } = useData()
 
 <MinidocStyles />
 
-This is the section where you can see the environmental impact of your product.
+In this section you can inspect the environmental impact of your product.
 
 :::warning Empty section?
 If you don't see anything in the graph, it's likely that you haven't entered any data yet.

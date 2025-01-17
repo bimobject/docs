@@ -13,13 +13,11 @@ const { site, frontmatter } = useData()
 
 ## Component properties and comparisons
 
-This panel shows the properties of the selected component. Some of the fields are read-only, and some are editable.
-
-:::warning The data is scoped
-The editable fields are **not** global, and will only saved for this product. This allows you to use the same component in multiple entities, but have its usage be tracked based on the relevant manufacturing process.
-:::
+This panel shows the properties of the selected component.
 
 ## Fields
+
+Some of the fields are read-only, and some are editable.
 
 | Name | Description |
 | --- | --- |
@@ -33,17 +31,24 @@ The editable fields are **not** global, and will only saved for this product. Th
 | Supplier | The name of the components supplier (if any). |
 | GWP total | The total global warming potential of the component. |
 
+:::warning The data is scoped
+The editable fields are **not** global and will only be saved for this product. This lets you use the same component in multiple entities while tracking its usage based on the specific manufacturing process.
+:::
+
 ## Impact graph
 
 At the bottom of the panel, you will see an environmental impact graph for the component. This graph is interactive, and can show data for multiple different impact categories.
 
 ## Comparing components
-In some cases you may want to compare the currently used component with another component. This can be useful if you are working with Eco Design, or if you're just unsure if you have selected the right component for your product.
+In some cases, you may want to compare the current component with an alternative one. This can be helpful for Eco Design efforts or when you're unsure if you've selected the best component for your product.
 
-To compare components, click the `Compare` button in the top right corner of the panel. This will open a side panel with a list of all the components in your library.
+### Adding a component to compare
+To compare components, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the components in your library.
 
-Select the component you want to compare with and click the `Add component` button. This will show the selected component properties in the sidepanel, and show its data in the Impact graph at the bottom of the panel.
+Select the component you want to compare and click the `Add component` button. The selected component's properties will appear in the sidepanel, and its data will be displayed in the impact graph at the bottom.
 
+### Removing a component from comparison
 You can remove a component from the comparison by clicking the `Remove` button above the top right corner of the components properties.
 
+### Replacing the current component with an alternative one
 To replace the currently added component with one in the comparison, check the radio button next to its name, and then click the `Use selected` button in the top right corner of the sidepanel.

@@ -11,11 +11,11 @@ const { site, frontmatter } = useData()
 
 <MinidocStyles />
 
-![Image of the product dependency tree](/images/placeholder.png)
-
 ## This is a product entity
 
 In Eando X, everything centers on your products. All other entities (components, materials, packaging, factories) are linked to products.
+
+![Image of the product dependency tree](/images/placeholder.png)
 
 Each product represents a single SKU, and its data is used to generate LCAs, EPDs, and other reports.
 

@@ -25,7 +25,7 @@ onMounted(() => {
 
 ## Adding a factory to your {{entityName}}
 
-Select the factories you want to add by ticking the box next to their name. Then click the `Add fatory` button in the top right corner of the sidepanel. This will close the sidepanel and the factories you selected will show up in the **Factories section** table.
+Tick the boxes next to the factories you want to add, then click `Add factory`. The sidepanel will close, and the selected factories will appear in the **Factory section** table.
 
 ![Image of the factories table](/images/product/added-factories.jpg)
 
@@ -53,4 +53,4 @@ Learn more about this in the full documentation. You can find it by clicking the
 
 You can create {{entityName + 's'}} without adding any factories to them.
 
-If you don't add any factory entities to a {{entityName}}, Eando X will use generic factory data. This will lower the {{entityName + 's'}} data quality, and might make your environmental impact score worse.
+If you don't add any factory entities to a {{entityName}}, Eando X will use generic factory data. This will lower the {{entityName + 's'}} data quality, and could result in a worse environmental impact score.

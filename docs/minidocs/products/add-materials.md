@@ -25,7 +25,7 @@ onMounted(() => {
 
 ## Adding a material to your {{entityName}}
 
-Select the materials you want to add by ticking the box next to their name. Then click the `Add material` button in the top right corner of the sidepanel. This will close the sidepanel, and the materials you selected will show up in the **Materials section** table.
+Tick the boxes next to the materials you want to add, then click `Add material`. The sidepanel will close, and the selected materials will appear in the **Materials section** table.
 
 ![Image of the materials table](/images/product/added-materials.jpg)
 
