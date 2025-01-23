@@ -4,9 +4,21 @@ search: false
 ---
 
 <script setup>
+import { ref, onMounted } from 'vue'
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
+
+const entityName = ref('')
+const articleName = ref('')
+const articleNameSentence = ref('')
+
+onMounted(() => {
+  const params = new URLSearchParams(window.location.search);
+  entityName.value = params.get('entity') || 'product';
+  articleName.value = params.get('article') || 'product';
+  articleNameSentence.value = `(${articleName.value} in this case)` || '';
+});
 </script>
 
 <MinidocStyles />
@@ -17,7 +29,7 @@ This panel shows the properties of the selected component.
 
 ## Fields
 
-Some of the fields are read-only, and some are editable.
+Some of the fields are read-only, and some are editable. The read-only fields represent data that comes from the linked component/product. The editable fields are stored in  {{entityName}} you are currently editing{{articleNameSentence}}.
 
 | Name | Description |
 | --- | --- |
@@ -31,9 +43,6 @@ Some of the fields are read-only, and some are editable.
 | Supplier | The name of the components supplier (if any). |
 | GWP total | The total global warming potential of the component. |
 
-:::warning The data is scoped
-The editable fields are **not** global and will only be saved for this product. This lets you use the same component in multiple entities while tracking its usage based on the specific manufacturing process.
-:::
 
 ## Impact graph
 

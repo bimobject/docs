@@ -44,3 +44,9 @@ If this list is empty, you need to create a component or product, add supplier p
 
 Learn more about this in the full documentation. You can find it by clicking the `Read full docs` button at the top right of this window.
 :::
+
+## Difference between components and products
+
+The entities `Product` and `Component` are almost identical, and both can be added to a product in the `components` section.
+
+The key difference is that a `Component` is intended for internal use only within your company, meaning it cannot have individual reporting, such as an EPD, on its own.
