@@ -17,7 +17,7 @@ onMounted(() => {
   const params = new URLSearchParams(window.location.search);
   entityName.value = params.get('entity') || 'product';
   articleName.value = params.get('article') || 'product';
-  articleNameSentence.value = `(${articleName.value} in this case)` || '';
+  articleNameSentence.value = `(${decodeURIComponent(articleName.value)} in this case)` || '';
 });
 </script>
 
