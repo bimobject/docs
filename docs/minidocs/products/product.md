@@ -13,11 +13,11 @@ const { site, frontmatter } = useData()
 
 ## This is a product entity
 
-In Eando X, everything centers on your products. All other entities (components, materials, packaging, factories) are linked to products.
+In Eando X, everything centers on your products. A product represents a single SKU, and can be seen as a container that holds data from other entities (such as components, materials, packaging, factories etc.).
 
+<!-- Add
 ![Image of the product dependency tree](/images/placeholder.png)
-
-Each product represents a single SKU, and its data is used to generate LCAs, EPDs, and other reports.
+-->
 
 ## Adding product data
 
@@ -25,7 +25,15 @@ The product page is divided into sections. The sections **Components**, **Materi
 
 ![Image of the product page](/images/minidocs/products/sections.jpg)
 
-The data for the added entities is automatically included in LCA and reports. Any updates to the entity will reflect in your product, keeping your data accurate and current.
+### Entities are references
+
+When you add an entity to a product, its data is included in your LCAs and reports. However, entity itself is only a link to its original data source. This means that updates to the entity will apply to all products using it, keeping your data accurate and consistent across your catalog.
+
+Only the fields that can be edited from the product page are unique to the product.
+
+:::warning Example
+If the component _screw_ is used in the products _chair_ and _desk_, the _screw_ data (e.g., **weight** or **material**) comes from the component. In turn, the _chair_ and _desk_ hold their own specific data, like the **amount** of screws used. If you change the **material** used in the _screw_, this will reflect in _desk_ and _chair_ as well, but not affect the **amount** of screws used in the products.
+:::
 
 :::tip Get started
 Browse around on the product page and get familiar with it.
