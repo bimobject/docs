@@ -16,8 +16,7 @@ const articleNameSentence = ref('')
 onMounted(() => {
   const params = new URLSearchParams(window.location.search);
   entityName.value = params.get('entity') || 'product';
-  articleName.value = params.get('article') || 'product';
-  articleNameSentence.value = ` (**${decodeURIComponent(articleName.value)}** in this case)` || '';
+  articleName.value = params.get('article') || null;
 });
 </script>
 
@@ -29,17 +28,18 @@ This panel shows the properties of the selected component.
 
 ## Fields
 
-Some of the fields are read-only, and some are editable. The read-only fields represent data that comes from the linked component/product. The editable fields are stored in  {{entityName}} you are currently editing{{articleNameSentence}}.
+Some of the fields are read-only, and some are editable. The read-only fields represent data that comes from the linked component/product. The editable fields are stored in  {{entityName}} you are currently editing<span v-if="articleName"> ("_{{articleName}}_" in this instance)</span>.
+
 
 | Name | Description |
 | --- | --- |
 | Component name | The name of the component. |
 | Article number | The article number of the component. |
 | Component weight | The weight of a single quantity of the component. |
-| Amount | How much of this component is used in the product, in the unit specified in the `Unit` field below. |
+| Amount | How much of this component is used in the {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>, using the unit specified in the `Unit` field below. |
 | Waste | The percentage of the component that is considered waste at the end of the manufacturing process. An `Amount` of _1kg_ with a `Waste` of _10%_ means that _0.1kg_ of the component is wasted. |
-| Transfer Packaging | Wether or not to include this components packaging in the final product. |
-| Unit | The unit used to measure a single quantity of the packaging. |
+| Transfer Packaging | Wether or not to include the included components packaging in the final {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>. |
+| Unit | The unit used to measure a single quantity of the component. |
 | Supplier | The name of the components supplier (if any). |
 | GWP total | The total global warming potential of the component. |
 
