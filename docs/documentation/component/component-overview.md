@@ -1,7 +1,14 @@
 # Component overview
 
-A component is a reusable part of a product. While products and components are nearly identical, components are specifically designed for use within other products.
-If you manufacture a product that only exists as a part of a larger product (and is only used internally in your own company), it should probably be a component.
+A component is a reusable part of a product. Products and components are nearly identical, but components are specifically designed to be used within other products.
+
+The most common characteristics of a component are:
+
+- It only exists as a part of multiple other products.
+- It's only used internally in your own company.
+- It's never sold separately.
+
+If your component doesn't meet these criteria, it should probably be a product.
 
 An example of this is a **seat** that is part of multiple different **chairs**, but never sold separately.
 

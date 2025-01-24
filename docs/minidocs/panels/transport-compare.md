@@ -40,7 +40,7 @@ This will open a sidepanel where you can add all data for the transport.
 If multiple modes of transportation are used, you can add multiple transports.
 
 :::warning The data is scoped
-The editable fields are **not** global, and will only be saved for this {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>. This allows you to use the same transport in multiple entities, but have its impact be tracked based on the relevant manufacturing process.
+The editable fields are **not** global, and will only be saved for the {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>. This allows you to use the same transport in multiple entities, but have its impact be tracked based on the relevant manufacturing process.
 :::
 
 ## Impact graph
