@@ -27,7 +27,7 @@ The product page is divided into sections. The sections **Components**, **Materi
 
 ### Entities are references
 
-When you add an entity to a product, its data is included in your LCAs and reports. However, entity itself is only a link to its original data source. This means that an update to the entity will reflect in all products using it, keeping your data accurate and consistent across your catalog.
+When you add an entity to a product, its data is included in your LCAs and reports. However, the entity itself is only a link to its original data source. This means that an update to the entity will reflect in all products using it, keeping your data accurate and consistent across your catalog.
 
 The data that is unique to the product is the one that can be edited from the product page.
 

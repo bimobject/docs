@@ -39,7 +39,7 @@ The component page is divided into sections. The sections **Components**, **Mate
 
 ### Entities are references
 
-When you add an entity to a component, its data is included in your LCAs and reports. However, entity itself is only a link to its original data source. This means that an update to the entity will reflect in all products using it, keeping your data accurate and consistent across your catalog.
+When you add an entity to a component, its data is included in your LCAs and reports. However, the entity itself is only a link to its original data source. This means that an update to the entity will reflect in all products using it, keeping your data accurate and consistent across your catalog.
 
 The data that is unique to the component is the one that can be edited from the component page.
 

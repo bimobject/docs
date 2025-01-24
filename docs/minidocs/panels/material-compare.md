@@ -31,7 +31,7 @@ This panel shows the properties of the selected linked material.
 
 ## Fields
 
-Some of the fields are read-only, and some are editable. The read-only fields represent data that comes from the linked material. The editable fields are stored as part of the {{entityName}} you are currently editing<span v-if="articleName"> ("_{{articleName}}_" in this instance)</span>.
+Some of the fields are read-only, and some are editable. The read-only fields represent data that comes from the linked material. The editable fields are stored as part of the {{entityName}} you are currently editing<span v-if="articleName"> ("**{{articleName}}**" in this instance)</span>.
 
 | Name | Description |
 | --- | --- |
@@ -39,7 +39,7 @@ Some of the fields are read-only, and some are editable. The read-only fields re
 | Unit | The unit used to measure a single quantity of the material. |
 | Category | What category the material belongs to. |
 | Origin | Where the material is sourced from. |
-| Amount | How much of this material is used in the {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>, in the unit specified in the `Unit` field above. This should include all material, both that is used in the final {{entityName}}, and that is wasted during the manufacturing process. |
+| Amount | How much of this material is used in the {{entityName}}<span v-if="articleName">&nbsp;"**{{articleName}}**"</span>, in the unit specified in the `Unit` field above. This should include all material, both that is used in the final {{entityName}}, and that is wasted during the manufacturing process. |
 | Waste | The percentage of the material that is considered waste at the end of the manufacturing process. An `Amount` of _1kg_ of material with a `Waste` of _10%_ means that _0.1kg_ of the material is wasted. |
 | Recycled content | How much of the raw material that comes from recycled sources. |
 | Chemical identifier | The chemical identifier of the material. Follows the CAS or EC standards. Mainly used for generating EPD's. |
@@ -47,7 +47,7 @@ Some of the fields are read-only, and some are editable. The read-only fields re
 | GWP total | The total global warming potential of the material. |
 
 :::warning The data is scoped
-The editable fields are **not** global, and will only be saved as part of the {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>. This allows you to use the same material in multiple entities, but have their usage be tracked based on the relevant manufacturing process.
+The editable fields are **not** global, and will only be saved as part of the {{entityName}}<span v-if="articleName">&nbsp;"**{{articleName}}**"</span>. This allows you to use the same material in multiple entities, but have their usage be tracked based on the relevant manufacturing process.
 :::
 
 ## Impact graph
