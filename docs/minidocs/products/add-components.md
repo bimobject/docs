@@ -33,6 +33,8 @@ Tick the boxes next to the components you want to add, then click `Add component
 You can use the search inputs at the top of the sidepanel to search for components by name or article number.
 :::
 
+Clicking the name of a component in the list will open a sidepanel where you can inspect its data.
+
 ## What's in the sidepanel?
 
 The list in the **Add component sidepanel** shows all the components and products that are available in your library.
