@@ -4,16 +4,30 @@ search: false
 ---
 
 <script setup>
+import { ref, onMounted } from 'vue'
 import { useData } from 'vitepress'
 import MinidocStyles from '../MinidocStyles.vue'
 const { site, frontmatter } = useData()
+
+const entityName = ref('')
+const articleName = ref('')
+
+onMounted(() => {
+  const params = new URLSearchParams(window.location.search);
+  entityName.value = params.get('entity') || 'entity';
+  articleName.value = params.get('article') || null;
+
+  if (articleName.value) {
+    articleName.value = decodeURIComponent(articleName.value);
+  }
+});
 </script>
 
 <MinidocStyles />
 
 ## Transport properties and comparisons
 
-This panel shows how the the selected entity has been transported.
+This panel shows how the the selected linked {{entityName}} has been transported.
 
 ## Generic vs specific data
 
@@ -26,7 +40,7 @@ This will open a sidepanel where you can add all data for the transport.
 If multiple modes of transportation are used, you can add multiple transports.
 
 :::warning The data is scoped
-The editable fields are **not** global, and will only saved for this product. This allows you to use the same transport in multiple entities, but have its impact be tracked based on the relevant manufacturing process.
+The editable fields are **not** global, and will only be saved for this {{entityName}}<span v-if="articleName">&nbsp;"_{{articleName}}_"</span>. This allows you to use the same transport in multiple entities, but have its impact be tracked based on the relevant manufacturing process.
 :::
 
 ## Impact graph
@@ -35,10 +49,10 @@ At the bottom of the panel, you will see an environmental impact graph for the m
 
 ## Comparing transports
 
-In some cases you may want to compare the currently used transport scenario with an alternate one.
+In some cases you may want to compare the currently used transport scenario with an alternative one.
 
-### Adding a transport to compare
-Click the `Compare` button in the top right corner of the panel to create an alternate transport scenario. You can fill it out the same way as the main one.
+### Adding a transport to the comparison
+Click the `Compare` button in the top right corner of the panel to create an alternative transport scenario. You can fill it out the same way as the main one.
 
 ### Removing a transport from comparison
 You can remove a transport scenario from the comparison by clicking the `Remove` button above the top right corner of the transport's properties.

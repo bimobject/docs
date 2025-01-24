@@ -13,7 +13,7 @@ const { site, frontmatter } = useData()
 
 ## End of life properties and comparisons
 
-This panel shows how the selected material is handled at the end of its life cycle.
+This panel shows how the selected linked material is handled at the end of its life cycle.
 
 ## Generic vs specific data
 
@@ -28,7 +28,6 @@ To do this, uncheck the `Use generic value` checkbox and enter your process-spec
 | Landfill | How much of the material is sent to landfills. |
 | Recycling | How much of the material is sent to recycling centers. |
 | Incineration | How much of the material is sent to incinerators. |
-| Recycling | How much of the material is being recycled. |
 | Total | The sum of all EOL fields. This must add up to 100%. |
 
 All fields feature a button where you can edit the type of landfill, incineration and recycling. This data is used to calculate a more accurate environmental impact. In most cases, you will not need to change this.
@@ -39,10 +38,10 @@ At the bottom of the panel, you will see an environmental impact graph for the E
 
 ## Comparing EOL scenarios
 
-In some cases you may want to compare the currently used EOL scenario with an alternate one.
+In some cases you may want to compare the currently used EOL scenario with an alternative one.
 
-### Adding an EOL scenario to compare
-Click the `Compare` button in the top right corner of the panel to create an alternate EOL scenario. You can fill it out just like the main scenario.
+### Adding an EOL scenario to the comparison
+Click the `Compare` button in the top right corner of the panel to create an alternative EOL scenario. You can fill it out just like the main scenario.
 
 ### Removing an EOL scenario from comparison
 You can remove an EOL scenario from the comparison by clicking the `Remove` button above the top right corner of the EOL properties.
