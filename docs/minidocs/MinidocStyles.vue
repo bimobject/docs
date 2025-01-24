@@ -42,7 +42,7 @@
         content: "— ";
     }
 
-    p {
+    p, li {
         padding-bottom: 8px;
         font-size: 14px;
         line-height: 1.3;

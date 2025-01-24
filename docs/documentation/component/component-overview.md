@@ -4,7 +4,7 @@ A component is a reusable part of a product. Products and components are nearly 
 
 The most common characteristics of a component are:
 
-- It only exists as a part of multiple other products.
+- It only exists as a part of other products.
 - It's only used internally in your own company.
 - It's never sold separately.
 
