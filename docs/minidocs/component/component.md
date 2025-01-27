@@ -27,9 +27,9 @@ If your component doesn't meet these criteria, it should probably be a product.
 Click the `Read full docs` button at the top right of this window to learn more about the differences between products and components.
 :::
 
-<!-- Add
-![Image of the product dependency tree](/images/placeholder.png)
--->
+
+![Image of the product dependency tree](/minidocs/component/component-diagram.jpg)
+
 
 ## Adding component data
 

@@ -15,9 +15,7 @@ const { site, frontmatter } = useData()
 
 In Eando X, everything centers on your products. A product represents a single SKU, and can be seen as a container that holds data from other entities (such as components, materials, packaging, factories etc.).
 
-<!-- Add
-![Image of the product dependency tree](/images/placeholder.png)
--->
+![Image of the product dependency tree](/minidocs/products/product-diagram.jpg)
 
 ## Adding product data
 
