@@ -15,9 +15,15 @@ const { site, frontmatter } = useData()
 
 A component is a reusable part of a product. Products and components are nearly identical, but components are specifically designed to be used within other products.
 
+Similar to a product, the component can be seen as a container that holds data from other entities (such as other components, materials, packaging, factories etc.).
+
+![Image of the product dependency tree](/minidocs/component/component-diagram.jpg)
+
+## Difference between components and products
+
 The most common characteristics of a component are:
 
-- It only exists as a part of other products.
+- It only exists as a part of other products/components.
 - It's only used internally in your own company.
 - It's never sold separately.
 
@@ -26,9 +32,6 @@ If your component doesn't meet these criteria, it should probably be a product.
 :::tip Read full docs
 Click the `Read full docs` button at the top right of this window to learn more about the differences between products and components.
 :::
-
-
-![Image of the product dependency tree](/minidocs/component/component-diagram.jpg)
 
 
 ## Adding component data
