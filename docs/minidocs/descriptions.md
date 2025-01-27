@@ -6,7 +6,7 @@ search: false
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useData } from 'vitepress'
-import MinidocStyles from '../MinidocStyles.vue'
+import MinidocStyles from './MinidocStyles.vue'
 const { site, frontmatter } = useData()
 
 const entityName = ref('')
