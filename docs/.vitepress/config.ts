@@ -12,7 +12,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         detailedView: true,
-      }
+      },
     },
     nav: [
       { text: 'Visit Eando X', link: 'https://www.eandox.com' },
@@ -233,7 +233,7 @@ export default defineConfig({
           {
             text: 'Comments',
             link: '/documentation/data/comments',
-          }
+          },
           // {
           //   text: 'Data quality',
           //   link: '/documentation/data/data-quality',
@@ -250,7 +250,7 @@ export default defineConfig({
             link: '/documentation/guides/creating-your-first-product',
           },
         ],
-      }
+      },
     ],
   },
 });
