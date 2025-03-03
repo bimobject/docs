@@ -208,8 +208,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: 'Manage team',
-            link: '/documentation/settings/manage-team',
+            text: 'Manage company',
+            link: '/documentation/settings/manage-company',
           },
           {
             text: 'Custom fields',
