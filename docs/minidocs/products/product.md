@@ -13,7 +13,7 @@ const { site, frontmatter } = useData()
 
 ## This is a product entity
 
-In Eando X, everything centers on your products. A product represents a single SKU, and can be seen as a container that holds data from other entities (such as components, materials, packaging, factories etc.).
+In EandoX, everything centers on your products. A product represents a single SKU, and can be seen as a container that holds data from other entities (such as components, materials, packaging, factories etc.).
 
 ![Image of the product dependency tree](/minidocs/products/product-diagram.jpg)
 

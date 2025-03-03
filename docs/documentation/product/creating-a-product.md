@@ -1,14 +1,14 @@
 # Creating a product
 
-This page is an in-depth documentation of how to create and manage a product in Eando X. It will cover all the features of the product creation process, from the basics to the advanced features.
+This page is an in-depth documentation of how to create and manage a product in EandoX. It will cover all the features of the product creation process, from the basics to the advanced features.
 
-:::tip New to Eando X?
-If you’re new to Eando X and just want to get started quickly (without diving into the advanced features), you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide.
+:::tip New to EandoX?
+If you’re new to EandoX and just want to get started quickly (without diving into the advanced features), you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide.
 :::
 
 ## Products vs components
 
-In Eando X you have two different types of products: products and components.
+In EandoX you have two different types of products: products and components.
 
 The main difference between the two is that a component is intended for internal use only within your company, meaning it cannot have individual reporting, such as an EPD, on its own.
 
@@ -153,7 +153,7 @@ In the `Materials` section, click the `Add material` button.
 
 ![Image of the material section](/images/product/material-section.jpg)
 
-This will open a sidepanel where you can search for all materials available in Eando X.
+This will open a sidepanel where you can search for all materials available in EandoX.
 
 ![Image of the materials modal](/images/product/select-material.jpg)
 
@@ -223,7 +223,7 @@ Shows all comments for the material. These comments are only tied to the materia
 :::warning Default packaging
 You can create products without adding any packaging to them.
 
-If you don't add any packaging entities to a product, Eando X will use generic packaging data. This will lower the products data quality, and might make your environmental impact score worse.
+If you don't add any packaging entities to a product, EandoX will use generic packaging data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
 In the `Packaging` section, click the `Add packaging` button.
@@ -291,7 +291,7 @@ Read more about packaging, what it is and how it is created [here](/documentatio
 :::warning Default factories
 You can create products without adding any factories to them.
 
-If you don't add any factory entities to a product, Eando X will use default factory data. This will lower the products data quality, and might make your environmental impact score worse.
+If you don't add any factory entities to a product, EandoX will use default factory data. This will lower the products data quality, and might make your environmental impact score worse.
 :::
 
 In the `Factories` section, click the `Add factory` button.

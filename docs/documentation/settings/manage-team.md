@@ -1,6 +1,6 @@
 # Manage team
 
-The people who are allowed to view and edit all of your internal data are called _team members_. They make up your Eando X team. Members can be added and removed from your team on the `Manage Team` page, found in the left navigation menu.
+The people who are allowed to view and edit all of your internal data are called _team members_. They make up your EandoX team. Members can be added and removed from your team on the `Manage Team` page, found in the left navigation menu.
 
 ## Invite users
 

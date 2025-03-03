@@ -6,9 +6,9 @@ Factories are where your product is made. It is not uncommon for a product to be
 
 Creating custom factories tailored to your specific supply chain is essential for achieving a highly accurate LCA with a high data quality, but it's not necessary when starting out.
 
-Eando X provides offers a wide range of high-quality default data, developed by our team to meet all regulatory standards. You can use this data as long as needed, though it may not be as precise as custom data.
+EandoX provides offers a wide range of high-quality default data, developed by our team to meet all regulatory standards. You can use this data as long as needed, though it may not be as precise as custom data.
 
-This factory data, and that of your Eando X-connected suppliers, helps calculate your supply chain’s environmental impact.
+This factory data, and that of your EandoX-connected suppliers, helps calculate your supply chain’s environmental impact.
 
 :::tip Waiting for data from the factory?
 

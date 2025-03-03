@@ -1,6 +1,6 @@
 # Creating a factory
 
-This article will go through all the steps of creating a factory entity in Eando X.
+This article will go through all the steps of creating a factory entity in EandoX.
 
 ## Creating a new factory
 
@@ -65,7 +65,7 @@ The fields in the time range section are as follows:
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **From**                             | The start date of the time range.                                                                                                                                      |
 | **To**                               | The end date of the time range.                                                                                                                                        |
-| **Use default data for this period** | If this is checked, Eando X will use generic data for the factory. It is however recommended that you enter custom data on your factories to get accurate LCA reports. |
+| **Use default data for this period** | If this is checked, EandoX will use generic data for the factory. It is however recommended that you enter custom data on your factories to get accurate LCA reports. |
 
 ### Inputs
 

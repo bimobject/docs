@@ -1,6 +1,6 @@
 # Comparing entities
 
-Eando X features side-by-side comparisons of the environmental performance of your components, materials, and packaging. This allows you to quickly view sustainability metrics, making it easier to make informed choices to reduce environmental impact across your supply chain.
+EandoX features side-by-side comparisons of the environmental performance of your components, materials, and packaging. This allows you to quickly view sustainability metrics, making it easier to make informed choices to reduce environmental impact across your supply chain.
 
 ## Accessing comparisons
 
@@ -37,7 +37,6 @@ Read more about the impact graph [here](/documentation/data/impact-graphs).
 You can remove an entity from the comparison by clicking the `Remove` button in the top right corner of the entity.
 
 ![Image of the remove button](/images/data/compare-remove.jpg)
-
 
 ## Changing the added entity
 

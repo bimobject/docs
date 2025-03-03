@@ -1,6 +1,6 @@
 # Creating an EPD
 
-This article will go through all the steps of creating an EPD in Eando X.
+This article will go through all the steps of creating an EPD in EandoX.
 
 ## Creating a new EPD
 
@@ -40,7 +40,7 @@ On the EPD page, you will see multiple sections:
   - `Save`: Will [save](#saving-and-publishing-epds) the EPD, without publishing it.
   - `Publish`: Will [publish](#saving-and-publishing-epds) the EPD.
 - **Published versions**: A list of all published versions of the EPD, together with the date they were published and a download link.
-- **Product matching with AI**: Will automatically match the products in the EPD to others in Eando X. This allows you to compare your performance against other similar products.
+- **Product matching with AI**: Will automatically match the products in the EPD to others in EandoX. This allows you to compare your performance against other similar products.
 - **Product Selection**: Shows the products that are included in the EPD, along with settings on how to handle them in the report. This is also where you chose the PCR standard to follow.
 - **Impact handling**: Shows settings and data regarding and how the environmental impact is reported, and what data to include.
 
@@ -113,7 +113,7 @@ The list includes the following fields:
 
 ### Meta products
 
-This area allows you to add products that are not part of Eando X, but still included in the EPD. These products will be included in the generated PDF report, but will not be used in the calculation of the environmental impact, as they can not hold any data.
+This area allows you to add products that are not part of EandoX, but still included in the EPD. These products will be included in the generated PDF report, but will not be used in the calculation of the environmental impact, as they can not hold any data.
 
 It is your responsibility to make sure that the meta products have the same properties as the other products in the EPD, and that their impact are within the allowed deviation of 10%.
 

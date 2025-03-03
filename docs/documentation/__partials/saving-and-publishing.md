@@ -4,7 +4,7 @@ This entity can be both internal and external, and therefore supports both savin
 
 An _internal enitity_ means that it can only be accessed within your own company and team.
 
-An _external entity_ means that it can be accessed by other companies connected to Eando X. This is most often used when you are a supplier and want your customers to be able to access your components.
+An _external entity_ means that it can be accessed by other companies connected to EandoX. This is most often used when you are a supplier and want your customers to be able to access your components.
 
 :::
 

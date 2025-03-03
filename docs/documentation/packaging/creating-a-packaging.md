@@ -1,6 +1,6 @@
 # Creating a packaging
 
-This article will go through all the steps of creating a packaging entity in Eando X.
+This article will go through all the steps of creating a packaging entity in EandoX.
 
 ## Creating a new packaging
 

@@ -4,7 +4,7 @@ Packaging is the material you use to package the product during shipment or stor
 
 ## Default packaging data
 
-If you don't specify any packaging data, Eando X will use generic packaging data for your product. It is however recommended that you enter data on packaging to get accurate LCA reports.
+If you don't specify any packaging data, EandoX will use generic packaging data for your product. It is however recommended that you enter data on packaging to get accurate LCA reports.
 
 :::tip Waiting for data from the factory?
 

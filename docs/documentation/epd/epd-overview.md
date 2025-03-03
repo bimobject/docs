@@ -1,6 +1,6 @@
 # EPD overview
 
-Eando X features a powerful EPD generator that allows you to create reports on your products with ease.
+EandoX features a powerful EPD generator that allows you to create reports on your products with ease.
 
 ## What is an EPD?
 
@@ -12,6 +12,6 @@ A comprehensible EPD allows your customers to get a good overview of your produc
 
 ## EPD versioning
 
-Products and their manufacturing process change over time. Because of this, Eando X supports versioning of EPDs.
+Products and their manufacturing process change over time. Because of this, EandoX supports versioning of EPDs.
 
 This helps you to keep a record of older versions of your EPDs. It can also aid in comparing your products environmental performance over time.

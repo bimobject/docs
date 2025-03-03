@@ -3,7 +3,7 @@ layout: false
 
 features:
   - title: Product creation
-    details: A quick introduction to creating your first product in Eando X. This guide will cover the basics, and get you up and running quickly.
+    details: A quick introduction to creating your first product in EandoX. This guide will cover the basics, and get you up and running quickly.
     link: /documentation/guides/creating-your-first-product
     linkText: Learn more
     target: _blank
@@ -65,8 +65,8 @@ features:
 </style>
 
 <div class="page">
-    <h1>Become an<span>Eando X superuser</span></h1>
-    <p>Maximize the value of your environmental investment with Eando X.</p>
+    <h1>Become an<span>EandoX superuser</span></h1>
+    <p>Maximize the value of your environmental investment with EandoX.</p>
     <p>Dive into our documentation to learn everything you need.</p>
     <div class="buttons">
         <VPButton href="/documentation/getting-started/introduction" text="Start as a user" target="_blank" size="medium"></VPButton>

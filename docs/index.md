@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'Eando X'
+  name: 'EandoX'
   text: 'Documentation'
   tagline: The premier tool for measuring, visualizing and decarbifying your supply chain.
   actions:

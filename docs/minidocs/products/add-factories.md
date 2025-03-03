@@ -53,4 +53,4 @@ Learn more about this in the full documentation. You can find it by clicking the
 
 You can create {{entityName + 's'}} without adding any factories to them.
 
-If you don't add any factory entities to a {{entityName}}, Eando X will use generic factory data. This will lower the {{entityName + 's'}} data quality, and could result in a worse environmental impact score.
+If you don't add any factory entities to a {{entityName}}, EandoX will use generic factory data. This will lower the {{entityName + 's'}} data quality, and could result in a worse environmental impact score.

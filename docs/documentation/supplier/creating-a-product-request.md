@@ -1,11 +1,11 @@
 # Creating a product request
 
-One of the most powerful features of Eando X is the ability to include components created by your suppliers in your own products. This makes it easier to get the correct product data, and keep it up to date. Whenever your supplier changes their internal data, this will automatically be updated in your products as well.
+One of the most powerful features of EandoX is the ability to include components created by your suppliers in your own products. This makes it easier to get the correct product data, and keep it up to date. Whenever your supplier changes their internal data, this will automatically be updated in your products as well.
 
 If a supplier hasn't created a product you order from them yet, you can send them a product request.
 
 :::warning Can't find your supplier?
-Sending a product request requires that your supplier is part of the Eando X platform. If you cant find your supplier in the [list of suppliers](/documentation/supplier/adding-a-supplier), you will have to invite them.
+Sending a product request requires that your supplier is part of the EandoX platform. If you cant find your supplier in the [list of suppliers](/documentation/supplier/adding-a-supplier), you will have to invite them.
 
 Read more about inviting a supplier [here](/documentation/supplier/inviting-a-supplier).
 :::

@@ -30,7 +30,7 @@ The key difference is that a `Component` is intended for internal use only withi
 
 ## Component versioning
 
-Component entities in Eando X are versioned to allow for changes in your manufacturing process or supply chain.
+Component entities in EandoX are versioned to allow for changes in your manufacturing process or supply chain.
 
 A component can have two states: `Draft` and `Published`.
 

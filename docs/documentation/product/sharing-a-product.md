@@ -1,6 +1,6 @@
 # Sharing a product
 
-The products you create in Eando X are private by default. This means that they can only be seen by the people in your team. However, products can be shared with other Eando X companies if you choose to do so.
+The products you create in EandoX are private by default. This means that they can only be seen by the people in your team. However, products can be shared with other EandoX companies if you choose to do so.
 
 ## When should I share a product?
 
@@ -10,8 +10,8 @@ Sharing is helpful if you're a supplier to a company that uses your products in 
 
 There are two types of shared products:
 
-- **Limited sharing**: These products are only visible to the Eando X users you manually specify.
-- **Full sharing**: These products are visible to all Eando X users that have added your company to their list of suppliers.
+- **Limited sharing**: These products are only visible to the EandoX users you manually specify.
+- **Full sharing**: These products are visible to all EandoX users that have added your company to their list of suppliers.
 
 ## Setting the sharing type
 
@@ -27,8 +27,8 @@ This will open a sidepanel where you can choose the sharing type.
 
 | Label | Description |
 | ----- | ----------- |
-| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the Eando X users you manually specify. |
-| **Available to all companies on EandoX** | Sets the product to **Full sharing**. The product will be visible to all Eando X users that have added your company to their list of suppliers. |
+| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the EandoX users you manually specify. |
+| **Available to all companies on EandoX** | Sets the product to **Full sharing**. The product will be visible to all EandoX users that have added your company to their list of suppliers. |
 
 ::: warning Don't forget to publish
 To be able to share a product, it first needs to be published.
@@ -59,7 +59,7 @@ This table contains the following columns:
 | **Company** | The company that sent the product request. |
 | **Name** | The name of the requested product. |
 | **Article Number** | The article number of the requested product. |
-| **Has Matching Art no.** | Whether the user provided an article number that matches one of your Eando X products. |
+| **Has Matching Art no.** | Whether the user provided an article number that matches one of your EandoX products. |
 | **Request Date** | The date the product request was sent. |
 
 ::: danger Check the article number

@@ -1,18 +1,18 @@
 # Supplier quickstart
 
-Welcome to Eando X!
+Welcome to EandoX!
 
 You're likely here because a customer invited you to help optimize their supply chain operations. We're excited to have you on board and look forward to collaborating to make a positive environmental impact.
 
 :::tip We are thankful for your participation
-Being an Eando X supplier is free, as your participation as a great benefit to our users.
+Being an EandoX supplier is free, as your participation as a great benefit to our users.
 
 We are happy for your contribution and look forward to working with you. Please contact us at [supplier@eando.se](mailto:supplier@eando.se) if you have any questions not covered in this quickstart.
 :::
 
-## What is Eando X?
+## What is EandoX?
 
-Eando X is a platform designed to streamline the Life Cycle Assessment (LCA) process for manufacturers and suppliers.
+EandoX is a platform designed to streamline the Life Cycle Assessment (LCA) process for manufacturers and suppliers.
 
 The platform allows you to enter your products, and attach all data on materials, packaging, transport and factories. This information generates LCAs that can be shared with your customersenabling them to create accurate LCAs for their own products without requiring you to share any internal manufacturing data.
 
@@ -33,7 +33,7 @@ Here are some helpful links if you already have an account, and want to get star
 - [Creating a product request](/documentation/supplier/creating-a-product-request)
 
 :::warning This is just the beginning
-These articles may not cover all Eando X features, but they offer a solid starting point for you as a new supplier.
+These articles may not cover all EandoX features, but they offer a solid starting point for you as a new supplier.
 
 Suppliers have access to the same features as all other users, so all other documentation is relevant to you as well. Feel free to explore them at your convenience.
 :::
@@ -42,8 +42,8 @@ Suppliers have access to the same features as all other users, so all other docu
 
 The most common way to create a supplier account is through an invitation from one of your customers. You’ll receive an email containing a link to set up your account. Clicking the link will take you to the account creation page, where you can fill out the signup form with the required information.
 
-:::tip No Eando X customers yet?
-If you don't have any customers using Eando X yet, but still want to be a supplier in Eando X, you can contact us at [supplier@eando.se](mailto:supplier@eando.se). We will assess your case and assist you in getting started.
+:::tip No EandoX customers yet?
+If you don't have any customers using EandoX yet, but still want to be a supplier in EandoX, you can contact us at [supplier@eando.se](mailto:supplier@eando.se). We will assess your case and assist you in getting started.
 :::
 
 ## Responding to a customer request
@@ -67,7 +67,7 @@ The table has the following columns:
 | **Company**              | The name of the customer that sent the request.                                                                                                  |
 | **Name**                 | The name of the product associated with the request,  provided by the customer. It may not match your product name. |
 | **Article Number**       | The article number for the product, provided by the customer who sent the request. It may not match your product number.             |
-| **Has Matching Art no.** | Indicates whether the article number supplied by the customer matches an existing article number in your Eando X library.                |
+| **Has Matching Art no.** | Indicates whether the article number supplied by the customer matches an existing article number in your EandoX library.                |
 | **Request Date**         | The date the customer requested the product.                                                                                            |
 
 ### Responding to a request
@@ -88,7 +88,7 @@ Selecting items will activate one or more of the following buttons:
 
 Choosing the `Create product` option will take you to the product creation view.
 
-If you are new to Eando X, we recommend that you first start with the [Workflow overview](/documentation/getting-started/workflow-overview) to get a better understanding of the product creation process, the different entities, and how they all work together.
+If you are new to EandoX, we recommend that you first start with the [Workflow overview](/documentation/getting-started/workflow-overview) to get a better understanding of the product creation process, the different entities, and how they all work together.
 
 If you're feeling adventurous, you can skip right to the [Product docs](/documentation/product/product-overview), or the [product creation quickstart](/documentation/guides/creating-your-first-product) guide.
 :::
@@ -105,7 +105,7 @@ This will open a sidepanel displaying a table of all the requests you've receive
 
 ![The sidepanel with the requests](/images/supplier-quickstart/xlsx-import-button.jpg)
 
-This file can be filled out in Excel and then imported into Eando X, using the [product importer](/documentation/product/product-excel-import).
+This file can be filled out in Excel and then imported into EandoX, using the [product importer](/documentation/product/product-excel-import).
 
 :::tip Learn more
 Read more about importing products and components from Excel [here](/documentation/product/product-excel-import).

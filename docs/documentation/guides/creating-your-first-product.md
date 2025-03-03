@@ -1,9 +1,9 @@
 # Creating your first product
 
-This guide will walk you through the steps of creating your first product in Eando X. By the end of the tutorial, you'll have a product with an LCA (Life Cycle Assessment) ready for generating an EPD (Environmental Product Declaration).
+This guide will walk you through the steps of creating your first product in EandoX. By the end of the tutorial, you'll have a product with an LCA (Life Cycle Assessment) ready for generating an EPD (Environmental Product Declaration).
 
 :::tip This is a quickstart
-This guide will only be covering the basics of creating a product. To get the most out of Eando X, it is recommended to start with the [workflow overview](/documentation/getting-started/workflow-overview).
+This guide will only be covering the basics of creating a product. To get the most out of EandoX, it is recommended to start with the [workflow overview](/documentation/getting-started/workflow-overview).
 :::
 
 We will be going over the following steps:
@@ -39,9 +39,9 @@ Let us begin.
 
 ## Adding supplier components to your library
 
-Five of the parts are made by a supplier called _Aaberg Manufacture Co_. Luckily for us, they are already part of Eando X, and have these components available for you to use in your own products.
+Five of the parts are made by a supplier called _Aaberg Manufacture Co_. Luckily for us, they are already part of EandoX, and have these components available for you to use in your own products.
 
-To see all the components they have made available for Eando X users, you first need to add the supplier to your library.
+To see all the components they have made available for EandoX users, you first need to add the supplier to your library.
 
 Navigate to the `Supplier` page and click the `Add supplier` button.
 
@@ -58,7 +58,7 @@ You will now see that the supplier has been added to the list of suppliers in yo
 ![Image of the supplier search sidepanel](/images/guides/creating-your-first-product/supplier-in-list.jpg)
 
 :::tip No connected supplier?
-If the supplier you are looking for is not part of Eando X, you can invite them to join the platform by clicking the `Invite new supplier` button in the top right corner. This will open a sidepanel where you can enter the details of the supplier you want to invite, along with a message to send them.
+If the supplier you are looking for is not part of EandoX, you can invite them to join the platform by clicking the `Invite new supplier` button in the top right corner. This will open a sidepanel where you can enter the details of the supplier you want to invite, along with a message to send them.
 :::
 
 Now, we need to add the suppliers components to your library.
@@ -104,7 +104,7 @@ Click the `Accept` button to create the product. This will take you to a product
 ![Image of an empty product page](/images/guides/creating-your-first-product/empty-product.jpg)
 
 :::tip Entities
-Entities are referring to the different data types that you can create or manage in Eando X. The entities are `Product`, `Component`, `Material`, `Packaging`, `Factory`, `Transport` and `Supplier`.
+Entities are referring to the different data types that you can create or manage in EandoX. The entities are `Product`, `Component`, `Material`, `Packaging`, `Factory`, `Transport` and `Supplier`.
 
 To get an overview of all the entities and how they relate to each other, you can read the [Workflow overview](/documentation/getting-started/workflow-overview).
 :::
@@ -139,7 +139,7 @@ Find the `Materials` section, and click the `Add materials` button.
 
 ![Image of the material section](/images/product/material-section.jpg)
 
-This will open a sidepanel where you can search for all materials available in Eando X.
+This will open a sidepanel where you can search for all materials available in EandoX.
 
 ![Image of the materials sidepanel](/images/guides/creating-your-first-product/add-materials.jpg)
 
@@ -173,9 +173,9 @@ Read more about the material properties [here](/documentation/product/creating-a
 
 ## Additional entities
 
-With the components and materials added to the product, we now have the baseline of the data required by Eando X.
+With the components and materials added to the product, we now have the baseline of the data required by EandoX.
 
-We can however add `Packaging` and `Factories` to the product. If you don't add any, Eando X will be using generic data for them.
+We can however add `Packaging` and `Factories` to the product. If you don't add any, EandoX will be using generic data for them.
 
 While not required, it is recommended to add these entities even if you don't have all the data for them yet. Any additional data is good data.
 
@@ -185,7 +185,7 @@ Let's create the `Packaging` and `Factories` for the **Ball Valve**.
 
 ## Creating a packaging
 
-The **Ball Valve** is sold in boxes, so our next step is to create these boxes in Eando X. This process is nearly identical to creating a product with materials, but is done on the `Packaging` page.
+The **Ball Valve** is sold in boxes, so our next step is to create these boxes in EandoX. This process is nearly identical to creating a product with materials, but is done on the `Packaging` page.
 
 Navigate to the `Packaging` page in the left navigation menu, and click the `Create packaging` button in the top right corner.
 
@@ -302,7 +302,7 @@ In our case the **Acme Lever Factory GmbH** does 70% of the job, and the **Acme 
 
 ## All done!
 
-Congratulations! You have now created your first product in Eando X.
+Congratulations! You have now created your first product in EandoX.
 
 You can now start inspecting the impact graphs (at the top of the product page) and start generating EPDs.
 
