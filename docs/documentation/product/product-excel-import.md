@@ -1,9 +1,11 @@
 # Import products from Excel
 
-If you have a lot of data that already exists in spreadsheets, you can import it into EandoX with the import feature.
+If you have a lot of data that already exists in spreadsheets, you can import it into EandoX using the XLSX importer.
 
 :::tip Workflow tip
-The easiest way to get a template sheet for your data is by generating an empty export spreadsheet in EandoX. You can then edit the file in your spreadsheet editor of choice, and import it back into EandoX when it's filled out.
+The simplest way to import data is by using a template sheet.
+
+To create one, export an empty spreadsheet from EandoX. You can then edit it in any spreadsheet editor and import it back into EandoX when you're done.
 
 Read more about exporting data [here](/documentation/product/product-excel-export).
 :::
@@ -22,14 +24,20 @@ It has the following options:
 
 | Field name                            | Field description                                                                              |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Force autoshare setting**           | Decides wether the imported products should be shared with other companies in EandoX.      |
-| **Auto publish updates after import** | Decides wether the imported products should be published to the EandoX after import. |
+| **Force autoshare setting**           | Check this if you want the imported products to automatically be shared with other companies in EandoX.      |
+| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import. Otherwise, they will be saved as drafts. |
 | **Pick file**                         | Selects the Excel file you want to import.                                                     |
 
-:::info Autoshare vs Publish
+:::tip Autoshare vs Publish
 Products that have the _autoshare_ setting enabled will not be visible when other companies search for products in EandoX, but can be shared with them upon request.
 
-Published products will be visible to all companies in EandoX when they search for products.
+Published products will be visible to all companies (that have added you to their list of suppliers) in EandoX when they search for products.
+:::
+
+:::info Further reading
+Read more about how a company can add you as a supplier [here](/documentation/supplier/adding-a-supplier).
+
+Read more about how to request a product [here](/documentation/supplier/creating-a-product-request).
 :::
 
 When the file is uploaded, click the `Validate` button in the top right corner of the sidepanel to check if the data is valid. This will bring up the validation view.
