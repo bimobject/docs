@@ -25,7 +25,7 @@ It has the following options:
 | Field name                            | Field description                                                                              |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Force autoshare setting**           | Check this if you want the imported products to automatically be shared with other companies in EandoX.      |
-| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import. Otherwise, they will be saved as drafts. |
+| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import. |
 | **Pick file**                         | Selects the Excel file you want to import.                                                     |
 
 :::tip Autoshare vs Publish
