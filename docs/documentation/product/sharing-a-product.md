@@ -1,17 +1,27 @@
 # Sharing a product
 
-The products you create in EandoX are private by default. This means that they can only be seen by the people in your team. However, products can be shared with other EandoX companies if you choose to do so.
+The products you create in EandoX are private by default, visible only to team members within your company.
+
+If you want other EandoX companies to use your products in their LCAs, you can choose to share them.
 
 ## When should I share a product?
 
-Sharing is helpful if you're a supplier to a company that uses your products in their own manufacturing. They can access your product's LCA results without needing to view any of your manufacturing data. Whenever you update a shared product, their product LCAs will automatically update as well.
+Sharing is useful if you supply products for another company's manufacturing. It allows them to access your product's LCA results without accessing any of your internal manufacturing data. 
+
+Any updates you make to a shared product will automatically reflect in their LCAs, eliminating the need for frequent manual updates and check-ins.
 
 ## Types of sharing
 
 There are two types of shared products:
 
-- **Limited sharing**: These products are only visible to the EandoX users you manually specify.
-- **Full sharing**: These products are visible to all EandoX users that have added your company to their list of suppliers.
+- **Limited sharing**: These products are only visible to manually specified companies in EandoX.
+- **Full sharing**: These products are visible to all EandoX companies.
+
+:::warning Product visibility
+Before a company can find your shared products, they need to add you to their list of suppliers.
+
+Read more about it [here](/documentation/supplier/adding-a-supplier).
+:::
 
 ## Setting the sharing type
 
@@ -38,9 +48,11 @@ You can find the `Publish` button in the top right corner of the product page.
 
 ## Limited sharing
 
-In order to share a product with individual companies only, they first need to send you a product request.
+To share a product with `Limited sharing` with a company, they must first add you to their list of suppliers, and then send you a product request for the product they want to access.
 
-::: tip Requesting products
+::: tip Details on the process
+Read more about how a company can add you as a supplier [here](/documentation/supplier/adding-a-supplier).
+
 To learn more about how to request a product, read the [product request guide](/documentation/supplier/creating-a-product-request).
 :::
 
@@ -48,7 +60,7 @@ When a product request has been sent, you will receive an email. You will also s
 
 ![Image of the notification](/images/product/request-button.jpg)
 
-Clicking the notification will open a sidepanel where you can see all your received product requests.
+Clicking the notification will open a sidepanel where you can see all the product requests you have received.
 
 ![Image of the product requests sidepanel](/images/product/manage-requests-modal.jpg)
 
@@ -59,16 +71,18 @@ This table contains the following columns:
 | **Company** | The company that sent the product request. |
 | **Name** | The name of the requested product. |
 | **Article Number** | The article number of the requested product. |
-| **Has Matching Art no.** | Whether the user provided an article number that matches one of your EandoX products. |
+| **Has Matching Art no.** | Whether the user provided an article number that matches one of your products in EandoX. |
 | **Request Date** | The date the product request was sent. |
 
 ::: danger Check the article number
-The article number provided by the requesting company may not always match the one in your product catalog. This could happen due to reasons like miscommunication, missing information, or typing errors.
+The article number provided by the requesting company might not always match the one in your product catalog. Some reason for this include typing errors, miscommunication or missing information.
 
-Make sure to check the article number for any potential user errors.
+Be sure to verify the article number for any potential mistakes.
 :::
 
-### Matching article number
+From here, there are three ways to handle the requests:
+
+### Accept, with a matching article number
 
 Check the `Has Matching Art no.` column to see if the article number provided by the requesting company matches one of your products. If it does, you can select the request (by ticking the checkbox next to the name), and click the `Fulfill with matching art no.` button in the top right corner.
 
@@ -80,7 +94,7 @@ This will share the product with the company, and close the sidepanel.
 If you have multiple product requests with matching article numbers, you can tick multiple checkboxes at once.
 :::
 
-### No matching article number
+### Accept, without a matching article number
 
 If the article number provided by the requesting company does not match the product they requested, you can select the request (by ticking the checkbox next to the name), and click the `Fulfill with non-matching art no.` button in the top right corner.
 
@@ -93,5 +107,27 @@ Select the product you want to share, and click the `Fulfill` button in the top 
 ![Image of the fulfill sidepanel](/images/product/fulfill-searchpanel.jpg)
 
 This will share the product with the company, and close the sidepanel.
+
+### Reject request
+
+If you don't want to share the product with the company, select the request (by ticking the checkbox next to the name), and click the `Reject` button in the top right corner.
+
+![Image of the reject button](/images/product/reject-request.jpg)
+
+This will notify the requesting company that their request was rejected.
+
+## Downloading all requests as XLSX
+
+If the in-app fulfillment workflow doesn’t suit your needs, you can download all requests as an XLSX file.
+
+Click the `Download XLSX Import File` button to download the file.
+
+![The sidepanel with the requests](/images/supplier-quickstart/xlsx-import-button.jpg)
+
+This file can be filled out in Excel and then imported into EandoX, using the [product importer](/documentation/product/product-excel-import).
+
+:::tip Learn more
+Read more about importing products and components from Excel [here](/documentation/product/product-excel-import).
+:::
 
 
