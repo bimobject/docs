@@ -39,6 +39,7 @@ Some of the fields are read-only, and some are editable. The read-only fields re
 | Amount | How much of this packaging is used in the {{entityName}}<span v-if="articleName">&nbsp;("**{{articleName}}**")</span>, in the unit specified in the `Unit` field above. |
 | Packaging weight | The weight of one single quantity of the packaging, in the unit specified in the `Unit` field above. |
 | Total weight | The total weight of the packaging used in the {{entityName}}<span v-if="articleName">&nbsp;("**{{articleName}}**")</span>. |
+| Reuse | This packaging can be reused multiple times, either by you or others. This will distribute the  environmental impact across the entire lifespan of the packaging. |
 | GWP total | The total global warming potential of the packaging. |
 
 :::warning The data is scoped
