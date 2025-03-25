@@ -193,6 +193,10 @@ export default defineConfig({
             link: '/documentation/epd/epd-overview',
           },
           {
+            text: 'What is an EPD?',
+            link: '/documentation/epd/what-is-an-epd',
+          },
+          {
             text: 'Creating an EPD',
             link: '/documentation/epd/creating-an-epd',
           },
