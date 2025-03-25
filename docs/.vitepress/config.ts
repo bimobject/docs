@@ -249,6 +249,10 @@ export default defineConfig({
             text: 'Creating your first product',
             link: '/documentation/guides/creating-your-first-product',
           },
+          {
+            text: 'Improving your first product',
+            link: '/documentation/guides/improving-your-first-product',
+          },
         ],
       },
     ],
