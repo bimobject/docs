@@ -1,6 +1,6 @@
 # Import products from Excel
 
-If you have a lot of data that already exists in spreadsheets, you can import it into EandoX using the XLSX importer.
+If you have a lot of data that already exists in spreadsheets, you can import it into EandoX using the XLSX importer. It can also be used to update a lot of product data quickly, by first [exporting your EandoX data](/documentation/product/product-excel-export), editing it in a spreadsheet editor, and then importing it back into EandoX.
 
 :::tip Workflow tip
 The simplest way to import data is by using a template sheet.
@@ -22,11 +22,11 @@ This will open a sidepanel where you can select the Excel file you want to impor
 
 It has the following options:
 
-| Field name                            | Field description                                                                              |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Force autoshare setting**           | Check this if you want the imported products to automatically be shared with other companies in EandoX.      |
-| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import. |
-| **Pick file**                         | Selects the Excel file you want to import.                                                     |
+| Field name                            | Field description                                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Force autoshare setting**           | Check this if you want the imported products to automatically be shared with other companies in EandoX. |
+| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import.                |
+| **Pick file**                         | Selects the Excel file you want to import.                                                              |
 
 :::tip Autoshare vs Publish
 Products that have the _autoshare_ setting enabled will not be visible when other companies search for products in EandoX, but can be shared with them upon request.
