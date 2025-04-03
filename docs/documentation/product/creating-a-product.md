@@ -138,7 +138,7 @@ In this tab you can also find a graph with the environmental impact of the trans
 
 #### 3. Comments
 
-Shows all comments for the component. These comments are only tied to the component in the product. They will not show up in the comments on the `Components` page.
+Shows all [comments](/documentation/data/comments) for the component. These comments are only tied to the component in the product. They will not show up in the comments on the `Components` page.
 
 :::tip
 A common workflow is to request a component from a supplier and create a placeholder component yourself in the meantime.

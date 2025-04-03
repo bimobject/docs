@@ -1,9 +1,10 @@
 If your manufacturing process involves ordering components from a supplier connected to EandoX, you can import their component data to your library.
+
 This has multiple benefits:
 
-- You can get accurate LCA's without needing to request data from suppliers about their manufacturing processes.
-- You can ensure that the manufacturing data for components is accurate and up to date.
-- Over time, any changes to suppliers' manufacturing data will be automatically reflected in your products, eliminating the need for manual updates or frequent follow-ups.
+- You will get accurate LCA's without needing to request sensitive data from suppliers about their manufacturing processes.
+- The manufacturing data for your supplier components will always be accurate and up to date.
+- Whenever your suppliers change their manufacturing process, the data will be automatically reflected in your products. This eliminates the need for manual updates or frequent follow-ups.
 
 If a supplier is not connected to EandoX, you can invite them and request the components you need.
 

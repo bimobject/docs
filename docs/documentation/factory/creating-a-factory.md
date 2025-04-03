@@ -34,7 +34,7 @@ On the factory page, you will see multiple sections:
 - **Header**: Includes the following buttons:
   - `Edit`: A dropdown menu with options to:
     - Edit the factory information
-    - See all comments
+    - See all [comments](/documentation/data/comments)
     - Delete the factory
   - `Save`: Will [save](#saving-and-publishing-factories) the factory, without publishing it.
   - `Publish`: Will [publish](#saving-and-publishing-factories) the factory.
@@ -61,10 +61,10 @@ The time range is the period of time for which the data has been collected.
 
 The fields in the time range section are as follows:
 
-| Field name                           | Field description                                                                                                                                                      |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **From**                             | The start date of the time range.                                                                                                                                      |
-| **To**                               | The end date of the time range.                                                                                                                                        |
+| Field name                           | Field description                                                                                                                                                     |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **From**                             | The start date of the time range.                                                                                                                                     |
+| **To**                               | The end date of the time range.                                                                                                                                       |
 | **Use default data for this period** | If this is checked, EandoX will use generic data for the factory. It is however recommended that you enter custom data on your factories to get accurate LCA reports. |
 
 ### Inputs
@@ -77,13 +77,13 @@ Click the `+ Add inputs` button in the top right of the box. Thid will open a si
 
 The fields in the `Input` section are as follows:
 
-| Field name          | Field description |
-| ------------------- | ----------------- |
-| **Name**            | The name of the input. |
-| **Category**        | The category of the input. |
-| **% used**          | How much of the input is used in the final products. |
-| **Amount**          | The amount of input used for production, in the specified _Unit_ |
-| **Unit**            | The unit of the input. |
+| Field name   | Field description                                                |
+| ------------ | ---------------------------------------------------------------- |
+| **Name**     | The name of the input.                                           |
+| **Category** | The category of the input.                                       |
+| **% used**   | How much of the input is used in the final products.             |
+| **Amount**   | The amount of input used for production, in the specified _Unit_ |
+| **Unit**     | The unit of the input.                                           |
 
 ### Outputs
 
@@ -98,13 +98,12 @@ The fields in the `Waste` section are as follows:
 | Field name          | Field description                                                |
 | ------------------- | ---------------------------------------------------------------- |
 | **Name**            | The name of the waste.                                           |
-| **Category** | The category of the waste created.                               |
+| **Category**        | The category of the waste created.                               |
 | **Amount**          | The amount of the waste created, measured in the specified unit. |
-| **Unit**            | The unit of the waste created.                                       |
-| **Hazardous**       | Indicates whether the waste is hazardous.                          |
-| **Transport**       | How the waste is transported.                                        |
-| **Product related**               | Indicates wether the waste is product related.                                  |
-
+| **Unit**            | The unit of the waste created.                                   |
+| **Hazardous**       | Indicates whether the waste is hazardous.                        |
+| **Transport**       | How the waste is transported.                                    |
+| **Product related** | Indicates wether the waste is product related.                   |
 
 ## Saving and publishing factories
 

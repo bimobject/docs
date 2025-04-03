@@ -10,18 +10,19 @@ The most common characteristics of a component are:
 
 If your component doesn't meet these criteria, it should probably be a product.
 
-An example of this is a **seat** that is part of multiple different **chairs**, but never sold separately.
+An example of this is a **seat** that is part of multiple different **armchair**s, but never sold separately.
 
 ## Benefits of using components
 
-The biggest benefit of using components is that they provide a clear distinction between the `products` you sell (that have an SKU), and the `components` that are only produced to be used in other products.
+The biggest benefit of using components is that they provide a clear distinction between:
 
-They still provide the same reusability: In the **chair** example above, one change to a **seat** would update the LCA for all the **chairs** that use it.
+- `Products` that you sell to customers (with SKUs)
+- `Components` that you only use internally as parts of your other products
 
-:::warning Products and components
-The entities `Product` and `Component` are almost identical.
+They still provide the same reusability: In the **armchair** example above, one change to a **seat** would update the LCA for all the **armchair**s and **sofa**s that include the **seat**.
 
-The key difference is that a `Component` is intended for internal use only within your company, meaning it cannot have individual reporting, such as an EPD, on its own.
+:::warning Components and reporting
+Since the `Component` entity is intended for internal use only, it cannot have individual reporting, such as an EPD, on its own.
 :::
 
 ## Requesting a component
