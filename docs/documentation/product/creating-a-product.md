@@ -74,7 +74,6 @@ On the product page, you will see multiple sections:
 
 In the `Components` section, click the `Add component` button.
 
-
 ![Image of the component section](/images/product/component-section.jpg)
 
 This will open a sidepanel where you can search for all components and products that are available in your library. Here you will see the ones you have created yourself, and the ones that have been created by your suppliers.
@@ -91,19 +90,20 @@ Select the components you want to add. Then click the `Add component` button in 
 
 The table has the following columns:
 
-| Column name   | Column description                                                                                                  |
-| ------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Name**      | The name of the component. Clicking the name will open the editing page for the component.                          |
-| **Article Number**      | The article number of the component.                          |
-| **Amount**    | The amount of the component used in the product. The unit this amount refers to can be seen in the `Unit` column.   |
-| **Unit**      | The unit of the component.                                                                                          |
-| **Weight**    | The weight of one unit of the component.                                                                            |
-| **Supplier**  | The name of the suppler that created the component. Will be blank if the component is created by you.               |
-| **Waste**     | The amount of waste (in percent) created during the production of this component.  |
-| **Transport** | The transport of the component. Clicking the transport will allow you to edit the transport data for the component. |
-| **Edit**         | A button that opens a sidepanel where you can see and edit all settings for the component.                                                             |
+| Column name        | Column description                                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| **Name**           | The name of the component. Clicking the name will open the editing page for the component.                          |
+| **Article Number** | The article number of the component.                                                                                |
+| **Amount**         | The amount of the component used in the product. The unit this amount refers to can be seen in the `Unit` column.   |
+| **Unit**           | The unit of the component.                                                                                          |
+| **Weight**         | The weight of one unit of the component.                                                                            |
+| **Supplier**       | The name of the suppler that created the component. Will be blank if the component is created by you.               |
+| **Waste**          | The amount of waste (in percent) created during the production of this component.                                   |
+| **Transport**      | The transport of the component. Clicking the transport will allow you to edit the transport data for the component. |
+| **Edit**           | A button that opens a sidepanel where you can see and edit all settings for the component.                          |
 
 #### Removing components
+
 To remove a component from the product, hover over the name, and tick the checkbox that appears in front of the name. Select all components you want to remove and click the `Delete` button in the component section header.
 
 ### The component sidepanel
@@ -123,6 +123,7 @@ The side panel only lets you edit the component data for the product you're work
 On the left edge of the sidepanel you can find three tabs:
 
 #### 1. Entity data
+
 Shows all data for the component. Some of the fields will be editable.
 
 All fields that start with `*` are using generic data. Adding the correct data here will improve the data quality of the product.
@@ -130,11 +131,13 @@ All fields that start with `*` are using generic data. Adding the correct data h
 In this tab you can also find a graph with the environmental impact of the component.
 
 #### 2. Transport data
+
 Shows all transport data for the component. Here you can either use generic data, or edit the transport data to improve your data quality.
 
 In this tab you can also find a graph with the environmental impact of the transport.
 
 #### 3. Comments
+
 Shows all comments for the component. These comments are only tied to the component in the product. They will not show up in the comments on the `Components` page.
 
 :::tip
@@ -167,18 +170,22 @@ Select the materials you want to add. Then click the `Add material` button in th
 
 The table has the following columns:
 
-| Column name          | Column description                                                                                                                                       |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Name**             | The name of the material.                                                                                                                                |
-| **Weight**           | How much of this material that is used in the product. The unit this amount refers to can be seen in the `Unit` column.                                  |
-| **Unit**             | The unit of the material.                                                                                                                                |
-| **Chemical identifier** | The chemical identifier of the material. Follows the CAS or EC standards. Mainly used for generating EPD's. |
-| **Waste**     | The amount of waste (in percent) created during the production of this material.  |
-| **Recycled content** | The percentage of the material that is recycled content.                                                                                                 |
-| **End of life**      | The end of life of the material. Clicking this will open the material sidepanel where you can enter how the material will be disposed of at the end of its life. |
-| **Transport**        | The transport of the material. Clicking the transport will allow you to edit the transport data for the material.                                        |
-| **Include process**                | Wether or not to include the data on the full manufacturing process for the material. Uncheck this box if you get the material unprocessed. |
-| **Edit**         | A button that opens a sidepanel where you can see and edit all settings for the material.                                                             |
+<div id="product-material-table">
+
+| Column name             | Column description                                                                                                                                               |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**                | The name of the material.                                                                                                                                        |
+| **Weight**              | How much of this material that is used in the product. The unit this amount refers to can be seen in the `Unit` column.                                          |
+| **Unit**                | The unit of the material.                                                                                                                                        |
+| **Chemical identifier** | The chemical identifier of the material. Follows the CAS or EC standards. Mainly used for generating EPD's.                                                      |
+| **Waste**               | The amount of waste (in percent) created during the production of this material.                                                                                 |
+| **Recycled content**    | The percentage of the material that is recycled content.                                                                                                         |
+| **End of life**         | The end of life of the material. Clicking this will open the material sidepanel where you can enter how the material will be disposed of at the end of its life. |
+| **Transport**           | The transport of the material. Clicking the transport will allow you to edit the transport data for the material.                                                |
+| **Include process**     | Wether or not to include the data on the full manufacturing process for the material. Uncheck this box if you get the material unprocessed.                      |
+| **Edit**                | A button that opens a sidepanel where you can see and edit all settings for the material.                                                                        |
+
+</div>
 
 #### Removing materials
 
@@ -197,6 +204,7 @@ This will open the material sidepanel:
 On the left edge of the sidepanel you can find four tabs:
 
 #### 1. Entity data
+
 Shows all data for the material. Some of the fields will be editable.
 
 All fields that start with `*` are using generic data. Adding the correct data here will improve the data quality of the product.
@@ -204,11 +212,13 @@ All fields that start with `*` are using generic data. Adding the correct data h
 In this tab you can also find a graph with the environmental impact of the material.
 
 #### 2. Transport data
+
 Shows all transport data for the material. Here you can either use generic data, or edit the transport data to improve your data quality.
 
 In this tab you can also find a graph with the environmental impact of the transport.
 
 #### 3. End of life data
+
 Shows all data on how the material is disposed of after its lifetime.
 
 The total percentage needs to add up to 100%. Otherwise, the data will not be saved.
@@ -216,6 +226,7 @@ The total percentage needs to add up to 100%. Otherwise, the data will not be sa
 In this tab you can also find a graph with the environmental impact of the end of life.
 
 #### 4. Comments
+
 Shows all comments for the material. These comments are only tied to the material in the product.
 
 ## Managing packaging
@@ -250,7 +261,7 @@ The table has the following columns:
 | **Amount**  | The amount of units of packaging. The unit this amount refers to can be seen in the `Unit` column. |
 | **Unit**    | The unit of the packaging.                                                                         |
 | **Weight**  | The weight of the packaging.                                                                       |
-| **Edit**       | A button that opens a sidepanel where you can see and edit all settings for the packaging. |
+| **Edit**    | A button that opens a sidepanel where you can see and edit all settings for the packaging.         |
 
 #### Removing packaging
 
@@ -273,6 +284,7 @@ The side panel only lets you edit the packaging data for the product you're work
 On the left edge of the sidepanel you can find two tabs:
 
 #### 1. Entity data
+
 Shows all data for the packaging. Some of the fields will be editable.
 
 All fields that start with `*` are using generic data. Adding the correct data here will improve the data quality of the product.
@@ -280,6 +292,7 @@ All fields that start with `*` are using generic data. Adding the correct data h
 In this tab you can also find a graph with the environmental impact of the packaging.
 
 #### 2. Comments
+
 Shows all comments for the packaging. These comments are only tied to the packaging in the product. They will not show up in the comments on the `Packaging` page.
 
 :::info Further reading
@@ -312,12 +325,12 @@ Select the factories you want to add. Then click the `Add factory` button in the
 
 The table has the following columns:
 
-| Column name      | Column description                                                                     |
-| ---------------- | -------------------------------------------------------------------------------------- |
-| **Name**         | The name of the factory. Clicking the name will open the editing page for the factory. |
-| **Division**    | How much of the product is produced in this factory, in percentage.                    |
-| **Data quality** | The data quality of the factory.              |
-| **Edit**            | A button that opens a sidepanel where you can see and edit all settings for the factory. |
+| Column name      | Column description                                                                       |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| **Name**         | The name of the factory. Clicking the name will open the editing page for the factory.   |
+| **Division**     | How much of the product is produced in this factory, in percentage.                      |
+| **Data quality** | The data quality of the factory.                                                         |
+| **Edit**         | A button that opens a sidepanel where you can see and edit all settings for the factory. |
 
 #### Removing factories
 
