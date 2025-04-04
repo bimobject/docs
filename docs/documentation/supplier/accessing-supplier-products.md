@@ -1,6 +1,8 @@
-# Accessing supplier products
+# Accessing supplier components
 
-To be able to use the products from a supplier in your own products, you need to add the suppliers products to your library first. This helps you easily browse and select components when creating your products, as you can have multiple suppliers in your library, each offering hundreds of products to choose from.
+Before using a suppliers components in your products, you'll need to import the components to your library first. This extra step creates a personal collection of components you frequently use, making them easy to find instead of searching through thousands of options in EandoX.
+
+Your library works across all your suppliers, so you can organize and access components from different sources in one place.
 
 ## Add products to your library
 
@@ -16,18 +18,6 @@ Select the ones you want to use in your own products, and click the `Import Sele
 
 ## See products in your library
 
-In the **Supplier products** section, click the `Products added to my library` tab. This will show you all the products that you have added to your library.
+In the **Supplier products** section, click the `Products added to my library` tab. This will show you all the components that you have added to your library.
 
 ![Added products in your library](/images/supplier/added-products.jpg)
-
-## Remove products from your library
-
-In the **Supplier products** section, click the `Products added to my library` tab to see all the products that you have added to your library.
-
-Select the products you want to remove from your library, and click the `Remove Selected From My Library` button to remove them.
-
-<!--TODO: Check that this is correct
-
-![Removed products from your library](/images/placeholder.png)
-
--->

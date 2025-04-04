@@ -1,6 +1,8 @@
 # Adding a supplier
 
-To make a suppliers components available for your products, you first need to add a supplier to your library.
+Before you can use a supplier's components in your products, you need to add them to your list of suppliers. Adding a supplier gives you access to their component catalog and lets you request new components when needed.
+
+---
 
 Navigate to the `Supplier` page and click the `Add supplier` button.
 

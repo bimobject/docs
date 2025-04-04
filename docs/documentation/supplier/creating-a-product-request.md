@@ -1,8 +1,8 @@
 # Creating a product request
 
-One of the most powerful features of EandoX is the ability to include components created by your suppliers in your own products. This makes it easier to get the correct product data, and keep it up to date. Whenever your supplier changes their internal data, this will automatically be updated in your products as well.
+One of the most powerful features of EandoX is the ability to use supplier components directly in your products. This ensures that you always have accurate, up-to-date LCAs, without having to ask the supplier for any sensitive business data. An added benefit is that your products stay up-to-date automatically when suppliers make changes to their components. This makes it easier to maintain accurate data over time.
 
-If a supplier hasn't created a product you order from them yet, you can send them a product request.
+If a supplier hasn't created a component you order from them yet, you can send them a product request.
 
 :::warning Can't find your supplier?
 Sending a product request requires that your supplier is part of the EandoX platform. If you cant find your supplier in the [list of suppliers](/documentation/supplier/adding-a-supplier), you will have to invite them.
@@ -24,12 +24,12 @@ This will open a sidepanel with a form to fill out.
 
 The form will ask you to fill out the following information:
 
-| Field name         | Field description                                                                                                                                                      |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Field name         | Field description                                                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Contact email**  | The email address of the person you want to contact with the product request. This is usually prefilled with the email of the suppliers contact person. |
-| **Product name**   | The name of the product you want to request.                                                                                                                           |
-| **Article number** | The article number of the product you want to request.                                                                                                                 |
-| **Message**        | An optional message to send to the supplier along with the request.                                                                                                    |
+| **Product name**   | The name of the product you want to request.                                                                                                            |
+| **Article number** | The article number of the product you want to request.                                                                                                  |
+| **Message**        | An optional message to send to the supplier along with the request.                                                                                     |
 
 :::danger Use the right article number!
 The article number field refers to the article number of the _suppliers product_.
@@ -57,11 +57,11 @@ This will open a sidepanel with a form to fill out.
 
 The form will ask you to fill out the following information:
 
-| Field name        | Field description                                                                                             |
-| ----------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Select XLS**    | The XLS file containing the article numbers and product names you want to request. <!--FIXME: example file--> |
-| **Contact email** | The email address of the person you want to contact with the product request. This is usually prefilled with the email of the suppliers contact person.                                  |
-| **Message**       | An optional message to send to the supplier along with the request.                                           |
+| Field name        | Field description                                                                                                                                       |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Select XLS**    | The XLS file containing the article numbers and product names you want to request. <!--FIXME: example file-->                                           |
+| **Contact email** | The email address of the person you want to contact with the product request. This is usually prefilled with the email of the suppliers contact person. |
+| **Message**       | An optional message to send to the supplier along with the request.                                                                                     |
 
 Click `Send Request` to send the request to the supplier.
 
