@@ -259,6 +259,25 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: 'Understanding LCA',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Overview',
+            link: '/documentation/understanding-lca/lca-overview',
+          },
+          {
+            text: 'Packaging data',
+            link: '/documentation/understanding-lca/packaging-data',
+          },
+          {
+            text: 'Transportation data',
+            link: '/documentation/understanding-lca/transportation-data',
+          },
+        ],
+      },
     ],
   },
 });

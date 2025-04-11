@@ -14,7 +14,7 @@ In most manufacturing processes, you typically have at least one supplier from w
 
 :::info Entity
 
-An entity refers to the different types of data that you can create in EandoX. The entities are `Product`, `Component`, `Material`, `Packaging`, `Factory`, `Transport` and `Supplier`.
+An entity refers to the different types of data that you can create in EandoX. The entities are `Product`, `Component`, `Material`, `Packaging`, `Factory`, and `Transport`.
 :::
 
 :::info Product
