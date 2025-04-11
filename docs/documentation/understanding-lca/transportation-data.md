@@ -25,6 +25,6 @@ Customer delivery distances are managed at the EPD level in the **Impact Handlin
 
 For instance, if your Ystad factory supplies products across Sweden, you might use the average distance from Ystad to a central location, like Stockholm, as your **A4** transport distance, along with the correct mode of transport.
 
-:::tip
+:::tip Get the distance right
 When calculating delivery distances, consider using a central location in your main market as the delivery point. This gives you a reasonable average for your calculations.
 :::
