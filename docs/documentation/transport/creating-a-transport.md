@@ -3,7 +3,7 @@
 This article will go through all the steps of creating a transport entity in EandoX.
 
 :::warning Please note
-This is a hands-on guide for creating transports in EandoX. For understanding transport data and its impact on LCA calculations, see the [Transportation data](/documentation/understaning-lca/transportation-data) article.
+This is a hands-on guide for creating transports in EandoX. For understanding transport data and its impact on LCA calculations, see the [Transportation data](/documentation/understanding-lca/transportation-data) article.
 :::
 
 ## Creating a new transport
