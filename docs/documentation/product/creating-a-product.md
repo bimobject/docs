@@ -156,7 +156,7 @@ In the `Materials` section, click the `Add material` button.
 
 ![Image of the material section](/images/product/material-section.jpg)
 
-This will open a sidepanel where you can search for all materials available in EandoX.
+This will open a sidepanel where you can find all available materials in EandoX. It also features a search bar at the top, to make it easier to find what you are looking for.
 
 ![Image of the materials modal](/images/product/select-material.jpg)
 
