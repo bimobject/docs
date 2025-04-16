@@ -27,3 +27,7 @@ Read more about it [here](/documentation/supplier/adding-a-supplier).
 ## Inviting a supplier
 
 If your supplier is not part of EandoX, you can send them an invite to the platform, along with a request for the components you need. Read more about it [here](/documentation/supplier/inviting-a-supplier).
+
+## Removing a supplier
+
+Before removing a supplier from your list, ensure you're not using any of their components in your products. Once you've confirmed this, contact the EandoX support team at [support@eandox.com](mailto:support@eandox.com?subject=Request%20to%20remove%20supplier%20from%20our%20list&body=I%20would%20like%20to%20remove%20a%20supplier%20from%20my%20list.%0A%0AName%20of%20my%20company%3A%20%5BNAME%20HERE%5D%0AName%20of%20the%20supplier%20I%20want%20to%20remove%3A%20%5BNAME%20HERE%5D). Include both your company name and the supplier you want to remove in your email. We'll handle the removal and send you a confirmation email you when it's done.
