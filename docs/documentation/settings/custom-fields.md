@@ -2,6 +2,10 @@
 
 Custom fields let you store extra product data outside of EandoX’s standard data set or LCA. These fields are often used for internal details like CPC codes, the name of the person who added the product to your library, or the supplier’s name (if they’re not connected to EandoX).
 
+:::danger Please note
+Custom fields are only available for the **Product**, **Component**, and **Packaging** entities.
+:::
+
 :::warning Adding data to custom fields
 This page is about creating and managing the custom fields that will be available in your products.
 
