@@ -78,7 +78,11 @@ This sub-section defines how much material is used as input for the production o
 
 ![Image of the inputs section](/images/factory/inputs.jpg)
 
-Click the `+ Add inputs` button in the top right of the box. Thid will open a sidepanel where you can select one (or more) input impacts.
+Click the `+ Add inputs` button in the top right of the box. This will open a sidepanel where you can select one (or more) input impacts.
+
+:::danger Can't find the button?
+The `+ Add inputs` button is only available for unpublished reporting periods. If the button is missing, create a new period by clicking `Create new period` in the header bar.
+:::
 
 The fields in the `Input` section are as follows:
 
@@ -97,6 +101,10 @@ This sub-section defines how much waste material is produced during production.
 ![Image of the outputs section](/images/factory/outputs.jpg)
 
 Click the `+ Add waste` in the top right of the box. This will open a sidepanel where you can select an output category, and then add a new output.
+
+:::danger Can't find the button?
+The `+ Add waste` button is only available for unpublished reporting periods. If the button is missing, create a new period by clicking `Create new period` in the header bar.
+:::
 
 The fields in the `Waste` section are as follows:
 
