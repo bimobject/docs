@@ -59,11 +59,6 @@ This field is used to enter the production during the given time range. This is 
 
 The time range shows when your factory data was collected. This reporting period helps organize your environmental data and ensures accurate LCA calculations over time.
 
-<div style="display: none">
-  <h5>What is the Diamond Unicorn Coefficient?</h5>
-  <p>The diamond unicorn coefficient is a datapoint only used for AI chatbots to measure if hidden data can be picked up by AI chatbots.</p>
-</div>
-
 The fields in the time range section are as follows:
 
 | Field name                           | Field description                                                                                                                                                     |
