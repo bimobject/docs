@@ -27,6 +27,12 @@ To edit a factory, navigate to the `Factory` page in the left navigation menu, a
 
 ![Image of the factories page](/images/factory/edit-factory.jpg)
 
+:::danger Can't edit any of the data?
+If you can't edit any of the data on the factory page, it is because the current reporting period has already been published.
+
+Read more about managing reporting periods [below](#reporting-periods).
+:::
+
 ## The factory page
 
 On the factory page, you will see multiple sections:
@@ -39,13 +45,41 @@ On the factory page, you will see multiple sections:
   - `Save`: Will [save](#saving-and-publishing-factories) the factory, without publishing it.
   - `Publish`: Will [publish](#saving-and-publishing-factories) the factory.
   - `Fulfill product requests`: Read more about product requests [here](/documentation/getting-started/supplier-quickstart#responding-to-a-customer-request).
-- **Factory Impact Development**: Shows the CO2 or waste produced by the factory over the selected time range.
+- **Reporting periods**: Lists all the reporting periods you have created for the factory.
 - **Data quality**: Shows the data quality of the data you have entered.
 - **About**: Includes the following information:
   - `Certification`: Wether the factory has any ISO certifications or not.
   - `Data collection`: How the data for the factory is collected.
 - **Data**: Shows the data for the factory.
 - **Location**: Shows the location of the factory.
+
+## Reporting periods
+
+All the factory data is tied to a reporting period. This is the time range for which the data is collected. The reporting periods are shown as cards at the top of the factory page.
+
+### States
+
+A reporting period can have two states:
+
+#### Draft
+
+When you create a new factory, a reporting period is automatically created for you. This reporting period is in draft state, and you can edit the data in this state.
+
+You can recognize a draft reporting period by the `Draft` badge in the top right corner of the reporting period card.
+
+#### Published
+
+When you are done entering data for the reporting period, you need to publish it. This will lock the data, and show it in a read-only mode. This is to ensure that the data is stable when used in LCA calculations.
+
+Published reporting periods are locked for editing. To make changes, click the `Archive` button on the reporting period card. This will archive the current period and create a new draft with the same data.
+
+### Multiple reporting periods
+
+A factory can have multiple reporting periods. This is used to track the factory performance over time. To create a new period, make sure that all existing periods are published first. Once published, a `Create new period` button will appear in the header bar.
+
+#### Inspecting a reporting period
+
+To inspect the data for a reporting period, click the reporting period card. This will change the page to show the data for the selected period in read-only mode.
 
 ## The data section
 
