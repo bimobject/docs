@@ -14,7 +14,7 @@ We are happy for your contribution and look forward to working with you. Please 
 
 EandoX is a platform designed to streamline the Life Cycle Assessment (LCA) process for manufacturers and suppliers.
 
-The platform allows you to enter your products, and attach all data on materials, packaging, transport and factories. This information generates LCAs that can be shared with your customersenabling them to create accurate LCAs for their own products without requiring you to share any internal manufacturing data.
+The platform allows you to enter your products, and attach all data on materials, packaging, transport and factories. This information generates LCAs that can be shared with your customers, enabling them to create accurate LCAs for their own products without requiring you to share any internal manufacturing data.
 
 :::info Data security
 All your product data is stored in a single-tenant database, accessible only to your company. This design ensures that your internal data remains secure and private, with no sharing at the foundational level.
@@ -62,13 +62,13 @@ Clicking on this button will open a sidepanel with a table of all the requests y
 
 The table has the following columns:
 
-| Column name              | Column description                                                                                                                               |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Company**              | The name of the customer that sent the request.                                                                                                  |
-| **Name**                 | The name of the product associated with the request,  provided by the customer. It may not match your product name. |
-| **Article Number**       | The article number for the product, provided by the customer who sent the request. It may not match your product number.             |
-| **Has Matching Art no.** | Indicates whether the article number supplied by the customer matches an existing article number in your EandoX library.                |
-| **Request Date**         | The date the customer requested the product.                                                                                            |
+| Column name              | Column description                                                                                                       |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| **Company**              | The name of the customer that sent the request.                                                                          |
+| **Name**                 | The name of the product associated with the request, provided by the customer. It may not match your product name.       |
+| **Article Number**       | The article number for the product, provided by the customer who sent the request. It may not match your product number. |
+| **Has Matching Art no.** | Indicates whether the article number supplied by the customer matches an existing article number in your EandoX library. |
+| **Request Date**         | The date the customer requested the product.                                                                             |
 
 ### Responding to a request
 
@@ -76,13 +76,13 @@ Clicking an item in the list will select it, and you can select multiple items.
 
 Selecting items will activate one or more of the following buttons:
 
-| Button label                          | Action description                                                                                                                                                                            |
-| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Download XLSX Import File**         | Creates and downloads an XLSX file containing all data provided by your customers. This allows you to fill in any missing information in a spreadsheet and then import it using the  [product importer](/documentation/product/product-excel-import).|
-| **Reject request**                    | Dismisses and removes the request from the list. The user will be notified that the request has been rejected.                                                                                   |
-| **Fulfill with matching art no.**     | If the requested product already exists in your library and the customer has provided an article number that is correct, the request will be fulfilled using the existing product.    |
-| **Fulfill with non-matching art no.** | If the requested product exists in your library but the customer has provided an incorrect article number , this will open a sidepanel allowing you to search for the correct product. |
-| **Create product**                    | If the product requested by the customer does not exist in your library, this will open a sidepanel allowing you to create a new product.                                                  |
+| Button label                          | Action description                                                                                                                                                                                                                                   |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Download XLSX Import File**         | Creates and downloads an XLSX file containing all data provided by your customers. This allows you to fill in any missing information in a spreadsheet and then import it using the [product importer](/documentation/product/product-excel-import). |
+| **Reject request**                    | Dismisses and removes the request from the list. The user will be notified that the request has been rejected.                                                                                                                                       |
+| **Fulfill with matching art no.**     | If the requested product already exists in your library and the customer has provided an article number that is correct, the request will be fulfilled using the existing product.                                                                   |
+| **Fulfill with non-matching art no.** | If the requested product exists in your library but the customer has provided an incorrect article number , this will open a sidepanel allowing you to search for the correct product.                                                               |
+| **Create product**                    | If the product requested by the customer does not exist in your library, this will open a sidepanel allowing you to create a new product.                                                                                                            |
 
 :::tip Creating a product
 
