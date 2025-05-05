@@ -119,33 +119,6 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Supplier',
-        collapsible: true,
-        collapsed: true,
-        items: [
-          {
-            text: 'Supplier overview',
-            link: '/documentation/supplier/supplier-overview',
-          },
-          {
-            text: 'Adding a supplier',
-            link: '/documentation/supplier/adding-a-supplier',
-          },
-          {
-            text: 'Inviting a supplier',
-            link: '/documentation/supplier/inviting-a-supplier',
-          },
-          {
-            text: 'Accessing supplier products',
-            link: '/documentation/supplier/accessing-supplier-products',
-          },
-          {
-            text: 'Requesting a product from a supplier',
-            link: '/documentation/supplier/creating-a-product-request',
-          },
-        ],
-      },
-      {
         text: 'Factory',
         collapsible: true,
         collapsed: true,
@@ -181,6 +154,37 @@ export default defineConfig({
           //   text: 'Improving packaging data quality',
           //   link: '/documentation/packaging/improving-packaging-data-quality',
           // },
+        ],
+      },
+      {
+        text: 'The library',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Library overview',
+            link: '/documentation/library/library-overview',
+          },
+          {
+            text: 'Accessing supplier products',
+            link: '/documentation/library/accessing-supplier-products',
+          },
+          {
+            text: 'Managing supplier products',
+            link: '/documentation/library/managing-supplier-products',
+          },
+          {
+            text: 'Requesting a product from a supplier',
+            link: '/documentation/library/requesting-a-supplier-product',
+          },
+          {
+            text: 'Managing suppliers',
+            link: '/documentation/library/managing-suppliers',
+          },
+          {
+            text: 'Inviting a supplier',
+            link: '/documentation/library/inviting-a-supplier',
+          },
         ],
       },
       {
