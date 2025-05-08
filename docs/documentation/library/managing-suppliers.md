@@ -86,3 +86,4 @@ A supplier can have one of five states:
 
 :::tip Inviting suppliers
 Read more about inviting suppliers [here](/documentation/library/inviting-a-supplier).
+:::
