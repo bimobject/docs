@@ -18,7 +18,7 @@ The fields in the list are as follows:
 | **Article number** | The article number of the product.                                                                                                                             |
 | **EPD Id**         | The EPD identification number for products imported from external Environmental Product Declarations. Only applies to products not created directly in EandoX. |
 | **Supplier**       | The name of the supplier                                                                                                                                       |
-| **Type**           | Source of the product data. Read more about it [below](#product-source)                                                                                        |
+| **Type**           | Where the product data originates from. Read more about it [below](#product-source)                                                                            |
 | **Weight**         | The weight of one unit of the product.                                                                                                                         |
 | **Unit**           | The unit the product is measured in.                                                                                                                           |
 | **Last updated**   | The date that the product data was last updated.                                                                                                               |
@@ -56,7 +56,4 @@ If the supplier product is not yet in your library, you can also add it by click
 
 ## Product source
 
-The supplier products in the global library can have one of two types. The type determines where the data originates from:
-
-- `Product`: This type indicates that the product data was entered into the system through EandoX.
-- `EPD`: This type indicates that the product data was imported to the global library from a publicly available EPD, by the EandoX team.
+<!--@include: ../__partials/supplier-product-source.md -->
