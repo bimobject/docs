@@ -1,6 +1,6 @@
 # Library overview
 
-One of the most powerful features of EandoX is the ability to use products from other companies as components in your own manufacturing chain.
+One of the most powerful features of EandoX is the ability to use products from other companies as components in your own products.
 
 These external products are called **Supplier products**, and their data calculations are directly shared through EandoX, giving your products accurate LCA reports without requiring access to sensitive manufacturing details.
 
