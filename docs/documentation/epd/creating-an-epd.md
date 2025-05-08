@@ -2,6 +2,11 @@
 
 This article will go through all the steps of creating an EPD in EandoX.
 
+:::warning Premium feature
+The EPD generator is an addon module for plans above the free tier.
+Please refer to the [pricing page](https://www.eandox.com/pricing) for more information.
+:::
+
 ## Creating a new EPD
 
 Navigate to the `EPD` page in the left navigation menu, and click the `Create new EPD` button in the top right corner.
@@ -86,7 +91,7 @@ The area includes the following fields:
 | **Calculate average**              | If the report should include a calculation of the average of the selected products. |
 | **Set functional unit to KG**      | If the report should specify the unit in which the product is sold in kilograms.    |
 | **Show artnr for products in EPD** | If the report should include the artnr of the products.                             |
-| **CPC code**               |  The code for the CPC (Common Product Classification) of the products in the EPD. |
+| **CPC code**                       | The code for the CPC (Common Product Classification) of the products in the EPD.    |
 
 ### Selected products
 
@@ -102,14 +107,14 @@ Click the `Pick products` button in the top right corner. Then, select the ones 
 
 The list includes the following fields:
 
-| Field name              | Field description                                                                       |
-| ----------------------- | --------------------------------------------------------------------------------------- |
-| **Name**                | The name of the product. Clicking it will take you to the product page for the product. |
-| **Art nr**              | The article number of the product.                                                      |
-| **Weight**              | The weight of the product in the specified unit.                                        |
-| **Unit**                | The unit of the weight.                                                                 |
-| **Is Default**                   | Indicates wether the product is the default one. This is used as a basis for calculations.                                         |
-| **Deviation %**                | The impact deviation of the product in percentage. All products need to be within 10% of the default product, or the average. |
+| Field name      | Field description                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Name**        | The name of the product. Clicking it will take you to the product page for the product.                                       |
+| **Art nr**      | The article number of the product.                                                                                            |
+| **Weight**      | The weight of the product in the specified unit.                                                                              |
+| **Unit**        | The unit of the weight.                                                                                                       |
+| **Is Default**  | Indicates wether the product is the default one. This is used as a basis for calculations.                                    |
+| **Deviation %** | The impact deviation of the product in percentage. All products need to be within 10% of the default product, or the average. |
 
 ### Meta products
 
@@ -125,14 +130,12 @@ To add new meta products, click the `Add meta product` button in the top right c
 
 The list includes the following fields:
 
-| Field name              | Field description                                                                       |
-| ----------------------- | --------------------------------------------------------------------------------------- |
-| **Name**                | The name of the meta product. |
-| **Art nr**              | The article number of the meta product.                                                      |
-| **Weight (kg)**              | The weight of the meta product in the specified unit.                                        |
-| **Unit**                | The unit of the weight.                                                                 |
-
-
+| Field name      | Field description                                     |
+| --------------- | ----------------------------------------------------- |
+| **Name**        | The name of the meta product.                         |
+| **Art nr**      | The article number of the meta product.               |
+| **Weight (kg)** | The weight of the meta product in the specified unit. |
+| **Unit**        | The unit of the weight.                               |
 
 ## Impact handling section
 
