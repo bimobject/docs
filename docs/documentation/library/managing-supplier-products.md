@@ -5,7 +5,7 @@ This page is an in-depth documentation on how to manage the _supplier products_ 
 :::warning Related articles
 This article assumes that you already have added supplier products to your library.
 
-If your library is empty, you can read more about how to add supplier products [here](/documentation/library/accessing-supplier-products/)
+If your library is empty, you can read more about how to add supplier products [here](/documentation/library/accessing-supplier-products).
 :::
 
 ## See your added supplier products
@@ -62,7 +62,7 @@ Some of the fields may include generic data. These fields are marked with a `*`.
 
 This section shows an impact graph of the supplier product.
 
-Read more about impact graphs [here](/documentation/data/impact-graphs/).
+Read more about impact graphs [here](/documentation/data/impact-graphs).
 
 #### Usage
 

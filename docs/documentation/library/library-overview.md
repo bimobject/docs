@@ -2,9 +2,9 @@
 
 One of the most powerful features of EandoX is the ability to use products from other companies as components in your own products.
 
-These external products are called **Supplier products**, and their data calculations are directly shared through EandoX, giving your products accurate LCA reports without requiring access to sensitive manufacturing details.
+These external products, called **Supplier products**, share their environmental impact data through EandoX. This gives your products accurate LCA reports while keeping the supplier's manufacturing details private.
 
-Your products automatically update when suppliers modify their manufacturing process or supply chain, ensuring your LCA data stays accurate over time, without any manual intervention.
+When suppliers update their manufacturing process or supply chain, your products' LCA data automatically stays accurate without any need to check in with the supplier.
 
 ## Library pages
 
@@ -33,5 +33,5 @@ Read more about how to manage the supplier products in your library [here](/docu
 
 Read more about how to invite a supplier to EandoX [here](/documentation/library/inviting-a-supplier).
 
-Read more about how to request a product from a supplier [here](/documentation/library/requesting-a-suppplier-product).
+Read more about how to request a product from a supplier [here](/documentation/library/requesting-a-supplier-product).
 :::

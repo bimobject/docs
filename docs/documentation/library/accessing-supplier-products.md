@@ -52,7 +52,9 @@ Clicking the name of a supplier product will open a sidepanel that shows more de
 
 ![Supplier product sidepanel FIXME](/images/placeholder.png)
 
-If the supplier product is not yet in your library, you can also add it by clicking the `Add to library` button in the top right corner of the sidepanel.
+If the supplier product is already in your library, it will have the text `(in library)` after its name in the sidepanel header.
+
+If the supplier product is not yet in your library, you can add it by clicking the `Add to library` button in the top right corner of the sidepanel.
 
 ## Product source
 
