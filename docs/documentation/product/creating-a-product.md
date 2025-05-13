@@ -81,7 +81,7 @@ This will open a sidepanel where you can search for all components and products 
 ![Image of the components modal](/images/product/select-components.jpg)
 
 :::warning Nothing in the list?
-If this list is empty, you need to [create a component](/documentation/component/creating-a-component), [add supplier products to your library](/documentation/supplier/accessing-supplier-products), or [request a component from a supplier](/documentation/supplier/creating-a-product-request) first.
+If this list is empty, you need to [create a component](/documentation/component/creating-a-component), [add supplier products to your library](/documentation/library/accessing-supplier-products), or [request a component from a supplier](/documentation/library/requesting-a-supplier-product) first.
 :::
 
 Select the components you want to add. Then click the `Add component` button in the top right corner of the sidepanel. This will close the sidepanel and the components you selected will show up in the table of added components.

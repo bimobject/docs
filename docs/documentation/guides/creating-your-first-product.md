@@ -72,7 +72,7 @@ These components will now be available to you when you create new products.
 :::tip Can't find the components you need?
 If a connected supplier hasn't created a component you order from them yet, you can send them a product request.
 
-Read more about how to request a component [here](/documentation/supplier/creating-a-product-request).
+Read more about how to request a component [here](/documentation/library/requesting-a-supplier-product).
 :::
 
 ## Creating a product

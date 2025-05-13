@@ -35,9 +35,9 @@ Published products will be visible to all companies (that have added you to thei
 :::
 
 :::info Further reading
-Read more about how a company can add you as a supplier [here](/documentation/supplier/adding-a-supplier).
+Read more about how a company can add you as a supplier [here](/documentation/library/managing-suppliers).
 
-Read more about how to request a product [here](/documentation/supplier/creating-a-product-request).
+Read more about how to request a product [here](/documentation/library/requesting-a-supplier-product).
 :::
 
 When the file is uploaded, click the `Validate` button in the top right corner of the sidepanel to check if the data is valid. This will bring up the validation view.

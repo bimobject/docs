@@ -30,7 +30,7 @@ Here are some helpful links if you already have an account, and want to get star
 
 - [Creating your first product](/documentation/guides/creating-your-first-product)
 - [Sharing a product](/documentation/product/sharing-a-product)
-- [Creating a product request](/documentation/supplier/creating-a-product-request)
+- [Creating a product request](/documentation/library/requesting-a-supplier-product)
 
 :::warning This is just the beginning
 These articles may not cover all EandoX features, but they offer a solid starting point for you as a new supplier.
