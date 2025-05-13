@@ -6,9 +6,17 @@ next:
 
 # Workflow overview
 
-EandoX is designed to make it easy to maintain, inspect and update your products supply chain data.
+EandoX simplifies how you maintain, inspect, and update your product's supply chain data. The platform is flexible and scalable, adapting to any stage of your sustainability journey with incremental implementation options. We've put special emphasis on making it easy to collect accurate data from your suppliers, as that is often the most time-consuming and error prone part of the process.
 
-In most manufacturing processes, you typically have at least one supplier from whom you order components. If you use supplier-sourced components in your products, you can either create all products and components yourself or invite your suppliers to join the EandoX. This will allow them to create and share the components you order from them. By requesting suppliers to create these components, you ensure that the data is accurate, and any updates they make to their manufacturing processes will automatically update in your products over time.
+### Supplier products
+
+Most manufacturing processes involve components from suppliers. When using these supplier-sourced components (also called **Supplier products**), you can either create the product data yourself or invite your suppliers to join EandoX and let them share their component data directly.
+
+When suppliers create their own **supplier products**, you get accurate data that automatically updates whenever they modify their manufacturing processes.
+
+### Data from EPDs
+
+In addition to supplier data, EandoX includes data from Environmental Product Declarations (EPDs). These are standardized documents that provide verified environmental impact information for products. Each EPD is created by manufacturers, independently verified by third-party organizations and imported by the EandoX team.
 
 ## Quick terminology
 
@@ -27,6 +35,7 @@ An example of a product is an **armchair**.
 :::info Component
 
 <!--@include: ../__partials/component-explanation.md -->
+
 :::
 
 :::info Material
@@ -44,11 +53,13 @@ An example of a product is an **armchair**.
 :::info Factory
 
 <!--@include: ../__partials/factory-explanation.md -->
+
 :::
 
 :::info Transport
 
 <!--@include: ../__partials/transport-explanation.md -->
+
 :::
 
 :::info Supplier
@@ -64,48 +75,61 @@ You can invite suppliers to create declarations of the products you order from t
 A common workflow is as follows:
 
 ### 1. Add supplier components
-If your product uses components sourced from suppliers, add those components to your library.
+
+If your product uses components sourced from suppliers, add those supplier products to your library.
+
+#### If your supplier is already connected to EandoX (or has an imported EPD):
+
+1. [Add the supplier products](/documentation/library/accessing-supplier-products) to your library.
+2. If the required supplier product doesn’t exist yet, [subscribe to the supplier](/documentation/library/managing-suppliers), then [send a request](/documentation/library/requesting-a-supplier-product) to the supplier to create it.
 
 #### If your supplier is not connected to EandoX yet:
-1. [Invite](/documentation/supplier/inviting-a-supplier) your supplier to join EandoX.
-2. [Request](/documentation/supplier/creating-a-product-request) that they create the components you need.
+
+1. [Invite](/documentation/library/inviting-a-supplier) your supplier to join EandoX.
+2. [Request](/documentation/library/requesting-a-supplier-product) that they create the components you need.
 3. In the meantime, you can create placeholder components yourself and later replace them with the supplier’s official components.
 
-#### If your supplier is already connected to EandoX:
-1. [Add the supplier](/documentation/supplier/adding-a-supplier) to your supplier list.
-2. [Add the components](/documentation/supplier/accessing-supplier-products) to your library.
-3. If the required component doesn’t exist yet, [send a request](/documentation/supplier/creating-a-product-request) to the supplier to create it.
-
 ### 2. **Handle reusable sub-assemblies**
-If your product includes sub-assemblies that are reused across multiple products, create them as [components](/documentation/component/component-overview).
+
+If your product includes sub-assemblies that are reused across multiple products you can create them as separate products or components.
+
+Create it as a [component](/documentation/component/component-overview) if the sub-assembly is never sold separately.
+
+Create it as a [product](/documentation/product/product-overview) if the sub-assembly is sold separately, and should be treated as a separate product.
 
 ### 3. **Create a product**
-Start by [creating the product](/documentation/product/creating-a-product) you want to declare.
+
+When any potential supplier products and/or sub-assemblies are added to your library, you are ready to [create the product](/documentation/product/creating-a-product) you want to declare.
 
 ### 4. **Attach relevant entities to your product**
-Link all the necessary entities to your product, such as other products, supplier components and materials.
+
+Link all the necessary entities to your product, such as other products, supplier products and materials.
 
 - If it's your first product, you can use generic data for **transport**, **packaging**, and **factory**.
 - If you're an advanced user, you can create your own [transport](/documentation/transport/transport-overview), [packaging](/documentation/packaging/packaging-overview), and [factory](/documentation/factory/factory-overview) data.
 
-
 ## The product improvement cycle
+
 EandoX is a great platform for not only tracking your products current performance, but also for improving it over time. This work can be split up into a cycle of four steps:
 
 ![Image of the product improvement cycle](/images/getting-started/cycle.jpg)
 
 ### Collect
+
 Collect your product data in a structured and efficient manner. Combine manual data collection with automation and integration to build a scalable data management process that grows alongside your sustainability efforts and goals.
 
 A streamlined and systemized approach ensures dynamic improvements in data quality while maintaining full traceability.
 
 ### Measure
+
 Using EandoX you can structure, control and manage the collected data in an efficient way. The platform's robust data structure is key to making sure that the model is scaling with your businesses maturity.
 
 ### Report
+
 The built-in tools in EandoX are designed to meet all your reporting needs, ensuring you stay compliant with legal regulations while also addressing market demands. Whether you're reporting for regulatory purposes, such as EU regulations, or for customer-facing sustainability initiatives.
 
 ### Reduce
+
 Tracking your product’s life cycle trends allows you to find environmental sinkholes.
 
 Emission reduction doesn’t need to be in the initial strategy, but all the previous steps are key to making an efficient reduction journey.

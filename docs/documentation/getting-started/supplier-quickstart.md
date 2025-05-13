@@ -38,6 +38,10 @@ These articles may not cover all EandoX features, but they offer a solid startin
 Suppliers have access to the same features as all other users, so all other documentation is relevant to you as well. Feel free to explore them at your convenience.
 :::
 
+:::info EPDs in EandoX
+EandoX also has support for importing EPDs. If your company has any published EPDs you would like to share with your customers, please contact us at [support@eandox.com](mailto:support@eandox.com?subject=EPD%20import%20request) and we will assist you in importing them.
+:::
+
 ## Creating an account
 
 The most common way to create a supplier account is through an invitation from one of your customers. You’ll receive an email containing a link to set up your account. Clicking the link will take you to the account creation page, where you can fill out the signup form with the required information.
