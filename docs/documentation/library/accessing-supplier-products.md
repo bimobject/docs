@@ -6,10 +6,18 @@ Your library works across all your suppliers, so you can organize and access com
 
 ## Add supplier products to your library
 
+Supplier products can be added to your library in two ways:
+
+- The `Global library` page, if you aren't subscribed to any supplier yet.
+- The `Supplier` sidepanel, for a supplier you are subscribed to. This is found in the `Suppliers` tab on the `My Library` page.
+
+### From the Global library
+
 Navigate to the `Global library` page in the left navigation menu. This will take you to the page that lists all publicly available products in EandoX.
 
 ![Global library page FIXME](/images/placeholder.png)
 
+<div id="supplier-product-table">
 The fields in the list are as follows:
 
 | Field name         | Field description                                                                                                                                              |
@@ -23,6 +31,8 @@ The fields in the list are as follows:
 | **Unit**           | The unit the product is measured in.                                                                                                                           |
 | **Last updated**   | The date that the product data was last updated.                                                                                                               |
 
+</div>
+
 At the top of each column you can find input fields that helps you search for the supplier product you are looking for.
 
 To add a supplier product to your library, hover the product item in the list. A checkbox will appear next to the product name. Check the checkbox, then click the `+ Add products to library` button in the top right corner of the page:
@@ -34,6 +44,16 @@ Multiple products can be added at the same time.
 :::warning No checkbox?
 If you can't find a checkbox next to a product name, it means that the product has already been added to your library.
 :::
+
+### From the Supplier sidepanel
+
+Navigate to the `My library` page in the left navigation menu. This will take you to the page that lists all supplier products in your library. Click the `Suppliers` tab to see a list of all the suppliers you are subscribed to. Click a suppliers name to open the `Supplier` sidepanel:
+
+![Image of the supplier sidepanel TODO](/images/placeholder.png)
+
+At the bottom of the sidepanel you can find a list of all the products that are available from the supplier. The fields are the same as in the `Global library` list (detailed [above](#supplier-product-table)), with the addition of the _In library_ column that shows if you've already added the supplier product to your library.
+
+To add a supplier product to your library, check the checkbox next to its name. Then click the `+ Add to library`.
 
 ### What happens next?
 
