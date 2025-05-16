@@ -78,7 +78,9 @@ Scroll down to the `Packaging` section, and click the `Add packaging` button.
 
 ![Image of the packaging section](/images/product/packaging-section.jpg)
 
-This will open a sidepanel where you can search for all packaging that is available in your library.
+This will open a sidepanel where you can search for all packaging that is available in your catalog and library.
+
+<!--@include: ../../documentation/__partials/library-vs-catalog.md -->
 
 ![Image of the packaging sidepanel](/images/guides/creating-your-first-product/add-packaging-sidepanel.jpg)
 

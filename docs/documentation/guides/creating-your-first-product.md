@@ -33,41 +33,29 @@ Let us begin.
 
 ## Adding supplier components to your library
 
-Five of the parts are made by a supplier called _Aaberg Manufacture Co_. Luckily for us, they are already part of EandoX, and have these components available for you to use in your own products.
+Five of the parts are made by a supplier called _Aaberg Manufacture Co_. Luckily for us, they are already part of EandoX, and have these components available for you to use from the **Global Library**.
 
-To see all the components they have made available for EandoX users, you first need to add the supplier to your library.
+:::tip Naming
+Components created by suppliers are more commonly called **Supplier Products**. However, in this guide we will refer to them as **components** to make it easier to distinguish them from the product that you create yourself.
+:::
 
-Navigate to the `Supplier` page and click the `Add supplier` button.
+To see all the components they have made available for EandoX users, navigate to the `Global Library` page in the left navigation menu and search for `Aaberg Manufacture Co` in the _Supplier_ column. This will show you all the components they have made available.
 
-![Image of the add supplier button](/images/supplier/add-supplier-button.jpg)
-
-This will open a sidepanel where you can search for a supplier by name or organization number. In this case we are searching for _Aaberg Manufacture Co_.
-
-Tick the box next to the name, and click the `Add selected supplier` button in the top right corner.
-
-![Image of the supplier search sidepanel](/images/guides/creating-your-first-product/selected-supplier.jpg)
-
-You will now see that the supplier has been added to the list of suppliers in your library.
-
-![Image of the supplier search sidepanel](/images/guides/creating-your-first-product/supplier-in-list.jpg)
+![Image of the supplier component list](/images/placeholde.png)
 
 :::tip No connected supplier?
 If the supplier you are looking for is not part of EandoX, you can invite them to join the platform by clicking the `Invite new supplier` button in the top right corner. This will open a sidepanel where you can enter the details of the supplier you want to invite, along with a message to send them.
 :::
 
-Now, we need to add the suppliers components to your library.
+Select the components you need (by checking the checkbox that shows up when hovering the item), and click the `+ Add products to library` button to add them to your library.
 
-Click the suppliers name in the list. This will take you to the suppliers page.
+![Image of the button](/images/placeholder.png)
 
-In the **Supplier products** section, click the `Available from supplier` tab to see all the products that are available to import.
+These components will now be available to you when you create new products. You will also be subscribed to component updates from _Aaberg Manufacture Co_.
 
-![Image of the supplier page](/images/guides/creating-your-first-product/available-from-supplier-button.jpg)
-
-Select the components you need, and click the `Import Selected To My Library` button to add them to your library.
-
-![Image of the button](/images/guides/creating-your-first-product/import-selected.jpg)
-
-These components will now be available to you when you create new products.
+:::warning No checkbox?
+If you can't see a checkbox when hovering the item, it means that the supplier product has already been added to your library.
+:::
 
 :::tip Can't find the components you need?
 If a connected supplier hasn't created a component you order from them yet, you can send them a product request.
@@ -111,7 +99,9 @@ Find the `Components` section, and click the `Add component` button.
 
 ![Image of the component section](/images/product/component-section.jpg)
 
-This will open a sidepanel where you can search for all components and products that are available in your library, sorted by supplier.
+This will open a sidepanel where you can search for all components and products that are available in your catalog and library, sorted by supplier.
+
+<!--@include: ../../documentation/__partials/library-vs-catalog.md -->
 
 Find the components you want to add, select them, and click the `Add component` button in the top right corner.
 
