@@ -2,7 +2,7 @@
 
 The products you create in EandoX are private by default, visible only to team members within your company.
 
-If you want other EandoX companies to use your products in their LCAs, you can choose to share them.
+If you want other EandoX companies to be able to find your products in the [Global Library](/documentation/library/library-overview), and use them in their LCAs, you can choose to share them.
 
 ## When should I share a product?
 
@@ -17,12 +17,6 @@ There are two types of shared products:
 - **Limited sharing**: These products are only visible to manually specified companies in EandoX.
 - **Full sharing**: These products are visible to all EandoX companies.
 
-:::warning Product visibility
-Before a company can find your shared products, they need to add you to their list of suppliers.
-
-Read more about it [here](/documentation/library/managing-suppliers).
-:::
-
 ## Setting the sharing type
 
 Navigate to the `Products` page in the left navigation menu, and click the product you want to share.
@@ -35,10 +29,10 @@ This will open a sidepanel where you can choose the sharing type.
 
 ![Image of the sharing modal](/images/product/share-modal.jpg)
 
-| Label                                               | Description                                                                                                                                    |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the EandoX users you manually specify.                            |
-| **Available to all companies on EandoX**            | Sets the product to **Full sharing**. The product will be visible to all EandoX users that have added your company to their list of suppliers. |
+| Label                                               | Description                                                                                                                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the EandoX users you manually specify.                                                |
+| **Available to all companies on EandoX**            | Sets the product to **Full sharing**. The product will be added to the [Global Library](/documentation/library/library-overview), and visible to all EandoX users. |
 
 ::: warning Don't forget to publish
 To be able to share a product, it first needs to be published.
@@ -48,10 +42,10 @@ You can find the `Publish` button in the top right corner of the product page.
 
 ## Limited sharing
 
-To share a product with `Limited sharing` with a company, they must first add you to their list of suppliers, and then send you a product request for the product they want to access.
+To share a product with `Limited sharing` with a company, they must first subscribe to your company, and then send you a product request for the product they want to access.
 
 ::: tip Details on the process
-Read more about how a company can add you as a supplier [here](/documentation/library/managing-suppliers).
+Read more about how a company can subscribe to you [here](/documentation/library/managing-suppliers).
 
 To learn more about how to request a product, read the [product request guide](/documentation/library/requesting-a-supplier-product).
 :::

@@ -41,7 +41,7 @@ If the {{entityName}} has multiple factories, use the `Division` field in the **
 
 ## What's in the sidepanel?
 
-The list in the **Add factory sidepanel** shows all the factories that are available in your library. _Factory_ entities are created by you on the `Factories` page.
+The list in the **Add factory sidepanel** shows all the factories that are available in your catalog. _Factory_ entities are created by you on the `Factories` page.
 
 :::warning Nothing in the list?
 If this list is empty, you need to create a factory first.

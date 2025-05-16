@@ -76,7 +76,9 @@ In the `Components` section, click the `Add component` button.
 
 ![Image of the component section](/images/product/component-section.jpg)
 
-This will open a sidepanel where you can search for all components and products that are available in your library. Here you will see the ones you have created yourself, and the ones that have been created by your suppliers.
+This will open a sidepanel where you can search for all components and products that are available in your catalog and library.
+
+<!--@include: ../../documentation/__partials/library-vs-catalog.md -->
 
 ![Image of the components modal](/images/product/select-components.jpg)
 
@@ -90,17 +92,19 @@ Select the components you want to add. Then click the `Add component` button in 
 
 The table has the following columns:
 
-| Column name        | Column description                                                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **Name**           | The name of the component. Clicking the name will open the editing page for the component.                          |
-| **Article Number** | The article number of the component.                                                                                |
-| **Amount**         | The amount of the component used in the product. The unit this amount refers to can be seen in the `Unit` column.   |
-| **Unit**           | The unit of the component.                                                                                          |
-| **Weight**         | The weight of one unit of the component.                                                                            |
-| **Supplier**       | The name of the suppler that created the component. Will be blank if the component is created by you.               |
-| **Waste**          | The amount of waste (in percent) created during the production of this component.                                   |
-| **Transport**      | The transport of the component. Clicking the transport will allow you to edit the transport data for the component. |
-| **Edit**           | A button that opens a sidepanel where you can see and edit all settings for the component.                          |
+| Column name        | Column description                                                                                                                                                                                                             |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Name**           | The name of the component. Clicking the name will open the editing page for the component.                                                                                                                                     |
+| **Type**           | The origin of the component data. The types `Component` or `Product` indicate that this entity is created by you. The types `Library Product` or `EPD Product` indicate that this was is imported from the **Global Library**. |
+| **Article Number** | The article number of the component.                                                                                                                                                                                           |
+| **Amount**         | The amount of the component used in the product. The unit this amount refers to can be seen in the `Unit` column.                                                                                                              |
+| **Unit**           | The unit of the component.                                                                                                                                                                                                     |
+| **Weight**         | The weight of one unit of the component.                                                                                                                                                                                       |
+| **Supplier**       | The name of the suppler that created the component. Will be blank if the component is created by you.                                                                                                                          |
+| **Waste**          | The amount of waste (in percent) created during the production of this component.                                                                                                                                              |
+| **Transport**      | The transport of the component. Clicking the transport will allow you to edit the transport data for the component.                                                                                                            |
+| **End of life**    | What kind of EOL data that is associated to this component. Only available for items of the type `EPD Product`.                                                                                                                |
+| **Edit**           | A button that opens a sidepanel where you can see and edit all settings for the component.                                                                                                                                     |
 
 #### Removing components
 
@@ -255,13 +259,14 @@ Select the packaging you want to add. Then click the `Add packaging` button in t
 
 The table has the following columns:
 
-| Column name | Column description                                                                                 |
-| ----------- | -------------------------------------------------------------------------------------------------- |
-| **Name**    | The name of the packaging. Clicking the name will open the editing page for the packaging.         |
-| **Amount**  | The amount of units of packaging. The unit this amount refers to can be seen in the `Unit` column. |
-| **Unit**    | The unit of the packaging.                                                                         |
-| **Weight**  | The weight of the packaging.                                                                       |
-| **Edit**    | A button that opens a sidepanel where you can see and edit all settings for the packaging.         |
+| Column name | Column description                                                                                                                                                                                                          |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**    | The name of the packaging. Clicking the name will open the editing page for the packaging.                                                                                                                                  |
+| **Type**    | The origin of the packaging data. The type `Packaging Component` indicates that this entity is created by you. The types `Library Product` or `EPD Product` indicate that this was is imported from the **Global Library**. |
+| **Amount**  | The amount of units of packaging. The unit this amount refers to can be seen in the `Unit` column.                                                                                                                          |
+| **Unit**    | The unit of the packaging.                                                                                                                                                                                                  |
+| **Weight**  | The weight of the packaging.                                                                                                                                                                                                |
+| **Edit**    | A button that opens a sidepanel where you can see and edit all settings for the packaging.                                                                                                                                  |
 
 #### Removing packaging
 
@@ -311,7 +316,7 @@ In the `Factories` section, click the `Add factory` button.
 
 ![Image of the factories section](/images/product/factories-section.jpg)
 
-This will open a sidepanel where you can search for all factories that are available in your library.
+This will open a sidepanel where you can search for all factories that are available in your catalog.
 
 ![Image of the factories sidepanel](/images/product/add-factory-modal.jpg)
 
@@ -372,7 +377,7 @@ In the `Relations` section, you can see all components and products where this p
 
 ![Image of the relations section](/images/product/relations.jpg)
 
-This section is only presentational, and can not be interacted with. It's there for you to see how your product relate to the rest of your product library.
+This section is only presentational, and can not be interacted with. It's there for you to see how your product relate to the rest of the products in your catalog.
 
 Visualizing these relationships helps you understand how changes to one product impact others. It can also guide you toward products that might need further review or updates after your changes are applied.
 

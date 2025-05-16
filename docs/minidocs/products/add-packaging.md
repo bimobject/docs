@@ -35,10 +35,10 @@ You can use the search inputs at the top of the sidepanel to search for packagin
 
 ## What's in the sidepanel?
 
-The list in the **Add packaging sidepanel** shows all the packaging that is available in your library. _Packaging_ entities are created by you on the `Packaging` page.
+The list in the **Add packaging sidepanel** shows all the packaging that is available in your catalog and library. _Packaging_ entities are created by you on the `Packaging` page, or imported from the `Global Library`.
 
 :::warning Nothing in the list?
-If this list is empty, you need to create a packaging first.
+If this list is empty, you need to create or import a packaging first.
 
 Learn more about this in the full documentation. You can find it by clicking the `Read full docs` button at the top right of this window.
 :::

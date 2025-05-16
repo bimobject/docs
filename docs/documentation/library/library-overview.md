@@ -6,6 +6,8 @@ These external products, called **Supplier products**, share their environmental
 
 When suppliers update their manufacturing process or supply chain, your products' LCA data automatically stays accurate without any need to check in with the supplier.
 
+<!--@include: ../../documentation/__partials/library-vs-catalog.md -->
+
 ## Library pages
 
 The library is split into two different pages:

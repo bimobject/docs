@@ -39,7 +39,7 @@ You can use the search input at the top of the sidepanel to search for materials
 
 ## What's in the sidepanel?
 
-The list in the **Add material sidepanel** shows all the materials that are available in your library. All data on materials is created by the EandoX team using historical data from the industry.
+The list in the **Add material sidepanel** shows all the materials that are available in EandoX. All data on materials is created by the EandoX team using historical data from the industry.
 
 If you find yourself in need of a material that is not in the list, you can request it from us by clicking the `Request missing material` button in the top right corner of the sidepanel.
 

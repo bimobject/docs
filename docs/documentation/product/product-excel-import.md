@@ -1,6 +1,6 @@
 # Import products from Excel
 
-If you have a lot of data that already exists in spreadsheets, you can import it into EandoX using the XLSX importer. It can also be used to update a lot of product data quickly, by first [exporting your EandoX data](/documentation/product/product-excel-export), editing it in a spreadsheet editor, and then importing it back into EandoX.
+EandoX allows you to import product data from spreadsheets, using the XLSX importer. It can also be used to update large amounts of product data quickly, by first [exporting your EandoX data](/documentation/product/product-excel-export), editing it in a spreadsheet editor, and then importing it back into EandoX.
 
 :::tip Workflow tip
 The simplest way to import data is by using a template sheet.
@@ -22,22 +22,20 @@ This will open a sidepanel where you can select the Excel file you want to impor
 
 It has the following options:
 
-| Field name                            | Field description                                                                                       |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Force autoshare setting**           | Check this if you want the imported products to automatically be shared with other companies in EandoX. |
-| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import.                |
-| **Pick file**                         | Selects the Excel file you want to import.                                                              |
+| Field name                            | Field description                                                                                                                                                             |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Force autoshare setting**           | Check this if you want the imported products to automatically be shared with other companies in EandoX through the [Global Library](/documentation/library/library-overview). |
+| **Auto publish updates after import** | Check this if you want the imported products to automatically be published after import.                                                                                      |
+| **Pick file**                         | Selects the Excel file you want to import.                                                                                                                                    |
 
 :::tip Autoshare vs Publish
-Products that have the _autoshare_ setting enabled will not be visible when other companies search for products in EandoX, but can be shared with them upon request.
+Published products will not be visible in the **Global Library**, but can be shared with your subscribing companies if they send you a request.
 
-Published products will be visible to all companies (that have added you to their list of suppliers) in EandoX when they search for products.
+Products that have the _autoshare_ setting enabled will be visible to all companies in EandoX when they search for products in the **Global Library**.
 :::
 
 :::info Further reading
-Read more about how a company can add you as a supplier [here](/documentation/library/managing-suppliers).
-
-Read more about how to request a product [here](/documentation/library/requesting-a-supplier-product).
+Read more about how subscribers can request products [here](/documentation/library/requesting-a-supplier-product).
 :::
 
 When the file is uploaded, click the `Validate` button in the top right corner of the sidepanel to check if the data is valid. This will bring up the validation view.

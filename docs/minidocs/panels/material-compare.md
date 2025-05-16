@@ -58,7 +58,7 @@ At the bottom of the panel, you will see an environmental impact graph for the m
 In some cases, you may want to compare the current material with an alternative one. This can be helpful for Eco Design efforts or when you're unsure if you've selected the correct material for your {{entityName}}.
 
 ### Adding a material to the comparison
-To compare materials, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the materials in your library.
+To compare materials, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the materials in EandoX.
 
 Select the material you want to compare with and click the `Add material` button. The selected material's properties will appear in the sidepanel, and its data will be displayed in the impact graph at the bottom.
 

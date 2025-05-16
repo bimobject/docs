@@ -54,7 +54,7 @@ At the bottom of the panel, you will see an environmental impact graph for the p
 In some cases, you may want to compare the current packaging with an alternative one. This can be helpful for Eco Design efforts or when you're unsure if you've selected the correct packaging for your {{entityName}}<span v-if="articleName">&nbsp;("**{{articleName}}**")</span>.
 
 ### Adding a packaging to the comparison
-To compare packaging, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the packaging entities in your library.
+To compare packaging, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the packaging entities in your catalog and library.
 
 Select the packaging you want to compare with and click the `Add packaging` button. The selected packaging's properties will appear in the sidepanel, and its data will be displayed in the impact graph at the bottom.
 

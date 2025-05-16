@@ -51,7 +51,7 @@ At the bottom of the panel, you will see an environmental impact graph for the f
 In some cases, you may want to compare the current factory with an alternative one. This can be helpful if you're unsure if you've selected the correct factory for your product.
 
 ### Adding a factory to the comparison
-To compare factories, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the factories in your library.
+To compare factories, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the factories in your catalog.
 
 Select the factory you want to compare with and click the `Add factory` button. The selected factory's properties will appear in the sidepanel, and its data will be displayed in the impact graph at the bottom.
 

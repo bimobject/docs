@@ -55,7 +55,7 @@ At the bottom of the panel, you will see an environmental impact graph for the c
 In some cases, you may want to compare the linked component with an alternative one. This can be helpful for Eco Design efforts or when you're unsure if you've selected the correct component for your {{entityName}}<span v-if="articleName">&nbsp;("**{{articleName}}**")</span>.
 
 ### Adding a component to the comparison
-To compare components, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the components in your library.
+To compare components, click the `Compare` button in the top right corner of the panel. This will open a sidepanel listing all the components in your catalog and library.
 
 Select the component you want to compare with and click the `Add component` button. The selected component's properties will appear in the sidepanel, and its data will be displayed in the impact graph at the bottom.
 

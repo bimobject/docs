@@ -8,7 +8,7 @@ features:
     linkText: Learn more
     target: _blank
   - title: Get help from your suppliers
-    details: Add your suppliers to your library and use their components to get accurate data in your own products.
+    details: Add your suppliers components to your library and use them to get accurate data in your own products.
     link: /documentation/supplier/supplier-overview
     linkText: Learn more
     target: _blank
