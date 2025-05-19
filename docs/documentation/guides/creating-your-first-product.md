@@ -41,7 +41,7 @@ Components created by suppliers are more commonly called **Supplier Products**. 
 
 To see all the components they have made available for EandoX users, navigate to the `Global Library` page in the left navigation menu and search for `Aaberg Manufacture Co` in the _Supplier_ column. This will show you all the components they have made available.
 
-![Image of the supplier component list](/images/placeholde.png)
+![Image of the supplier component list](/images/guides/creating-your-first-product/global-library-search.jpg)
 
 :::tip No connected supplier?
 If the supplier you are looking for is not part of EandoX, you can invite them to join the platform by clicking the `Invite new supplier` button in the top right corner. This will open a sidepanel where you can enter the details of the supplier you want to invite, along with a message to send them.
@@ -49,7 +49,7 @@ If the supplier you are looking for is not part of EandoX, you can invite them t
 
 Select the components you need (by checking the checkbox that shows up when hovering the item), and click the `+ Add products to library` button to add them to your library.
 
-![Image of the button](/images/placeholder.png)
+![Image of the button](/images/guides/creating-your-first-product/selected-supplier-products.jpg)
 
 These components will now be available to you when you create new products. You will also be subscribed to component updates from _Aaberg Manufacture Co_.
 

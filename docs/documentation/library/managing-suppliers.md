@@ -12,7 +12,7 @@ To subscribe to a supplier without adding any of their products, use the [Invite
 
 Navigate to the `My Library` page in the left navigation menu and click on the `Suppliers` tab. This will show a list of all the suppliers you are subscribed to.
 
-![Image of the supplier list FIXME](/images/placeholder.png)
+![Image of the supplier list FIXME](/images/library/supplier-tab-overview.jpg)
 
 The list features the following columns:
 
@@ -43,7 +43,7 @@ The list is cached for performance, but automatically updated with regular inter
 
 To see the details of a supplier, click on the name of the supplier in the list. This will open a sidepanel with all available data for the selected supplier:
 
-![Image of the sidebar FIXME](/images/placeholder.png)
+![Image of the supplier sidepanel](/images/library/supplier-sidepanel.jpg)
 
 This sidepanel shows the data of the supplier, including basic information and related products.
 

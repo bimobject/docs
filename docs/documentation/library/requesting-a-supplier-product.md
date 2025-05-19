@@ -49,7 +49,7 @@ Select the supplier you want to send the request to by ticking the checkbox next
 
 In the sidepanel, select the **Single request** tab:
 
-![Image of the single product request sidepanel FIXME](/images/placeholder.png)
+![Image of the single product request sidepanel FIXME](/images/library/single-request.jpg)
 
 After selecting a supplier, fill out the following information:
 
@@ -72,7 +72,7 @@ Click the `Send Request` button in the top right corner to send the request to t
 
 In the sidepanel, select the **Multi request (XLSX)** tab:
 
-![Image of the multi product request sidepanel FIXME](/images/placeholder.png)
+![Image of the multi product request sidepanel FIXME](/images/library/multi-request.jpg)
 
 After selecting a supplier, fill out the following information:
 

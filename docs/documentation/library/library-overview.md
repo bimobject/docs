@@ -16,7 +16,7 @@ The library is split into two different pages:
 
 The **Global Library** contains all publicly available supplier products that you can add to your own library and use in your products.
 
-![Picture of the global library page FIXME](/images/placeholder.png)
+![Picture of the global library page](/images/library/global-library.jpg)
 
 Products that you have created and marked with `Autoshare` will automatically be published to the **Global Library**, allowing other companies to use your products as supplier products.
 
@@ -28,7 +28,7 @@ Read more about how to add supplier products to your library [here](/documentati
 
 The **My Library** page is where you can manage the products and suppliers that where added and subscribed to from the **Global library**.
 
-![Picture of the My Library page FIXME](/images/placeholder.png)
+![Picture of the My Library page](/images/library/my-library-page.jpg)
 
 Here, you can also invite suppliers that are not already part of EandoX, and request products from them that are not yet part of the **Global library**.
 

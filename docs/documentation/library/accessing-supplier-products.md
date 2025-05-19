@@ -15,7 +15,7 @@ Supplier products can be added to your library in two ways:
 
 Navigate to the `Global library` page in the left navigation menu. This will take you to the page that lists all publicly available products in EandoX.
 
-![Global library page FIXME](/images/placeholder.png)
+![Global library page](/images/library/global-library.jpg)
 
 <div id="supplier-product-table">
 The fields in the list are as follows:
@@ -37,7 +37,7 @@ At the top of each column you can find input fields that helps you search for th
 
 To add a supplier product to your library, hover the product item in the list. A checkbox will appear next to the product name. Check the checkbox, then click the `+ Add products to library` button in the top right corner of the page:
 
-![Add products to library button FIXME](/images/placeholder.png)
+![Add products to library button](/images/library/selected-global-product.jpg)
 
 Multiple products can be added at the same time.
 
@@ -47,9 +47,13 @@ If you can't find a checkbox next to a product name, it means that the product h
 
 ### From the Supplier sidepanel
 
-Navigate to the `My library` page in the left navigation menu. This will take you to the page that lists all supplier products in your library. Click the `Suppliers` tab to see a list of all the suppliers you are subscribed to. Click a suppliers name to open the `Supplier` sidepanel:
+Navigate to the `My library` page in the left navigation menu. This will take you to the page that lists all supplier products in your library. Click the `Suppliers` tab to see a list of all the suppliers you are subscribed to.
 
-![Image of the supplier sidepanel TODO](/images/placeholder.png)
+![Image of the suppliers tab](/images/library/suppliers-tab.jpg)
+
+Click a suppliers name to open the `Supplier` sidepanel:
+
+![Image of the supplier sidepanel](/images/library/supplier-sidepanel.jpg)
 
 At the bottom of the sidepanel you can find a list of all the products that are available from the supplier. The fields are the same as in the `Global library` list (detailed [above](#supplier-product-table)), with the addition of the _In library_ column that shows if you've already added the supplier product to your library.
 
@@ -70,7 +74,7 @@ Read more about managing suppliers [here](/documentation/library/managing-suppli
 
 Clicking the name of a supplier product will open a sidepanel that shows more detailed information about the product, its environmental impact, and material content.
 
-![Supplier product sidepanel FIXME](/images/placeholder.png)
+![Supplier product sidepanel](/images/library/supplier-product-sidepanel.jpg)
 
 If the supplier product is already in your library, it will have the text `(in library)` after its name in the sidepanel header.
 

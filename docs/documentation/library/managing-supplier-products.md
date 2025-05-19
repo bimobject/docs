@@ -12,7 +12,7 @@ If your library is empty, you can read more about how to add supplier products [
 
 Navigate to the `My Library` page in the left navigation menu. The `Supplier Products` tab will be visible by default, and show a list of all the _supplier products_ you have added from the **Global Library**.
 
-![Image of the supplier product list FIXME](/images/placeholder.png)
+![Image of the supplier product list](/images/library/my-library-page.jpg)
 
 The list features the following columns:
 
@@ -44,7 +44,7 @@ The list is cached for performance, but automatically updated with regular inter
 
 To see the details of a supplier product (or product request), click on the name of the product in the list. This will open a sidepanel with all available data for the selected supplier product:
 
-![Image of the sidebar FIXME](/images/placeholder.png)
+![Image of the sidebar](/images/library/added-supplier-product-sidepanel.jpg)
 
 On the left edge of the sidepanel you can find two tabs:
 
