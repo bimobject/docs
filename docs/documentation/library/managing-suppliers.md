@@ -6,13 +6,13 @@ This page is an in-depth documentation on how to manage the _suppliers_ in your 
 
 Adding a supplier product from the **Global Library** automatically subscribes you the products supplier.
 
-To subscribe to a supplier without adding any of their products, use the [Invite supplier](/documentation/library/inviting-a-supplier) process. If the supplier is already on EandoX, this will simply subscribe you to them instead of sending an invite.
+To subscribe to a supplier without adding any of their products, use the [Invite supplier](/documentation/library/inviting-a-supplier) process. If the supplier is already a part of EandoX, this will simply subscribe you to them instead of sending an invite.
 
 ## See your suppliers
 
-Navigate to the `My Library` page in the left navigation menu and click on the `Suppliers` tab. This will show a list of all the suppliers you are subscribed to.
+Navigate to the `My Library` page in the left navigation menu and click on the `Suppliers` tab. This will show a list of all the suppliers you are subscribed to, as well as any pending supplier invites.
 
-![Image of the supplier list FIXME](/images/library/supplier-tab-overview.jpg)
+![Image of the supplier list](/images/library/supplier-tab-overview.jpg)
 
 The list features the following columns:
 
@@ -47,13 +47,9 @@ To see the details of a supplier, click on the name of the supplier in the list.
 
 This sidepanel shows the data of the supplier, including basic information and related products.
 
-#### Data
+1. **Data**: This section shows the basic data for the supplier, such as the name and organization number.
 
-This section shows the basic data for the supplier, such as the name and organization number.
-
-#### Products
-
-This section lists all the products that are available from this supplier. The list features the following fields:
+2. **Products**: This section lists all the products that are available from this supplier. The list features the following fields:
 
 | Field name         | Description                                                                                                                                                  |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -66,13 +62,22 @@ This section lists all the products that are available from this supplier. The l
 
 ## Unsubscribing from a supplier
 
+To unsubscribe from a supplier, open the supplier's sidepanel. At the top right of the sidepanel you will find an `Unsubscribe from supplier` button.
+
+![Image of the unsubscribe button](/images/library/supplier-unsubscribe-button.jpg)
+
+Click it to unsubscribe from the supplier. A confirmation dialog will appear, asking you to confirm the action.
+
 :::danger You can only unsubscribe from unused suppliers
-Before you can unsubscribe from a supplier, ensure none of their products are used in any of your products. Attempting to unsubscribe from a supplier that has products in use will result in an error.
+You can only unsubscribe from a supplier if none of their products are used in your products. The unsubscribe action will fail if any products are still in use.
 
-To check product dependencies, navigate to the `Supplier Products` tab and filter by the supplier name. For each product shown, open its sidepanel and check the **Usage section** under **Entity data** to see where it's used. Remove these supplier products from your dependent products before returning to `My Library` to complete the unsubscribe process.
-:::
+To check and remove supplier product dependencies:
 
-To unsubscribe from a supplier, open the supplier's sidepanel. At the top right of the sidepanel you will find an `Unsubscribe from supplier` button. Click it to unsubscribe from the supplier. A confirmation dialog will appear, asking you to confirm the action.
+1. Go to the `Supplier Products` tab and filter by supplier name
+2. For each product, open its sidepanel and check the **Usage section**
+3. Remove the supplier components from each listed product
+4. Return to **My Library** to unsubscribe from the supplier
+   :::
 
 ## Supplier status
 

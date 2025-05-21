@@ -34,7 +34,7 @@ Some of the columns can be filtered by typing in the input field below the colum
 
 ### Refreshing the list
 
-At the top of the page you can find a `Refresh` button. This will refresh the list of supplier products, and make sure that you have the latest information about the items.
+At the top of the page you can find a `Refresh` button. This will refresh the list of supplier products, and make sure that you have the latest data on the items.
 
 :::warning Caching
 The list is cached for performance, but automatically updated with regular intervals. A manual refresh is only needed in rare cases, if you can't see recent changes you know should be there.
@@ -42,7 +42,11 @@ The list is cached for performance, but automatically updated with regular inter
 
 ## The supplier product sidepanel
 
-To see the details of a supplier product (or product request), click on the name of the product in the list. This will open a sidepanel with all available data for the selected supplier product:
+To see the details of a supplier product, click on the name of the product in the list. This will open a sidepanel with all available data for the selected supplier product:
+
+:::warning This article is about added products
+The list in the **Supplier Products** tab also shows your product requests. Clicking the name of a product request will open a different sidepanel. Read more about it in the [product request documentation](/documentation/library/requesting-a-supplier-product#managing-product-requests).
+:::
 
 ![Image of the sidebar](/images/library/added-supplier-product-sidepanel.jpg)
 
@@ -52,39 +56,23 @@ On the left edge of the sidepanel you can find two tabs:
 
 This tab shows the data of the supplier product, and is split into three sections:
 
-#### Data
+1. **Data**: This section shows the data for the supplier product, such as the name, supplier and GWP total. Some of the fields may include generic data. These fields are marked with a `*`.
 
-This section shows the data for the supplier product, such as the name, supplier and GWP total.
+2. **Impact**: This section shows an impact graph of the supplier product. Read more about impact graphs [here](/documentation/data/impact-graphs).
 
-Some of the fields may include generic data. These fields are marked with a `*`.
-
-#### Impact
-
-This section shows an impact graph of the supplier product.
-
-Read more about impact graphs [here](/documentation/data/impact-graphs).
-
-#### Usage
-
-This section displays which of your products use this supplier component, helping you track dependencies and understand the impact of supplier changes.
+3. **Usage**: This section shows where the supplier component is used in your products, helping you track dependencies and assess how supplier changes might affect your products.
 
 ### 2. Comments
 
-Use this tab to view and manage your team's internal notes about the supplier product. All comments remain private within your organization.
+This tab lets your team add and manage private notes about the supplier product. These notes are only visible within your organization, and are not shared with other companies or suppliers.
 
 ## Removing a supplier product
-
-:::danger You can only remove unused supplier products
-Before you can remove a supplier product, ensure it's not used in any of your products. Attempting to delete a product that's still in use will result in an error.
-
-To check where a supplier product is used, open the product's sidepanel and navigate to the **Usage section** under the **Entity data** tab. This shows all products using this supplier component. Remove the component from each product before returning to `My Library` to complete the deletion.
-:::
 
 There are two ways to remove a supplier product (or product request) from your library: using the list view, or the sidepanel.
 
 ### From the list view
 
-Find the supplier product you want to remove in the list, and hover over it. Then chech the checkbox that appears to the left of the name. You can select multiple supplier products at once.
+Find the supplier product you want to remove in the list (on the **My Library** page), and hover over it. Then check the checkbox that appears to the left of the name. You can select multiple supplier products at once.
 
 When you have selected at least one supplier product, you will see a menu bar appear in the page header. Click the `Delete` button to remove the selected supplier products. A confirmation dialog will appear, asking you to confirm the deletion.
 
@@ -92,11 +80,21 @@ When you have selected at least one supplier product, you will see a menu bar ap
 
 Open the sidepanel for the supplier product you want to remove. At the top right of the sidepanel you will find a `Delete` or `Cancel request` button. Click it to remove the supplier product. A confirmation dialog will appear, asking you to confirm the deletion.
 
+:::danger You can only remove unused supplier products
+You can only remove a supplier product if it's not being used in any of your products. The deletion will fail if the product is still in use.
+
+To find where a supplier product is used:
+
+1. Open the product's sidepanel and find the **Usage section**.
+2. Remove the component from each listed product
+3. Return to **My Library** to delete the supplier product
+   :::
+
 ## Product status
 
 A supplier product can have one of three states:
 
-- `No status`: The default state. No actions needed.
+- `No status`: The default state. The supplier products is in your library, and no further actions needed.
 - `Pending`: Indicates that this is a supplier product request, that is yet to be fulfilled by the supplier
 - `Update available`: Indicates that new product data is available from the supplier. You can apply these updates to keep your products LCA current.
 

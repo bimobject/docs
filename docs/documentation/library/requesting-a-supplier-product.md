@@ -16,11 +16,19 @@ There are two places on the `My Library` page where you can create product reque
 
 ### From the `Supplier Products` tab
 
-Navigate to the `My Library` page in the left navigation menu. Make sure you are on the `Supplier Products` tab. Then click the `+ Request products` button in the page header to open the request sidepanel.
+Navigate to the `My Library` page in the left navigation menu. Make sure you are on the `Supplier Products` tab. Then click the `+ Request product` button in the page header to open the request sidepanel.
+
+![Image of the request product button](/images/library/request-product-button-page.jpg)
 
 ### From the `Suppliers` tab
 
-Navigate to the `My Library` page in the left navigation menu. Click the `Suppliers` tab. This will show you a list of all the suppliers you are subscribed to. Click the name of the supplier you want to request a product from. This will open a sidebar with the suppliers details. Click the `Request products` button in the page header to open the request sidepanel.
+Navigate to the `My Library` page in the left navigation menu. Click the `Suppliers` tab. This will show you a list of all the suppliers you are subscribed to. Click the name of the supplier you want to request a product from.
+
+![Image of the supplier name](/images/library/suppliers-tab.jpg)
+
+This will open a sidebar with the suppliers details. Click the `Request products` button in the page header to open the request sidepanel.
+
+![Image of the request products button](/images/library/request-products-button.jpg)
 
 ## The request sidepanel
 
@@ -28,6 +36,8 @@ The sidepanel contains two tabs for different types of requests:
 
 - **Single request**: For requesting one product at a time
 - **Multi request (XLSX)**: For requesting multiple products at once
+
+Before getting into that, let's have a look at selecting a supplier.
 
 ### Selecting a supplier
 
@@ -86,11 +96,11 @@ Click `Send Request` to send the request to the supplier.
 
 ## Managing product requests
 
-After sending a request, it will appear in the `Supplier Products` tab of your library with a status of `Pending`. You can monitor and manage your requests in the same way as your other supplier products.
-
-### Viewing request details
+After a request has been created, it will appear in the `Supplier Products` tab of your library with a status of `Pending`. You can monitor and manage your requests in a similar way to how you manage the supplier products.
 
 Click on the name of a pending request in the list to open its sidepanel. Here you can view the request details.
+
+![Image of the request sidepanel](/images/library/request-sidepanel.jpg)
 
 ### Canceling requests
 
