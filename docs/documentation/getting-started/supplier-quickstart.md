@@ -5,7 +5,7 @@ Welcome to EandoX!
 You're likely here because a customer invited you to help optimize their supply chain operations. We're excited to have you on board and look forward to collaborating to make a positive environmental impact.
 
 :::tip We are thankful for your participation
-Being an EandoX supplier is free, as your participation as a great benefit to our users.
+Being an EandoX supplier is free, as your participation is of great benefit to our users.
 
 We are happy for your contribution and look forward to working with you. Please contact us at [supplier@eando.se](mailto:supplier@eando.se) if you have any questions not covered in this quickstart.
 :::
@@ -20,7 +20,7 @@ The platform allows you to enter your products, and attach all data on materials
 All your product data is stored in a single-tenant database, accessible only to your company. This design ensures that your internal data remains secure and private, with no sharing at the foundational level.
 :::
 
-Another benefit is reusability and composability: any updates to the manufacturing data of a product will automatically refresh the LCAs wherever that product is used, both within your library and in your customers’ products.
+Another benefit is reusability and composability: any updates to the manufacturing data of a product will automatically refresh the LCAs wherever that product is used, both within your catalog and in your customers’ products.
 
 By analyzing product and process data, you can pinpoint areas for improvement and implement sustainable practices.
 
@@ -30,12 +30,16 @@ Here are some helpful links if you already have an account, and want to get star
 
 - [Creating your first product](/documentation/guides/creating-your-first-product)
 - [Sharing a product](/documentation/product/sharing-a-product)
-- [Creating a product request](/documentation/supplier/creating-a-product-request)
+- [Creating a product request](/documentation/library/requesting-a-supplier-product)
 
 :::warning This is just the beginning
 These articles may not cover all EandoX features, but they offer a solid starting point for you as a new supplier.
 
 Suppliers have access to the same features as all other users, so all other documentation is relevant to you as well. Feel free to explore them at your convenience.
+:::
+
+:::info EPDs in EandoX
+EandoX also has support for importing EPDs. If your company has any published EPDs you would like to share with your customers, please contact us at [support@eandox.com](mailto:support@eandox.com?subject=EPD%20import%20request) and we will assist you in importing them.
 :::
 
 ## Creating an account
@@ -67,7 +71,7 @@ The table has the following columns:
 | **Company**              | The name of the customer that sent the request.                                                                          |
 | **Name**                 | The name of the product associated with the request, provided by the customer. It may not match your product name.       |
 | **Article Number**       | The article number for the product, provided by the customer who sent the request. It may not match your product number. |
-| **Has Matching Art no.** | Indicates whether the article number supplied by the customer matches an existing article number in your EandoX library. |
+| **Has Matching Art no.** | Indicates whether the article number supplied by the customer matches an existing article number in your EandoX catalog. |
 | **Request Date**         | The date the customer requested the product.                                                                             |
 
 ### Responding to a request
@@ -80,9 +84,9 @@ Selecting items will activate one or more of the following buttons:
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Download XLSX Import File**         | Creates and downloads an XLSX file containing all data provided by your customers. This allows you to fill in any missing information in a spreadsheet and then import it using the [product importer](/documentation/product/product-excel-import). |
 | **Reject request**                    | Dismisses and removes the request from the list. The user will be notified that the request has been rejected.                                                                                                                                       |
-| **Fulfill with matching art no.**     | If the requested product already exists in your library and the customer has provided an article number that is correct, the request will be fulfilled using the existing product.                                                                   |
-| **Fulfill with non-matching art no.** | If the requested product exists in your library but the customer has provided an incorrect article number , this will open a sidepanel allowing you to search for the correct product.                                                               |
-| **Create product**                    | If the product requested by the customer does not exist in your library, this will open a sidepanel allowing you to create a new product.                                                                                                            |
+| **Fulfill with matching art no.**     | If the requested product already exists in your catalog and the customer has provided an article number that is correct, the request will be fulfilled using the existing product.                                                                   |
+| **Fulfill with non-matching art no.** | If the requested product exists in your catalog but the customer has provided an incorrect article number , this will open a sidepanel allowing you to search for the correct product.                                                               |
+| **Create product**                    | If the product requested by the customer does not exist in your catalog, this will open a sidepanel allowing you to create a new product.                                                                                                            |
 
 :::tip Creating a product
 

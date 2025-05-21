@@ -37,7 +37,9 @@ Clicking the name of a component in the list will open a sidepanel where you can
 
 ## What's in the sidepanel?
 
-The list in the **Add component sidepanel** shows all the components and products that are available in your library.
+The list in the **Add component sidepanel** shows all the components and products that are available in your catalog and library.
+
+<!--@include: ../../documentation/__partials/library-vs-catalog.md -->
 
 You can add both _component entities_ and _product entities_ in the **Components section**. Components and products can be created by you, or imported from your suppliers.
 

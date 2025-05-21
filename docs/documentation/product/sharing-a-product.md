@@ -2,11 +2,11 @@
 
 The products you create in EandoX are private by default, visible only to team members within your company.
 
-If you want other EandoX companies to use your products in their LCAs, you can choose to share them.
+If you want other EandoX companies to be able to find your products in the [Global Library](/documentation/library/library-overview), and use them in their LCAs, you can choose to share them.
 
 ## When should I share a product?
 
-Sharing is useful if you supply products for another company's manufacturing. It allows them to access your product's LCA results without accessing any of your internal manufacturing data. 
+Sharing is useful if you supply products for another company's manufacturing. It allows them to access your product's LCA results without accessing any of your internal manufacturing data.
 
 Any updates you make to a shared product will automatically reflect in their LCAs, eliminating the need for frequent manual updates and check-ins.
 
@@ -16,12 +16,6 @@ There are two types of shared products:
 
 - **Limited sharing**: These products are only visible to manually specified companies in EandoX.
 - **Full sharing**: These products are visible to all EandoX companies.
-
-:::warning Product visibility
-Before a company can find your shared products, they need to add you to their list of suppliers.
-
-Read more about it [here](/documentation/supplier/adding-a-supplier).
-:::
 
 ## Setting the sharing type
 
@@ -35,10 +29,10 @@ This will open a sidepanel where you can choose the sharing type.
 
 ![Image of the sharing modal](/images/product/share-modal.jpg)
 
-| Label | Description |
-| ----- | ----------- |
-| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the EandoX users you manually specify. |
-| **Available to all companies on EandoX** | Sets the product to **Full sharing**. The product will be visible to all EandoX users that have added your company to their list of suppliers. |
+| Label                                               | Description                                                                                                                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Only available to companies that request access** | Sets the product to **Limited sharing**. The product will only be visible to the EandoX users you manually specify.                                                |
+| **Available to all companies on EandoX**            | Sets the product to **Full sharing**. The product will be added to the [Global Library](/documentation/library/library-overview), and visible to all EandoX users. |
 
 ::: warning Don't forget to publish
 To be able to share a product, it first needs to be published.
@@ -48,12 +42,12 @@ You can find the `Publish` button in the top right corner of the product page.
 
 ## Limited sharing
 
-To share a product with `Limited sharing` with a company, they must first add you to their list of suppliers, and then send you a product request for the product they want to access.
+To share a product with `Limited sharing` with a company, they must first subscribe to your company, and then send you a product request for the product they want to access.
 
 ::: tip Details on the process
-Read more about how a company can add you as a supplier [here](/documentation/supplier/adding-a-supplier).
+Read more about how a company can subscribe to you [here](/documentation/library/managing-suppliers).
 
-To learn more about how to request a product, read the [product request guide](/documentation/supplier/creating-a-product-request).
+To learn more about how to request a product, read the [product request guide](/documentation/library/requesting-a-supplier-product).
 :::
 
 When a product request has been sent, you will receive an email. You will also see a notification on the top of every page:
@@ -66,13 +60,13 @@ Clicking the notification will open a sidepanel where you can see all the produc
 
 This table contains the following columns:
 
-| Column | Description |
-| ------ | ----------- |
-| **Company** | The company that sent the product request. |
-| **Name** | The name of the requested product. |
-| **Article Number** | The article number of the requested product. |
+| Column                   | Description                                                                              |
+| ------------------------ | ---------------------------------------------------------------------------------------- |
+| **Company**              | The company that sent the product request.                                               |
+| **Name**                 | The name of the requested product.                                                       |
+| **Article Number**       | The article number of the requested product.                                             |
 | **Has Matching Art no.** | Whether the user provided an article number that matches one of your products in EandoX. |
-| **Request Date** | The date the product request was sent. |
+| **Request Date**         | The date the product request was sent.                                                   |
 
 ::: danger Check the article number
 The article number provided by the requesting company might not always match the one in your product catalog. Some reason for this include typing errors, miscommunication or missing information.
@@ -129,5 +123,3 @@ This file can be filled out in Excel and then imported into EandoX, using the [p
 :::tip Learn more
 Read more about importing products and components from Excel [here](/documentation/product/product-excel-import).
 :::
-
-
