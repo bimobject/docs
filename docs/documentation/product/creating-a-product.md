@@ -383,9 +383,7 @@ Visualizing these relationships helps you understand how changes to one product 
 
 ## Custom fields
 
-<!-- FIXME: What can custom fields be used for? -->
-
-Custom fields are fields that are not part of the LCA itself, but are used to store additional information about the product.
+Custom fields are fields that are not part of the LCA itself, but are used to store additional information about the product. This could be the CPC code, external supplier details, or who is in charge of maintaining the product.
 
 To see the custom fields for a product, click the `Edit` dropdown in the header of the product page, and select `Edit custom fields`. This will open a sidepanel where you can add and edit data in the custom fields.
 
