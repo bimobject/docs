@@ -15,7 +15,7 @@ export default defineConfig({
       },
     },
     nav: [
-      { text: 'Visit EandoX', link: 'https://www.eandox.com' },
+      { text: 'Visit eandox.com', link: 'https://www.eandox.com' },
       {
         text: 'Docs feedback',
         link: 'mailto:info@eandox.com?subject=I%20have%20some%20feedback%20on%20the%20docs',
