@@ -7,7 +7,7 @@ onMounted(() => {
 
     var mf = document.createElement("script");
     mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/a436e030-c54e-48a6-b7a9-9eb9a5a42729.js";
+    mf.src = "//cdn.mouseflow.com/projects/b24688bd-712f-4445-bd16-b89ca6de37c5.js";
     document.getElementsByTagName("head")[0].appendChild(mf);
 })
 </script>
