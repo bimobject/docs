@@ -61,3 +61,11 @@ p img {
   color: #aaa;
   margin-right: 10px;
 }
+
+.VPNav .DocSearch-Button .DocSearch-Button-Placeholder {
+  padding-right: 56px;
+}
+
+.VPNav .DocSearch-Button:not(:hover) {
+  border-color: var(--vp-c-brand-2-pale);
+}
