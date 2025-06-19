@@ -12,6 +12,12 @@ export default defineConfig({
       provider: 'local',
       options: {
         detailedView: true,
+        translations: {
+          button: {
+            buttonText: 'Search the docs',
+            buttonAriaLabel: 'Search the docs',
+          },
+        },
       },
     },
     nav: [
