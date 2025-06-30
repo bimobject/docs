@@ -288,6 +288,17 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: 'Product Updates',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'July 2025',
+            link: '/documentation/product-updates/july-2025',
+          },
+        ],
+      },
     ],
   },
 });
