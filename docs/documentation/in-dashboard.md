@@ -9,7 +9,7 @@ features:
     target: _blank
   - title: Get help from your suppliers
     details: Add your suppliers components to your library and use them to get accurate data in your own products.
-    link: /documentation/supplier/supplier-overview
+    link: /documentation/library/library-overview
     linkText: Learn more
     target: _blank
   - title: Generate EPD reports
