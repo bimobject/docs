@@ -52,6 +52,17 @@ export default defineConfig({
         ],
       },
       {
+        text: 'AI Co-Pilot',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Co-Pilot overview',
+            link: '/documentation/ai/eandox-co-pilot',
+          },
+        ],
+      },
+      {
         text: 'Product',
         collapsible: true,
         collapsed: true,
