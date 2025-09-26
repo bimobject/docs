@@ -2,6 +2,8 @@
 
 This article will go through all the steps of creating a factory entity in EandoX.
 
+<YouTubeEmbed videoId="4yrw-nCW65I" />
+
 ## Creating a new factory
 
 Navigate to the `Factory` page in the left navigation menu, and click the `Create factory` button in the top right corner.

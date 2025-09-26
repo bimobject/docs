@@ -4,6 +4,8 @@ One of the most powerful features of EandoX is the ability to use supplier produ
 
 If a supplier hasn't created a product you order from them yet, you can send them a product request.
 
+<YouTubeEmbed videoId="QJrrSTr_1Pc" />
+
 :::warning Can't find your supplier?
 Sending a product request requires that your supplier is part of the EandoX platform. If you cant find your supplier in the [list of suppliers](/documentation/library/managing-suppliers), you will have to invite them.
 

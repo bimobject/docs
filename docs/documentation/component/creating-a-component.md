@@ -2,6 +2,8 @@
 
 Creating a component is nearly identical to creating a product. The only difference is that they are created on the `Components` page.
 
+<YouTubeEmbed videoId="lg1QRBqgsC8" />
+
 ## Creating a new component
 
 Navigate to the `Components` page in the left navigation menu, and click the `Create component` button in the top right corner.
@@ -16,7 +18,7 @@ The fields in the sidepanel are as follows:
 
 | Field name          | Field description                                               |
 | ------------------- | --------------------------------------------------------------- |
-| **Component name**            | The name of the component.                                      |
+| **Component name**  | The name of the component.                                      |
 | **Article number**  | This is used to identify the component, so it should be unique. |
 | **Functional unit** | The unit in which the product is sold.                          |
 

@@ -6,6 +6,10 @@ This page is an in-depth documentation of how to create and manage a product in 
 If you’re new to EandoX and just want to get started quickly (without diving into the advanced features), you can read the [product creation quickstart](/documentation/guides/creating-your-first-product) guide.
 :::
 
+<YouTubeEmbed videoId="lg1QRBqgsC8" />
+
+<YouTubeEmbed videoId="TVtueGWjgjE" />
+
 ## Products vs components
 
 In EandoX you have two different types of products: products and components.

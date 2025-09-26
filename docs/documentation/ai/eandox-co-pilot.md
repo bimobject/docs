@@ -2,6 +2,8 @@
 
 EandoX Co-Pilot revolutionizes your product data management workflow through its conversational interface. Upload your already existing product data as PDF and spreadsheets of any complexity, and let Co-Pilot automatically convert it into ready-to-use products and components. Enter the data of your entire product catalogue in minutes, instead of days.
 
+<YouTubeEmbed videoId="B6H-33uiPwA" />
+
 :::warning Still in beta
 Please note that EandoX Co-Pilot is currently in beta phase and under active development. As a result, there may be some discrepancies between this documentation and the actual functionality of Co-Pilot. We greatly appreciate your patience and welcome any feedback during this development period.
 :::

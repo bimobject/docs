@@ -2,6 +2,8 @@
 
 If you can't find the supplier you're looking for in the **Global Library**, you can invite them to join EandoX. Once they accept the invitation, they can create and share their product data with you.
 
+<YouTubeEmbed videoId="Ms6UyW-3L_M" />
+
 ## Inviting a supplier
 
 Navigate to the `My Library` page in the left navigation menu and click on the `Suppliers` tab. Click the `Invite supplier` button at the top of the page.

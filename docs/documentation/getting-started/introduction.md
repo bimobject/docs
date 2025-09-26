@@ -10,6 +10,10 @@ If you are new to EandoX, and want to get started quickly you can read the [prod
 The guide won’t cover all EandoX features in detail, but it will help you get up and running quickly.
 :::
 
+## Introduction video
+
+<YouTubeEmbed videoId="hZWl4LXfvrQ" />
+
 ## Customer
 
 If you're a customer ready to declare the environmental impact of your products, [start here](/documentation/getting-started/workflow-overview).

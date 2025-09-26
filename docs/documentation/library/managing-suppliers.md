@@ -2,6 +2,8 @@
 
 This page is an in-depth documentation on how to manage the _suppliers_ in your library. It will give you an understanding of the `Suppliers` tab on the `My Library` page.
 
+<YouTubeEmbed videoId="Ms6UyW-3L_M" />
+
 ## Subscribing to a supplier
 
 Adding a supplier product from the **Global Library** automatically subscribes you the products supplier.

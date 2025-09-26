@@ -2,6 +2,8 @@
 
 This article will go through all the steps of creating an EPD in EandoX.
 
+<YouTubeEmbed videoId="rnjdLvl2a3g" />
+
 :::warning Premium feature
 The EPD generator is an addon module for plans above the free tier.
 Please refer to the [pricing page](https://www.eandox.com/pricing) for more information.

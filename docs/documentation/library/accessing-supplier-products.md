@@ -4,6 +4,8 @@ Before using a _supplier product_ in your own products, you'll need to import th
 
 Your library works across all your suppliers, so you can organize and access components from different sources in one place.
 
+<YouTubeEmbed videoId="QJrrSTr_1Pc" />
+
 ## Add supplier products to your library
 
 Supplier products can be added to your library in two ways:

@@ -6,6 +6,8 @@ This article will go through all the steps of creating a packaging entity in Ean
 This is a hands-on guide for creating packaging entities in EandoX. For understanding packaging data and its impact on LCA calculations, see the [Packaging data](/documentation/understanding-lca/packaging-data) article.
 :::
 
+<YouTubeEmbed videoId="H0RbSqDxcG8" />
+
 ## Creating a new packaging
 
 Navigate to the `Packaging` page in the left navigation menu, and click the `Create packaging` button in the top right corner.

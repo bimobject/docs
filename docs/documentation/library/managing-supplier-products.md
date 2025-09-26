@@ -8,6 +8,8 @@ This article assumes that you already have added supplier products to your libra
 If your library is empty, you can read more about how to add supplier products [here](/documentation/library/accessing-supplier-products).
 :::
 
+<YouTubeEmbed videoId="QJrrSTr_1Pc" />
+
 ## See your added supplier products
 
 Navigate to the `My Library` page in the left navigation menu. The `Supplier Products` tab will be visible by default, and show a list of all the _supplier products_ you have added from the **Global Library**.

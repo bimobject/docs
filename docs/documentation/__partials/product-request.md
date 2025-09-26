@@ -8,6 +8,8 @@ This has multiple benefits:
 
 If a supplier is not connected to EandoX, you can invite them and request the supplier products you need.
 
+<YouTubeEmbed videoId="QJrrSTr_1Pc" />
+
 :::tip Further reading
 Read more about how to subscribe to an EandoX supplier and their products [here](/documentation/library/managing-suppliers).
 

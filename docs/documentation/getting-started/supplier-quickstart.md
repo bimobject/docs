@@ -4,6 +4,8 @@ Welcome to EandoX!
 
 You're likely here because a customer invited you to help optimize their supply chain operations. We're excited to have you on board and look forward to collaborating to make a positive environmental impact.
 
+<YouTubeEmbed videoId="5IMUFYhnzCM" />
+
 :::tip We are thankful for your participation
 Being an EandoX supplier is free, as your participation is of great benefit to our users.
 
