@@ -3,7 +3,6 @@ import DefaultTheme, { VPLink } from 'vitepress/theme'
 // import { onMounted } from 'vue'
 import { VPNavBarSearch } from 'vitepress/theme'
 
-console.log('Layout Mounted')
 // onMounted(() => {
 //     const untrackedPaths = ['/in-dashboard', '/minidocs/'];
 
